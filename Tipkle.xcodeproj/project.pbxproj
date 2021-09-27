@@ -1,0 +1,480 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7AF62CDB543864BB0A3D5670 /* Pods_Tipkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99D65FA7D8ABE57F8F0CBBA2 /* Pods_Tipkle.framework */; };
+		DA97644D270224BA007A7B7F /* HomeTip.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA97644C270224BA007A7B7F /* HomeTip.swift */; };
+		DA97644F27023B66007A7B7F /* TipListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA97644E27023B66007A7B7F /* TipListViewController.swift */; };
+		DAD40FFB26FDD790008358B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD40FFA26FDD790008358B5 /* AppDelegate.swift */; };
+		DAD40FFD26FDD790008358B5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD40FFC26FDD790008358B5 /* SceneDelegate.swift */; };
+		DAD40FFF26FDD790008358B5 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD40FFE26FDD790008358B5 /* HomeViewController.swift */; };
+		DAD4100226FDD790008358B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAD4100026FDD790008358B5 /* Main.storyboard */; };
+		DAD4100426FDD791008358B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAD4100326FDD791008358B5 /* Assets.xcassets */; };
+		DAD4100726FDD791008358B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAD4100526FDD791008358B5 /* LaunchScreen.storyboard */; };
+		DAD4101426FDDFA2008358B5 /* Color.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAD4101326FDDFA2008358B5 /* Color.xcassets */; };
+		DAD4101826FDFEE9008358B5 /* HomePagerChildViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD4101726FDFEE9008358B5 /* HomePagerChildViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		23449EE9BB5C631C87FD11C5 /* Pods-Tipkle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tipkle.debug.xcconfig"; path = "Target Support Files/Pods-Tipkle/Pods-Tipkle.debug.xcconfig"; sourceTree = "<group>"; };
+		2347202900326E948E2427DF /* Pods-Tipkle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tipkle.release.xcconfig"; path = "Target Support Files/Pods-Tipkle/Pods-Tipkle.release.xcconfig"; sourceTree = "<group>"; };
+		99D65FA7D8ABE57F8F0CBBA2 /* Pods_Tipkle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tipkle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA97644C270224BA007A7B7F /* HomeTip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTip.swift; sourceTree = "<group>"; };
+		DA97644E27023B66007A7B7F /* TipListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipListViewController.swift; sourceTree = "<group>"; };
+		DAD40FF726FDD790008358B5 /* Tipkle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tipkle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAD40FFA26FDD790008358B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DAD40FFC26FDD790008358B5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DAD40FFE26FDD790008358B5 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		DAD4100126FDD790008358B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DAD4100326FDD791008358B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DAD4100626FDD791008358B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DAD4100826FDD791008358B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAD4101326FDDFA2008358B5 /* Color.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Color.xcassets; sourceTree = "<group>"; };
+		DAD4101726FDFEE9008358B5 /* HomePagerChildViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePagerChildViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DAD40FF426FDD790008358B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AF62CDB543864BB0A3D5670 /* Pods_Tipkle.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0CFEB62541D2ADCC4F7B25F6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				23449EE9BB5C631C87FD11C5 /* Pods-Tipkle.debug.xcconfig */,
+				2347202900326E948E2427DF /* Pods-Tipkle.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		2678F6170DBFE20DEB527084 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				99D65FA7D8ABE57F8F0CBBA2 /* Pods_Tipkle.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DA34E61E26FFA61900CF079C /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		DAD40FEE26FDD790008358B5 = {
+			isa = PBXGroup;
+			children = (
+				DAD40FF926FDD790008358B5 /* Tipkle */,
+				DAD40FF826FDD790008358B5 /* Products */,
+				0CFEB62541D2ADCC4F7B25F6 /* Pods */,
+				2678F6170DBFE20DEB527084 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DAD40FF826FDD790008358B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DAD40FF726FDD790008358B5 /* Tipkle.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DAD40FF926FDD790008358B5 /* Tipkle */ = {
+			isa = PBXGroup;
+			children = (
+				DAD4101226FDDE84008358B5 /* Asset */,
+				DAD4101126FDD9B4008358B5 /* Model */,
+				DAD4100F26FDD96E008358B5 /* View */,
+				DAD4101026FDD996008358B5 /* Controller */,
+				DAD4100E26FDD94D008358B5 /* App */,
+				DAD4100826FDD791008358B5 /* Info.plist */,
+			);
+			path = Tipkle;
+			sourceTree = "<group>";
+		};
+		DAD4100E26FDD94D008358B5 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				DAD40FFA26FDD790008358B5 /* AppDelegate.swift */,
+				DAD40FFC26FDD790008358B5 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		DAD4100F26FDD96E008358B5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DA34E61E26FFA61900CF079C /* Cell */,
+				DAD4100526FDD791008358B5 /* LaunchScreen.storyboard */,
+				DAD4100026FDD790008358B5 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DAD4101026FDD996008358B5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DAD40FFE26FDD790008358B5 /* HomeViewController.swift */,
+				DAD4101726FDFEE9008358B5 /* HomePagerChildViewController.swift */,
+				DA97644E27023B66007A7B7F /* TipListViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DAD4101126FDD9B4008358B5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DA97644C270224BA007A7B7F /* HomeTip.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DAD4101226FDDE84008358B5 /* Asset */ = {
+			isa = PBXGroup;
+			children = (
+				DAD4100326FDD791008358B5 /* Assets.xcassets */,
+				DAD4101326FDDFA2008358B5 /* Color.xcassets */,
+			);
+			path = Asset;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DAD40FF626FDD790008358B5 /* Tipkle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAD4100B26FDD791008358B5 /* Build configuration list for PBXNativeTarget "Tipkle" */;
+			buildPhases = (
+				586906B1FB3B84457C938298 /* [CP] Check Pods Manifest.lock */,
+				DAD40FF326FDD790008358B5 /* Sources */,
+				DAD40FF426FDD790008358B5 /* Frameworks */,
+				DAD40FF526FDD790008358B5 /* Resources */,
+				C719DADFC6670E73F51F2FC1 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tipkle;
+			productName = Tipkle;
+			productReference = DAD40FF726FDD790008358B5 /* Tipkle.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DAD40FEF26FDD790008358B5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					DAD40FF626FDD790008358B5 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = DAD40FF226FDD790008358B5 /* Build configuration list for PBXProject "Tipkle" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DAD40FEE26FDD790008358B5;
+			productRefGroup = DAD40FF826FDD790008358B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DAD40FF626FDD790008358B5 /* Tipkle */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DAD40FF526FDD790008358B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAD4100726FDD791008358B5 /* LaunchScreen.storyboard in Resources */,
+				DAD4101426FDDFA2008358B5 /* Color.xcassets in Resources */,
+				DAD4100426FDD791008358B5 /* Assets.xcassets in Resources */,
+				DAD4100226FDD790008358B5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		586906B1FB3B84457C938298 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tipkle-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C719DADFC6670E73F51F2FC1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tipkle/Pods-Tipkle-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tipkle/Pods-Tipkle-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Tipkle/Pods-Tipkle-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DAD40FF326FDD790008358B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAD4101826FDFEE9008358B5 /* HomePagerChildViewController.swift in Sources */,
+				DAD40FFF26FDD790008358B5 /* HomeViewController.swift in Sources */,
+				DA97644F27023B66007A7B7F /* TipListViewController.swift in Sources */,
+				DAD40FFB26FDD790008358B5 /* AppDelegate.swift in Sources */,
+				DAD40FFD26FDD790008358B5 /* SceneDelegate.swift in Sources */,
+				DA97644D270224BA007A7B7F /* HomeTip.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DAD4100026FDD790008358B5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAD4100126FDD790008358B5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DAD4100526FDD791008358B5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAD4100626FDD791008358B5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DAD4100926FDD791008358B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DAD4100A26FDD791008358B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DAD4100C26FDD791008358B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23449EE9BB5C631C87FD11C5 /* Pods-Tipkle.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T9N7L92856;
+				INFOPLIST_FILE = Tipkle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuri.Tipkle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		DAD4100D26FDD791008358B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2347202900326E948E2427DF /* Pods-Tipkle.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T9N7L92856;
+				INFOPLIST_FILE = Tipkle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuri.Tipkle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DAD40FF226FDD790008358B5 /* Build configuration list for PBXProject "Tipkle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAD4100926FDD791008358B5 /* Debug */,
+				DAD4100A26FDD791008358B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAD4100B26FDD791008358B5 /* Build configuration list for PBXNativeTarget "Tipkle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAD4100C26FDD791008358B5 /* Debug */,
+				DAD4100D26FDD791008358B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DAD40FEF26FDD790008358B5 /* Project object */;
+}
