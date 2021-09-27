@@ -11,7 +11,6 @@ import XLPagerTabStrip
 class HomePagerChildViewController: UIViewController, IndicatorInfoProvider {
     @IBOutlet weak var lookAroundView: UIView!
     
-    
     var tabName:String=""
     //데이터 리스트 준비
     var homeTipList = [

@@ -8,7 +8,8 @@
 import UIKit
 
 class TipListViewController: UIViewController {
-
+    @IBOutlet weak var backToHome: UIView!
+    
     //1. 데이터 리스트 준비
     var lookAroundtipList = [
         LookAroundTip(when: "계란이 바닥에 깨졌을 때", how: "밀가루를 바닥에 뿌려 닦아낸다", description:"밀가루를 바닥에 뿌려 닦아낸다밀가루를 바닥에 뿌려 닦아낸다"),
@@ -28,10 +29,23 @@ class TipListViewController: UIViewController {
         //delegate, datasource 등록
         self.lookAroundCollectionView.delegate = self
         self.lookAroundCollectionView.dataSource = self
+        
+        // Do any additional setup after loading the view.
+        // Touch Event 등록 후 함수를 연동한다. (goPage)
+
+        let gesture = UITapGestureRecognizer(target: self, action: #selector(goPage(sender:)))
+
+        self.backToHome.addGestureRecognizer(gesture)
     }
-    
+
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
+    }
+
+    @objc func goPage(sender:UIGestureRecognizer){
+
+        //뒤로가기
+        _ = navigationController?.popViewController(animated: true)
     }
 }
 
