@@ -10,6 +10,7 @@
 		7AF62CDB543864BB0A3D5670 /* Pods_Tipkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99D65FA7D8ABE57F8F0CBBA2 /* Pods_Tipkle.framework */; };
 		DA97644D270224BA007A7B7F /* HomeTip.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA97644C270224BA007A7B7F /* HomeTip.swift */; };
 		DA97644F27023B66007A7B7F /* TipListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA97644E27023B66007A7B7F /* TipListViewController.swift */; };
+		DA97645427025942007A7B7F /* LookAroundTip.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA97645327025942007A7B7F /* LookAroundTip.swift */; };
 		DAD40FFB26FDD790008358B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD40FFA26FDD790008358B5 /* AppDelegate.swift */; };
 		DAD40FFD26FDD790008358B5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD40FFC26FDD790008358B5 /* SceneDelegate.swift */; };
 		DAD40FFF26FDD790008358B5 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD40FFE26FDD790008358B5 /* HomeViewController.swift */; };
@@ -26,6 +27,7 @@
 		99D65FA7D8ABE57F8F0CBBA2 /* Pods_Tipkle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tipkle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA97644C270224BA007A7B7F /* HomeTip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTip.swift; sourceTree = "<group>"; };
 		DA97644E27023B66007A7B7F /* TipListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipListViewController.swift; sourceTree = "<group>"; };
+		DA97645327025942007A7B7F /* LookAroundTip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LookAroundTip.swift; sourceTree = "<group>"; };
 		DAD40FF726FDD790008358B5 /* Tipkle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tipkle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAD40FFA26FDD790008358B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DAD40FFC26FDD790008358B5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -138,6 +140,7 @@
 			isa = PBXGroup;
 			children = (
 				DA97644C270224BA007A7B7F /* HomeTip.swift */,
+				DA97645327025942007A7B7F /* LookAroundTip.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -268,6 +271,7 @@
 			files = (
 				DAD4101826FDFEE9008358B5 /* HomePagerChildViewController.swift in Sources */,
 				DAD40FFF26FDD790008358B5 /* HomeViewController.swift in Sources */,
+				DA97645427025942007A7B7F /* LookAroundTip.swift in Sources */,
 				DA97644F27023B66007A7B7F /* TipListViewController.swift in Sources */,
 				DAD40FFB26FDD790008358B5 /* AppDelegate.swift in Sources */,
 				DAD40FFD26FDD790008358B5 /* SceneDelegate.swift in Sources */,

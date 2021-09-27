@@ -9,6 +9,6 @@ import Foundation
 import UIKit
 
 struct HomeTip{
-    var image:UIImage?
+    var image:UIImage
     var title:String
 }

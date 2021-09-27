@@ -13,6 +13,7 @@ class HomePagerChildViewController: UIViewController, IndicatorInfoProvider {
     
     
     var tabName:String=""
+    //데이터 리스트 준비
     var homeTipList = [
         HomeTip(image: UIImage(named: "image (4)")!, title: "[청소] 계란이 바닥에 깨졌을 때 청소 TIP"),
         HomeTip(image: UIImage(named: "image (6)")!, title: "[청소] 화장실 악취 제거하는 방법 3가지"),
@@ -118,7 +119,5 @@ extension HomePagerChildViewController: UICollectionViewDelegate, UICollectionVi
 
 class tipCell:UICollectionViewCell{
     @IBOutlet weak var imgView: UIImageView!
-    
     @IBOutlet weak var tvTip: UILabel!
-    
 }
