@@ -36,6 +36,7 @@ class TipListViewController: UIViewController {
         let gesture = UITapGestureRecognizer(target: self, action: #selector(goPage(sender:)))
 
         self.backToHome.addGestureRecognizer(gesture)
+
     }
 
     override func didReceiveMemoryWarning() {
@@ -64,6 +65,11 @@ extension TipListViewController: UICollectionViewDelegate, UICollectionViewDataS
         cell.tvHow.text = lookAroundtipList[indexPath.row].how
         cell.tvDescription.text =
             lookAroundtipList[indexPath.row].description
+        
+        cell.stackView.addSubview(UIImageView(image: UIImage(named: "image (4)")))
+        cell.stackView.addSubview(UIImageView(image: UIImage(named: "image (4)")))
+        cell.stackView.addSubview(UIImageView(image: UIImage(named: "image (4)")))
+        cell.stackView.addSubview(UIImageView(image: UIImage(named: "image (4)")))
         return cell
     }
     
@@ -71,17 +77,18 @@ extension TipListViewController: UICollectionViewDelegate, UICollectionViewDataS
 //    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumInteritemSpacingForSectionAt section: Int) -> CGFloat {
 //        return 16;
 //    }
-//
+
     //아이템간 세로 간격 설정하는 부분
-    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAt section: Int) -> CGFloat {
-        return 36;
-    }
-    
+//    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAt section: Int) -> CGFloat {
+//        return 36;
+//    }
+//    
     //셀의 사이즈 -> collectionView가 매개변수로 들어옴
     func collectionView(_ collectionView: UICollectionView,
                         layout collectionViewLayout: UICollectionViewLayout,
                         sizeForItemAt indexPath: IndexPath) -> CGSize {
         
+        //한줄로 하고싶으면 우선 Estimated Size를 None으로 설정
         let width:CGFloat = collectionView.frame.size.width //frame의 사이즈와 동일하게 -> 한줄로 표시
         let height:CGFloat = collectionView.frame.size.height * 0.767
         
@@ -99,4 +106,5 @@ class lookAroundTipCell : UICollectionViewCell{
     @IBOutlet weak var tvHow: UILabel!
     @IBOutlet weak var tvWhen: UILabel!
     @IBOutlet weak var tvDescription: UILabel!
+    @IBOutlet weak var stackView: UIStackView!
 }

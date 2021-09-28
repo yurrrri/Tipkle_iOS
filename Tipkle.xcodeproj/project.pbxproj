@@ -11,9 +11,14 @@
 		DA97644D270224BA007A7B7F /* HomeTip.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA97644C270224BA007A7B7F /* HomeTip.swift */; };
 		DA97644F27023B66007A7B7F /* TipListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA97644E27023B66007A7B7F /* TipListViewController.swift */; };
 		DA97645427025942007A7B7F /* LookAroundTip.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA97645327025942007A7B7F /* LookAroundTip.swift */; };
+		DAAB0E2527038261007659FD /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAB0E2427038261007659FD /* HomeViewController.swift */; };
+		DAAB0E272703828E007659FD /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAB0E262703828E007659FD /* SearchViewController.swift */; };
+		DAAB0E2927039592007659FD /* CleanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAB0E2827039592007659FD /* CleanViewController.swift */; };
+		DAAB0E2B2703B0EE007659FD /* SearchPagerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAB0E2A2703B0EE007659FD /* SearchPagerViewController.swift */; };
+		DAAB0E312703B608007659FD /* PopularKeyword.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAB0E302703B608007659FD /* PopularKeyword.swift */; };
+		DAAB0E332703BBDD007659FD /* PopularKeywordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAB0E322703BBDD007659FD /* PopularKeywordViewController.swift */; };
 		DAD40FFB26FDD790008358B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD40FFA26FDD790008358B5 /* AppDelegate.swift */; };
 		DAD40FFD26FDD790008358B5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD40FFC26FDD790008358B5 /* SceneDelegate.swift */; };
-		DAD40FFF26FDD790008358B5 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD40FFE26FDD790008358B5 /* HomeViewController.swift */; };
 		DAD4100226FDD790008358B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAD4100026FDD790008358B5 /* Main.storyboard */; };
 		DAD4100426FDD791008358B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAD4100326FDD791008358B5 /* Assets.xcassets */; };
 		DAD4100726FDD791008358B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAD4100526FDD791008358B5 /* LaunchScreen.storyboard */; };
@@ -28,10 +33,15 @@
 		DA97644C270224BA007A7B7F /* HomeTip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTip.swift; sourceTree = "<group>"; };
 		DA97644E27023B66007A7B7F /* TipListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipListViewController.swift; sourceTree = "<group>"; };
 		DA97645327025942007A7B7F /* LookAroundTip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LookAroundTip.swift; sourceTree = "<group>"; };
+		DAAB0E2427038261007659FD /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		DAAB0E262703828E007659FD /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		DAAB0E2827039592007659FD /* CleanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleanViewController.swift; sourceTree = "<group>"; };
+		DAAB0E2A2703B0EE007659FD /* SearchPagerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchPagerViewController.swift; sourceTree = "<group>"; };
+		DAAB0E302703B608007659FD /* PopularKeyword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularKeyword.swift; sourceTree = "<group>"; };
+		DAAB0E322703BBDD007659FD /* PopularKeywordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularKeywordViewController.swift; sourceTree = "<group>"; };
 		DAD40FF726FDD790008358B5 /* Tipkle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tipkle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAD40FFA26FDD790008358B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DAD40FFC26FDD790008358B5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DAD40FFE26FDD790008358B5 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		DAD4100126FDD790008358B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DAD4100326FDD791008358B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DAD4100626FDD791008358B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -129,9 +139,13 @@
 		DAD4101026FDD996008358B5 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				DAD40FFE26FDD790008358B5 /* HomeViewController.swift */,
 				DAD4101726FDFEE9008358B5 /* HomePagerChildViewController.swift */,
 				DA97644E27023B66007A7B7F /* TipListViewController.swift */,
+				DAAB0E2427038261007659FD /* HomeViewController.swift */,
+				DAAB0E262703828E007659FD /* SearchViewController.swift */,
+				DAAB0E2827039592007659FD /* CleanViewController.swift */,
+				DAAB0E2A2703B0EE007659FD /* SearchPagerViewController.swift */,
+				DAAB0E322703BBDD007659FD /* PopularKeywordViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -141,6 +155,7 @@
 			children = (
 				DA97644C270224BA007A7B7F /* HomeTip.swift */,
 				DA97645327025942007A7B7F /* LookAroundTip.swift */,
+				DAAB0E302703B608007659FD /* PopularKeyword.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -270,12 +285,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				DAD4101826FDFEE9008358B5 /* HomePagerChildViewController.swift in Sources */,
-				DAD40FFF26FDD790008358B5 /* HomeViewController.swift in Sources */,
 				DA97645427025942007A7B7F /* LookAroundTip.swift in Sources */,
+				DAAB0E272703828E007659FD /* SearchViewController.swift in Sources */,
 				DA97644F27023B66007A7B7F /* TipListViewController.swift in Sources */,
+				DAAB0E2B2703B0EE007659FD /* SearchPagerViewController.swift in Sources */,
 				DAD40FFB26FDD790008358B5 /* AppDelegate.swift in Sources */,
 				DAD40FFD26FDD790008358B5 /* SceneDelegate.swift in Sources */,
+				DAAB0E2527038261007659FD /* HomeViewController.swift in Sources */,
+				DAAB0E332703BBDD007659FD /* PopularKeywordViewController.swift in Sources */,
 				DA97644D270224BA007A7B7F /* HomeTip.swift in Sources */,
+				DAAB0E2927039592007659FD /* CleanViewController.swift in Sources */,
+				DAAB0E312703B608007659FD /* PopularKeyword.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

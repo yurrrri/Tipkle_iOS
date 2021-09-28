@@ -1,16 +1,24 @@
 PODS:
+  - Pageboy (3.6.2)
+  - Tabman (2.11.1):
+    - Pageboy (~> 3.6.0)
   - XLPagerTabStrip (9.0.0)
 
 DEPENDENCIES:
+  - Tabman (~> 2.11)
   - XLPagerTabStrip (~> 9.0)
 
 SPEC REPOS:
   trunk:
+    - Pageboy
+    - Tabman
     - XLPagerTabStrip
 
 SPEC CHECKSUMS:
+  Pageboy: cf121b9dd48c63f3f281b2a9ec93d02e0f23879b
+  Tabman: 792ac76fd1ec95af175c93db880a3c47cabedc91
   XLPagerTabStrip: 61c57fd61f611ee5f01ff1495ad6fbee8bf496c5
 
-PODFILE CHECKSUM: 02e0084dedc8f60724033e39b714dd902f24ead9
+PODFILE CHECKSUM: b837e48177f5ec1c666e307c0df7d71315c47f62
 
 COCOAPODS: 1.11.0

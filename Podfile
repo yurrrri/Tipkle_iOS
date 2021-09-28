@@ -7,6 +7,6 @@ target 'Tipkle' do
 
   # Pods for Tipkle
 pod 'XLPagerTabStrip', '~> 9.0'
-
+pod 'Tabman', '~> 2.11'
 
 end
