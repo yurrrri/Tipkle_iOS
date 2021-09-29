@@ -9,8 +9,6 @@ import UIKit
 
 class PopularKeywordViewController: UIViewController {
     
-    @IBOutlet weak var popularKeywordCV: UICollectionView!
-    
     //1. 데이터 리스트 준비
     var popularkeywordList = [
         PopularKeyword(rank: 1, keyword: "장마철 빨래"),
@@ -24,16 +22,27 @@ class PopularKeywordViewController: UIViewController {
         PopularKeyword(rank: 9, keyword: "장마철 빨래"),
     ]
     
+    @IBOutlet weak var popularKeywordCV: UICollectionView!
+    @IBAction func btnAddKeyword(_ sender: Any) { //컬렉션뷰에 셀 추가
+        popularkeywordList.insert(PopularKeyword(rank: 1, keyword: "다이어트"), at:popularkeywordList.count-1)
+        self.popularKeywordCV.insertItems(at: [IndexPath(item:popularkeywordList.count-1, section: 0)])
+        //self.popularKeywordCV.reloadData()
+    }
+    @IBAction func btnDeleteKeyword(_ sender: Any) { //컬렉션뷰에 셀 추가
+        self.popularKeywordCV.deleteItems(at: [IndexPath(item:popularkeywordList.count-1, section: 0)])
+        popularkeywordList.remove(at:popularkeywordList.count-1)
+        //self.popularKeywordCV.reloadData()
+    }
+    
+    
     //2. 컬렉션뷰 아웃렛
 
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         
         //delegate, datasource 등록
         self.popularKeywordCV.delegate = self
         self.popularKeywordCV.dataSource = self
-
     }
 
     override func didReceiveMemoryWarning() {

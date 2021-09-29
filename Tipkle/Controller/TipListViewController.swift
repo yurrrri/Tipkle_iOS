@@ -36,7 +36,6 @@ class TipListViewController: UIViewController {
         let gesture = UITapGestureRecognizer(target: self, action: #selector(goPage(sender:)))
 
         self.backToHome.addGestureRecognizer(gesture)
-
     }
 
     override func didReceiveMemoryWarning() {
@@ -72,6 +71,7 @@ extension TipListViewController: UICollectionViewDelegate, UICollectionViewDataS
         cell.stackView.addSubview(UIImageView(image: UIImage(named: "image (4)")))
         return cell
     }
+    //UIEdge -> padding의 역할을 하는친구ㄴ
     
 //    //아이템간 가로 간격 설정하는 부분
 //    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumInteritemSpacingForSectionAt section: Int) -> CGFloat {

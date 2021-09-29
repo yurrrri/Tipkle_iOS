@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -115,6 +115,7 @@
 		D6B0BABC6426F1C5E0A630943FAD203B /* TMHorizontalBarLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC0AA0602E75EC0DACC807585DD2294 /* TMHorizontalBarLayout.swift */; };
 		D8307936B6BFF04491444763FB22B70E /* TMBarButtonInteractionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD14273BE6F27AC1D377F8C80D3F7BF9 /* TMBarButtonInteractionController.swift */; };
 		D9688EBE9A81157A255B7C373BC4B45F /* TMBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29179AA7EF1E5EDBDDA32C9040F60AE /* TMBarView.swift */; };
+		DA60207027049578002B5DF8 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = DA60206F27049578002B5DF8 /* Alamofire */; };
 		DB328782629B6B26E16D96883846D477 /* TMAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD294A0221A4981788ABD2ACE8D5E66E /* TMAnimation.swift */; };
 		DDCAC7A4E5AFD4F121BCD0145AD8E72C /* TMChevronBarIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F5162A8B34446C7AD294130693CF09 /* TMChevronBarIndicator.swift */; };
 		DDFC384A55935DE639D90A6176A51687 /* PageboyViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A6A65E827554E42723F587CCE157D0 /* PageboyViewControllerDelegate.swift */; };
@@ -253,7 +254,7 @@
 		97FE984AEAD6AC487D93A1686D2612C9 /* TMBarViewContentInsetGuides.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TMBarViewContentInsetGuides.swift; path = Sources/Tabman/Bar/BarView/TMBarViewContentInsetGuides.swift; sourceTree = "<group>"; };
 		98326DC2160302C20A1E10D0ED5E38A8 /* Pods-Tipkle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tipkle.release.xcconfig"; sourceTree = "<group>"; };
 		9A4124445268EC7BC135DB89057593B7 /* Pageboy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pageboy.release.xcconfig; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9DF1AD63EC76295AC85AC78FBF1B722F /* TMBarIndicator+None.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "TMBarIndicator+None.swift"; path = "Sources/Tabman/Bar/BarIndicator/Types/TMBarIndicator+None.swift"; sourceTree = "<group>"; };
 		9DF353A61F2F8660A104A7C1D13F3982 /* XLPagerTabStrip-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XLPagerTabStrip-Info.plist"; sourceTree = "<group>"; };
 		9FD4695431ED489461B393D00DC84B35 /* TMHidingBar+Triggers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "TMHidingBar+Triggers.swift"; path = "Sources/Tabman/Bar/BarExtensions/AutoHidingBar/TMHidingBar+Triggers.swift"; sourceTree = "<group>"; };
@@ -354,6 +355,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5D55655C30279179747780F503C717CF /* Foundation.framework in Frameworks */,
+				DA60207027049578002B5DF8 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -450,7 +452,6 @@
 				31C708FAF7261CEBF1DE22E180A0A2DC /* Resources */,
 				85DB032C257A0578FD3F84C8DF48CE67 /* Support Files */,
 			);
-			name = XLPagerTabStrip;
 			path = XLPagerTabStrip;
 			sourceTree = "<group>";
 		};
@@ -522,7 +523,6 @@
 				583FB22DAB056CC43C42C7F55D62CD00 /* WeakContainer.swift */,
 				FC5675D644B6036D01D779A08782AD30 /* Support Files */,
 			);
-			name = Pageboy;
 			path = Pageboy;
 			sourceTree = "<group>";
 		};
@@ -614,7 +614,6 @@
 				48775E3DB09F65C2E6472559E78947C5 /* WeakContainer.swift */,
 				DE069D87CC503694F17D2349FD8CD128 /* Support Files */,
 			);
-			name = Tabman;
 			path = Tabman;
 			sourceTree = "<group>";
 		};
@@ -728,6 +727,9 @@
 				F558D2A80D783B070B223A1EEB001DF0 /* PBXTargetDependency */,
 			);
 			name = "Pods-Tipkle";
+			packageProductDependencies = (
+				DA60206F27049578002B5DF8 /* Alamofire */,
+			);
 			productName = Pods_Tipkle;
 			productReference = 136DCA3E2FBED1362F46D7101628752A /* Pods-Tipkle */;
 			productType = "com.apple.product-type.framework";
@@ -786,6 +788,9 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			packageReferences = (
+				DA60206E27049578002B5DF8 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = 34C33B082A38953A6FA3FC797F71DE0B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -1521,6 +1526,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DA60206E27049578002B5DF8 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.4.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DA60206F27049578002B5DF8 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DA60206E27049578002B5DF8 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 }

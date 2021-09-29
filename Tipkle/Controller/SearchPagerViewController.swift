@@ -27,13 +27,13 @@ class SearchPagerViewController: TabmanViewController {
         // Create bar
         let bar = TMBar.ButtonBar()
         bar.layout.transitionStyle = .snap // Customize
-        bar.backgroundColor = .white
+        bar.tintColor = .white
         bar.indicator.tintColor = UIColor(named:"mint")
         bar.layout.contentMode = .fit //나눠서 꽉채워줌
         bar.buttons.customize{ //클릭했을때오 안했을때의 색깔 설정
             (button) in
             button.selectedTintColor = UIColor(named:"mint")
-            button.tintColor = UIColor(named:"black")
+            button.tintColor = .black //UIColor는 왜 안됐을까? "black"이 아닐수도 있음.
         }
 
         // Add to view
