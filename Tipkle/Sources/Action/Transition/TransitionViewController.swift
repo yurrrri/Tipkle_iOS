@@ -45,6 +45,6 @@ class TransitionViewController: BaseViewController {
     
     // UIWindow의 rootViewController를 변경하여 화면전환
     @IBAction func transitionWindow(_ sender: Any) {
-        self.changeRootViewController(SplashViewController())
+        self.changeRootViewController(LoginViewController())
     }
 }

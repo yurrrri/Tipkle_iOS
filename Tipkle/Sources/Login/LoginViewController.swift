@@ -7,8 +7,9 @@
 
 import UIKit
 
-class SplashViewController: BaseViewController {
-    @IBAction func mainButtonTouchUpInside(_ sender: UIButton) {
+class LoginViewController: BaseViewController {
+    @IBAction func touchKakaoLogin(_ sender: Any) {
+        //최상위 루트뷰를 바꿔주는 방법
         self.changeRootViewController(BaseTabBarController())
     }
 }

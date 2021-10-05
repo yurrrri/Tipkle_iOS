@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -24,8 +24,8 @@
 		DA87B704270CA6F40012D133 /* NotoSansCJKkr-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = DA87B6D2270CA6F40012D133 /* NotoSansCJKkr-Bold.otf */; };
 		DA87B705270CA6F40012D133 /* BaseTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA87B6D4270CA6F40012D133 /* BaseTabBarController.swift */; };
 		DA87B706270CA6F40012D133 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA87B6D5270CA6F40012D133 /* BaseViewController.swift */; };
-		DA87B707270CA6F40012D133 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA87B6D8270CA6F40012D133 /* SplashViewController.swift */; };
-		DA87B708270CA6F40012D133 /* SplashViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA87B6D9270CA6F40012D133 /* SplashViewController.xib */; };
+		DA87B707270CA6F40012D133 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA87B6D8270CA6F40012D133 /* LoginViewController.swift */; };
+		DA87B708270CA6F40012D133 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA87B6D9270CA6F40012D133 /* LoginViewController.xib */; };
 		DA87B709270CA6F40012D133 /* NetworkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA87B6DB270CA6F40012D133 /* NetworkViewController.swift */; };
 		DA87B70A270CA6F40012D133 /* SignInDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA87B6DD270CA6F40012D133 /* SignInDataManager.swift */; };
 		DA87B70B270CA6F40012D133 /* SignInResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA87B6DF270CA6F40012D133 /* SignInResponse.swift */; };
@@ -46,6 +46,7 @@
 		DA87B71A270CA6F40012D133 /* AlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA87B6F5270CA6F40012D133 /* AlertViewController.swift */; };
 		DA87B71B270CA6F40012D133 /* ActionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA87B6F6270CA6F40012D133 /* ActionViewController.xib */; };
 		DA87B71D270CA82F0012D133 /* JwtToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA87B71C270CA82F0012D133 /* JwtToken.swift */; };
+		DA87B720270CA9380012D133 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = DA87B71F270CA9380012D133 /* SnapKit */; };
 		DA97644D270224BA007A7B7F /* HomeTip.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA97644C270224BA007A7B7F /* HomeTip.swift */; };
 		DA97644F27023B66007A7B7F /* TipListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA97644E27023B66007A7B7F /* TipListViewController.swift */; };
 		DA97645427025942007A7B7F /* LookAroundTip.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA97645327025942007A7B7F /* LookAroundTip.swift */; };
@@ -61,6 +62,8 @@
 		DAD4100426FDD791008358B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAD4100326FDD791008358B5 /* Assets.xcassets */; };
 		DAD4100726FDD791008358B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAD4100526FDD791008358B5 /* LaunchScreen.storyboard */; };
 		DAD4101826FDFEE9008358B5 /* HomePagerChildViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD4101726FDFEE9008358B5 /* HomePagerChildViewController.swift */; };
+		DAFF427E270CC10A00B8A366 /* RegisterNickNameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFF427C270CC10A00B8A366 /* RegisterNickNameViewController.swift */; };
+		DAFF427F270CC10A00B8A366 /* RegisterNickNameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DAFF427D270CC10A00B8A366 /* RegisterNickNameViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -83,8 +86,8 @@
 		DA87B6D2270CA6F40012D133 /* NotoSansCJKkr-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansCJKkr-Bold.otf"; sourceTree = "<group>"; };
 		DA87B6D4270CA6F40012D133 /* BaseTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTabBarController.swift; sourceTree = "<group>"; };
 		DA87B6D5270CA6F40012D133 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
-		DA87B6D8270CA6F40012D133 /* SplashViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
-		DA87B6D9270CA6F40012D133 /* SplashViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SplashViewController.xib; sourceTree = "<group>"; };
+		DA87B6D8270CA6F40012D133 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		DA87B6D9270CA6F40012D133 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
 		DA87B6DB270CA6F40012D133 /* NetworkViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkViewController.swift; sourceTree = "<group>"; };
 		DA87B6DD270CA6F40012D133 /* SignInDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInDataManager.swift; sourceTree = "<group>"; };
 		DA87B6DF270CA6F40012D133 /* SignInResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInResponse.swift; sourceTree = "<group>"; };
@@ -122,6 +125,8 @@
 		DAD4100626FDD791008358B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DAD4100826FDD791008358B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DAD4101726FDFEE9008358B5 /* HomePagerChildViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePagerChildViewController.swift; sourceTree = "<group>"; };
+		DAFF427C270CC10A00B8A366 /* RegisterNickNameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterNickNameViewController.swift; sourceTree = "<group>"; };
+		DAFF427D270CC10A00B8A366 /* RegisterNickNameViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RegisterNickNameViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +135,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7AF62CDB543864BB0A3D5670 /* Pods_Tipkle.framework in Frameworks */,
+				DA87B720270CA9380012D133 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,9 +171,9 @@
 			children = (
 				DA87B6C1270CA6F40012D133 /* Constant.swift */,
 				DA87B6C2270CA6F40012D133 /* CommonClass */,
-				DA87B6C5270CA6F40012D133 /* Extension */,
 				DA87B6CD270CA6F40012D133 /* Secret */,
 				DA87B6CF270CA6F40012D133 /* Font */,
+				DA87B6C5270CA6F40012D133 /* Extension */,
 				DA87B6D3270CA6F40012D133 /* Base */,
 			);
 			path = Configuration;
@@ -227,20 +233,21 @@
 		DA87B6D6270CA6F40012D133 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				DA87B6D7270CA6F40012D133 /* Splash */,
+				DA87B6D7270CA6F40012D133 /* Login */,
 				DA87B6DA270CA6F40012D133 /* Network */,
 				DA87B6EB270CA6F40012D133 /* Action */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
 		};
-		DA87B6D7270CA6F40012D133 /* Splash */ = {
+		DA87B6D7270CA6F40012D133 /* Login */ = {
 			isa = PBXGroup;
 			children = (
-				DA87B6D8270CA6F40012D133 /* SplashViewController.swift */,
-				DA87B6D9270CA6F40012D133 /* SplashViewController.xib */,
+				DAFF4273270CBE2900B8A366 /* Register */,
+				DA87B6D8270CA6F40012D133 /* LoginViewController.swift */,
+				DA87B6D9270CA6F40012D133 /* LoginViewController.xib */,
 			);
-			path = Splash;
+			path = Login;
 			sourceTree = "<group>";
 		};
 		DA87B6DA270CA6F40012D133 /* Network */ = {
@@ -364,22 +371,14 @@
 				DAD4100326FDD791008358B5 /* Assets.xcassets */,
 				DA87B6C0270CA6F40012D133 /* Configuration */,
 				DA87B6D6270CA6F40012D133 /* Sources */,
+				DAD40FFA26FDD790008358B5 /* AppDelegate.swift */,
+				DAD40FFC26FDD790008358B5 /* SceneDelegate.swift */,
 				DAD4101126FDD9B4008358B5 /* Model */,
 				DAD4100F26FDD96E008358B5 /* View */,
 				DAD4101026FDD996008358B5 /* Controller */,
-				DAD4100E26FDD94D008358B5 /* App */,
 				DAD4100826FDD791008358B5 /* Info.plist */,
 			);
 			path = Tipkle;
-			sourceTree = "<group>";
-		};
-		DAD4100E26FDD94D008358B5 /* App */ = {
-			isa = PBXGroup;
-			children = (
-				DAD40FFA26FDD790008358B5 /* AppDelegate.swift */,
-				DAD40FFC26FDD790008358B5 /* SceneDelegate.swift */,
-			);
-			path = App;
 			sourceTree = "<group>";
 		};
 		DAD4100F26FDD96E008358B5 /* View */ = {
@@ -416,6 +415,15 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		DAFF4273270CBE2900B8A366 /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				DAFF427C270CC10A00B8A366 /* RegisterNickNameViewController.swift */,
+				DAFF427D270CC10A00B8A366 /* RegisterNickNameViewController.xib */,
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -434,6 +442,9 @@
 			dependencies = (
 			);
 			name = Tipkle;
+			packageProductDependencies = (
+				DA87B71F270CA9380012D133 /* SnapKit */,
+			);
 			productName = Tipkle;
 			productReference = DAD40FF726FDD790008358B5 /* Tipkle.app */;
 			productType = "com.apple.product-type.application";
@@ -461,6 +472,9 @@
 				Base,
 			);
 			mainGroup = DAD40FEE26FDD790008358B5;
+			packageReferences = (
+				DA87B71E270CA9380012D133 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = DAD40FF826FDD790008358B5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -481,13 +495,14 @@
 				DA87B717270CA6F40012D133 /* TransitionViewController.xib in Resources */,
 				DAD4100426FDD791008358B5 /* Assets.xcassets in Resources */,
 				DA87B71B270CA6F40012D133 /* ActionViewController.xib in Resources */,
-				DA87B708270CA6F40012D133 /* SplashViewController.xib in Resources */,
+				DA87B708270CA6F40012D133 /* LoginViewController.xib in Resources */,
 				DA87B713270CA6F40012D133 /* NetworkViewController.xib in Resources */,
 				DAD4100226FDD790008358B5 /* Main.storyboard in Resources */,
 				DA87B702270CA6F40012D133 /* NotoSansCJKkr-Medium.otf in Resources */,
 				DA87B715270CA6F40012D133 /* TransitionNextViewController.xib in Resources */,
 				DA87B704270CA6F40012D133 /* NotoSansCJKkr-Bold.otf in Resources */,
 				DA87B719270CA6F40012D133 /* AlertViewController.xib in Resources */,
+				DAFF427F270CC10A00B8A366 /* RegisterNickNameViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -568,7 +583,7 @@
 				DA87B701270CA6F40012D133 /* KobisKey.swift in Sources */,
 				DA97644D270224BA007A7B7F /* HomeTip.swift in Sources */,
 				DA87B6FB270CA6F40012D133 /* String.swift in Sources */,
-				DA87B707270CA6F40012D133 /* SplashViewController.swift in Sources */,
+				DA87B707270CA6F40012D133 /* LoginViewController.swift in Sources */,
 				DA87B70E270CA6F40012D133 /* SignInViewController.swift in Sources */,
 				DAAB0E2927039592007659FD /* CleanViewController.swift in Sources */,
 				DA87B706270CA6F40012D133 /* BaseViewController.swift in Sources */,
@@ -578,6 +593,7 @@
 				DA87B6FC270CA6F40012D133 /* UIButton.swift in Sources */,
 				DA87B6FE270CA6F40012D133 /* UINavigationBar.swift in Sources */,
 				DA87B714270CA6F40012D133 /* TransitionNextViewController.swift in Sources */,
+				DAFF427E270CC10A00B8A366 /* RegisterNickNameViewController.swift in Sources */,
 				DA87B71A270CA6F40012D133 /* AlertViewController.swift in Sources */,
 				DA87B710270CA6F40012D133 /* BoxOfficeViewController.swift in Sources */,
 			);
@@ -785,6 +801,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DA87B71E270CA9380012D133 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DA87B71F270CA9380012D133 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DA87B71E270CA9380012D133 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = DAD40FEF26FDD790008358B5 /* Project object */;
 }

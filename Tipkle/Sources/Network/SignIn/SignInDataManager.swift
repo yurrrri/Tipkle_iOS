@@ -7,6 +7,7 @@
 
 import Alamofire
 
+//네트워크 통신만 담당하는 친구
 class SignInDataManager {
     func postSignIn(_ parameters: SignInRequest, viewController: SignInViewController) {
         AF.request("\(Constant.BASE_URL)/signin", method: .post, parameters: parameters, encoder: JSONParameterEncoder(), headers: nil)

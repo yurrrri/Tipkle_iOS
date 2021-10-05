@@ -24,7 +24,7 @@ class ActionViewController: BaseViewController {
     // MARK: 인디케이터 (로딩)
     @IBAction func indicatorButtonTouchUpInside(_ sender: UIButton) {
         showIndicator()
-        DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
+        DispatchQueue.main.asyncAfter(deadline: .now() + 3) { //3초뒤에 사라지는 인디케이터
             self.dismissIndicator()
         }
     }
