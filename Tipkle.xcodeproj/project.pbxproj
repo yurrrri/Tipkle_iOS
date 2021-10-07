@@ -369,14 +369,14 @@
 			isa = PBXGroup;
 			children = (
 				DAD4100326FDD791008358B5 /* Assets.xcassets */,
-				DA87B6C0270CA6F40012D133 /* Configuration */,
-				DA87B6D6270CA6F40012D133 /* Sources */,
 				DAD40FFA26FDD790008358B5 /* AppDelegate.swift */,
 				DAD40FFC26FDD790008358B5 /* SceneDelegate.swift */,
+				DAD4100826FDD791008358B5 /* Info.plist */,
+				DA87B6C0270CA6F40012D133 /* Configuration */,
+				DA87B6D6270CA6F40012D133 /* Sources */,
 				DAD4101126FDD9B4008358B5 /* Model */,
 				DAD4100F26FDD96E008358B5 /* View */,
 				DAD4101026FDD996008358B5 /* Controller */,
-				DAD4100826FDD791008358B5 /* Info.plist */,
 			);
 			path = Tipkle;
 			sourceTree = "<group>";
