@@ -27,9 +27,8 @@
 		DA87B707270CA6F40012D133 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA87B6D8270CA6F40012D133 /* LoginViewController.swift */; };
 		DA87B708270CA6F40012D133 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA87B6D9270CA6F40012D133 /* LoginViewController.xib */; };
 		DA87B709270CA6F40012D133 /* NetworkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA87B6DB270CA6F40012D133 /* NetworkViewController.swift */; };
-		DA87B70A270CA6F40012D133 /* SignInDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA87B6DD270CA6F40012D133 /* SignInDataManager.swift */; };
-		DA87B70B270CA6F40012D133 /* SignInResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA87B6DF270CA6F40012D133 /* SignInResponse.swift */; };
-		DA87B70C270CA6F40012D133 /* SignInRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA87B6E0270CA6F40012D133 /* SignInRequest.swift */; };
+		DA87B70B270CA6F40012D133 /* KakaoLoginResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA87B6DF270CA6F40012D133 /* KakaoLoginResponse.swift */; };
+		DA87B70C270CA6F40012D133 /* KakaoLoginRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA87B6E0270CA6F40012D133 /* KakaoLoginRequest.swift */; };
 		DA87B70D270CA6F40012D133 /* SignInViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA87B6E1270CA6F40012D133 /* SignInViewController.xib */; };
 		DA87B70E270CA6F40012D133 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA87B6E2270CA6F40012D133 /* SignInViewController.swift */; };
 		DA87B70F270CA6F40012D133 /* MovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA87B6E5270CA6F40012D133 /* MovieViewController.swift */; };
@@ -50,6 +49,9 @@
 		DA97644D270224BA007A7B7F /* HomeTip.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA97644C270224BA007A7B7F /* HomeTip.swift */; };
 		DA97644F27023B66007A7B7F /* TipListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA97644E27023B66007A7B7F /* TipListViewController.swift */; };
 		DA97645427025942007A7B7F /* LookAroundTip.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA97645327025942007A7B7F /* LookAroundTip.swift */; };
+		DAA30AEC2755055400D665D6 /* RegisterDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA30AEB2755055400D665D6 /* RegisterDataManager.swift */; };
+		DAA30AEE275512E500D665D6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DAA30AED275512E500D665D6 /* GoogleService-Info.plist */; };
+		DAA30AF727552E6300D665D6 /* fcmToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA30AF627552E6300D665D6 /* fcmToken.swift */; };
 		DAAB0E2527038261007659FD /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAB0E2427038261007659FD /* HomeViewController.swift */; };
 		DAAB0E272703828E007659FD /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAB0E262703828E007659FD /* SearchViewController.swift */; };
 		DAAB0E2927039592007659FD /* CleanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAB0E2827039592007659FD /* CleanViewController.swift */; };
@@ -89,9 +91,8 @@
 		DA87B6D8270CA6F40012D133 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		DA87B6D9270CA6F40012D133 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
 		DA87B6DB270CA6F40012D133 /* NetworkViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkViewController.swift; sourceTree = "<group>"; };
-		DA87B6DD270CA6F40012D133 /* SignInDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInDataManager.swift; sourceTree = "<group>"; };
-		DA87B6DF270CA6F40012D133 /* SignInResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInResponse.swift; sourceTree = "<group>"; };
-		DA87B6E0270CA6F40012D133 /* SignInRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInRequest.swift; sourceTree = "<group>"; };
+		DA87B6DF270CA6F40012D133 /* KakaoLoginResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KakaoLoginResponse.swift; sourceTree = "<group>"; };
+		DA87B6E0270CA6F40012D133 /* KakaoLoginRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KakaoLoginRequest.swift; sourceTree = "<group>"; };
 		DA87B6E1270CA6F40012D133 /* SignInViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SignInViewController.xib; sourceTree = "<group>"; };
 		DA87B6E2270CA6F40012D133 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		DA87B6E5270CA6F40012D133 /* MovieViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieViewController.swift; sourceTree = "<group>"; };
@@ -111,6 +112,9 @@
 		DA97644C270224BA007A7B7F /* HomeTip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTip.swift; sourceTree = "<group>"; };
 		DA97644E27023B66007A7B7F /* TipListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipListViewController.swift; sourceTree = "<group>"; };
 		DA97645327025942007A7B7F /* LookAroundTip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LookAroundTip.swift; sourceTree = "<group>"; };
+		DAA30AEB2755055400D665D6 /* RegisterDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterDataManager.swift; sourceTree = "<group>"; };
+		DAA30AED275512E500D665D6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DAA30AF627552E6300D665D6 /* fcmToken.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fcmToken.swift; sourceTree = "<group>"; };
 		DAAB0E2427038261007659FD /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		DAAB0E262703828E007659FD /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		DAAB0E2827039592007659FD /* CleanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleanViewController.swift; sourceTree = "<group>"; };
@@ -207,6 +211,7 @@
 			children = (
 				DA87B6CE270CA6F40012D133 /* KobisKey.swift */,
 				DA87B71C270CA82F0012D133 /* JwtToken.swift */,
+				DAA30AF627552E6300D665D6 /* fcmToken.swift */,
 			);
 			path = Secret;
 			sourceTree = "<group>";
@@ -264,8 +269,6 @@
 		DA87B6DC270CA6F40012D133 /* SignIn */ = {
 			isa = PBXGroup;
 			children = (
-				DA87B6DD270CA6F40012D133 /* SignInDataManager.swift */,
-				DA87B6DE270CA6F40012D133 /* Entity */,
 				DA87B6E1270CA6F40012D133 /* SignInViewController.xib */,
 				DA87B6E2270CA6F40012D133 /* SignInViewController.swift */,
 			);
@@ -275,10 +278,11 @@
 		DA87B6DE270CA6F40012D133 /* Entity */ = {
 			isa = PBXGroup;
 			children = (
-				DA87B6DF270CA6F40012D133 /* SignInResponse.swift */,
-				DA87B6E0270CA6F40012D133 /* SignInRequest.swift */,
+				DA87B6DF270CA6F40012D133 /* KakaoLoginResponse.swift */,
+				DA87B6E0270CA6F40012D133 /* KakaoLoginRequest.swift */,
 			);
-			path = Entity;
+			name = Entity;
+			path = ../../Network/SignIn/Entity;
 			sourceTree = "<group>";
 		};
 		DA87B6E3270CA6F40012D133 /* BoxOffice */ = {
@@ -368,15 +372,16 @@
 		DAD40FF926FDD790008358B5 /* Tipkle */ = {
 			isa = PBXGroup;
 			children = (
+				DAA30AED275512E500D665D6 /* GoogleService-Info.plist */,
 				DAD4100326FDD791008358B5 /* Assets.xcassets */,
 				DAD40FFA26FDD790008358B5 /* AppDelegate.swift */,
 				DAD40FFC26FDD790008358B5 /* SceneDelegate.swift */,
-				DAD4100826FDD791008358B5 /* Info.plist */,
 				DA87B6C0270CA6F40012D133 /* Configuration */,
 				DA87B6D6270CA6F40012D133 /* Sources */,
 				DAD4101126FDD9B4008358B5 /* Model */,
 				DAD4100F26FDD96E008358B5 /* View */,
 				DAD4101026FDD996008358B5 /* Controller */,
+				DAD4100826FDD791008358B5 /* Info.plist */,
 			);
 			path = Tipkle;
 			sourceTree = "<group>";
@@ -418,8 +423,10 @@
 		DAFF4273270CBE2900B8A366 /* Register */ = {
 			isa = PBXGroup;
 			children = (
+				DA87B6DE270CA6F40012D133 /* Entity */,
 				DAFF427C270CC10A00B8A366 /* RegisterNickNameViewController.swift */,
 				DAFF427D270CC10A00B8A366 /* RegisterNickNameViewController.xib */,
+				DAA30AEB2755055400D665D6 /* RegisterDataManager.swift */,
 			);
 			path = Register;
 			sourceTree = "<group>";
@@ -491,6 +498,7 @@
 			files = (
 				DA87B70D270CA6F40012D133 /* SignInViewController.xib in Resources */,
 				DA87B703270CA6F40012D133 /* NotoSansCJKkr-Regular.otf in Resources */,
+				DAA30AEE275512E500D665D6 /* GoogleService-Info.plist in Resources */,
 				DAD4100726FDD791008358B5 /* LaunchScreen.storyboard in Resources */,
 				DA87B717270CA6F40012D133 /* TransitionViewController.xib in Resources */,
 				DAD4100426FDD791008358B5 /* Assets.xcassets in Resources */,
@@ -557,13 +565,12 @@
 			files = (
 				DA87B716270CA6F40012D133 /* TransitionViewController.swift in Sources */,
 				DAD4101826FDFEE9008358B5 /* HomePagerChildViewController.swift in Sources */,
-				DA87B70C270CA6F40012D133 /* SignInRequest.swift in Sources */,
+				DA87B70C270CA6F40012D133 /* KakaoLoginRequest.swift in Sources */,
 				DA97645427025942007A7B7F /* LookAroundTip.swift in Sources */,
 				DAAB0E272703828E007659FD /* SearchViewController.swift in Sources */,
-				DA87B70A270CA6F40012D133 /* SignInDataManager.swift in Sources */,
 				DA87B718270CA6F40012D133 /* ActionViewController.swift in Sources */,
 				DA87B71D270CA82F0012D133 /* JwtToken.swift in Sources */,
-				DA87B70B270CA6F40012D133 /* SignInResponse.swift in Sources */,
+				DA87B70B270CA6F40012D133 /* KakaoLoginResponse.swift in Sources */,
 				DA87B6FD270CA6F40012D133 /* UIViewController.swift in Sources */,
 				DA87B6FA270CA6F40012D133 /* Date.swift in Sources */,
 				DA97644F27023B66007A7B7F /* TipListViewController.swift in Sources */,
@@ -576,6 +583,7 @@
 				DA87B6F9270CA6F40012D133 /* Device.swift in Sources */,
 				DA87B6F7270CA6F40012D133 /* Constant.swift in Sources */,
 				DA87B712270CA6F40012D133 /* BoxOfficeDataManager.swift in Sources */,
+				DAA30AEC2755055400D665D6 /* RegisterDataManager.swift in Sources */,
 				DA87B700270CA6F40012D133 /* Color.swift in Sources */,
 				DA87B6F8270CA6F40012D133 /* IndicatorView.swift in Sources */,
 				DA87B70F270CA6F40012D133 /* MovieViewController.swift in Sources */,
@@ -593,6 +601,7 @@
 				DA87B6FC270CA6F40012D133 /* UIButton.swift in Sources */,
 				DA87B6FE270CA6F40012D133 /* UINavigationBar.swift in Sources */,
 				DA87B714270CA6F40012D133 /* TransitionNextViewController.swift in Sources */,
+				DAA30AF727552E6300D665D6 /* fcmToken.swift in Sources */,
 				DAFF427E270CC10A00B8A366 /* RegisterNickNameViewController.swift in Sources */,
 				DA87B71A270CA6F40012D133 /* AlertViewController.swift in Sources */,
 				DA87B710270CA6F40012D133 /* BoxOfficeViewController.swift in Sources */,

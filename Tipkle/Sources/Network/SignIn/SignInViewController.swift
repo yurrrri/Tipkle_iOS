@@ -8,7 +8,7 @@
 import UIKit
 
 class SignInViewController: BaseViewController {
-    lazy var dataManager = SignInDataManager()
+//    lazy var dataManager = RegisterDataManager()
     
     @IBOutlet var idTextField: UITextField!
     @IBOutlet var passwordTextField: UITextField!
@@ -39,14 +39,14 @@ class SignInViewController: BaseViewController {
         // Requst Sign In
         self.showIndicator()
         self.dismissKeyboard()
-        let input = SignInRequest(id: id, password: password)
-        dataManager.postSignIn(input, viewController: self)
+//        let input = KakaoLoginRequest(id: id, password: password)
+//        dataManager.postSignIn(input, viewController: self)
     }
 }
 
 extension SignInViewController {
-    func didSuccessSignIn(_ result: SignInResult) {
-        self.presentAlert(title: "로그인에 성공하였습니다", message: result.token)
+    func didSuccessSignIn(_ result: KakaoLoginResult) {
+//        self.presentAlert(title: "로그인에 성공하였습니다", message: result.token)
     }
     
     func failedToRequest(message: String) {

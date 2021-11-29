@@ -177,6 +177,10 @@
 		D6B0BABC6426F1C5E0A630943FAD203B /* TMHorizontalBarLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54CD45F9FF1854A6F91A8BA04B4975F /* TMHorizontalBarLayout.swift */; };
 		D8307936B6BFF04491444763FB22B70E /* TMBarButtonInteractionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58FE1410531308E11AAE7204A16250B4 /* TMBarButtonInteractionController.swift */; };
 		D9688EBE9A81157A255B7C373BC4B45F /* TMBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2739A1FA0F0793E4E874B993EF6DB17A /* TMBarView.swift */; };
+		DAA30AEA275504FD00D665D6 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = DAA30AE9275504FD00D665D6 /* SnapKit */; };
+		DAA30AF12755139700D665D6 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = DAA30AF02755139700D665D6 /* FirebaseAnalytics */; };
+		DAA30AF32755139700D665D6 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = DAA30AF22755139700D665D6 /* FirebaseMessaging */; };
+		DAA30AF52755139700D665D6 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = DAA30AF42755139700D665D6 /* FirebaseStorage */; };
 		DAE2CA48171B091F73721E6B529F25DD /* MigrateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC6B0F15F4291D4157AC4602635F097 /* MigrateManager.swift */; };
 		DB328782629B6B26E16D96883846D477 /* TMAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8919EECF35544D977962C7B95A5140FE /* TMAnimation.swift */; };
 		DBDF14654ECD0AE4355A034B7ECBCBA9 /* Data+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141651CAC8B9BBC5C69E5AF11CA3BC9B /* Data+Utils.swift */; };
@@ -567,8 +571,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAA30AEA275504FD00D665D6 /* SnapKit in Frameworks */,
 				33F86FAB918B148A63A1575667F9B570 /* CFNetwork.framework in Frameworks */,
+				DAA30AF32755139700D665D6 /* FirebaseMessaging in Frameworks */,
+				DAA30AF12755139700D665D6 /* FirebaseAnalytics in Frameworks */,
 				9C0BE8FA0030B2BC1DF7C159FA059389 /* Foundation.framework in Frameworks */,
+				DAA30AF52755139700D665D6 /* FirebaseStorage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1318,6 +1326,12 @@
 			dependencies = (
 			);
 			name = Alamofire;
+			packageProductDependencies = (
+				DAA30AE9275504FD00D665D6 /* SnapKit */,
+				DAA30AF02755139700D665D6 /* FirebaseAnalytics */,
+				DAA30AF22755139700D665D6 /* FirebaseMessaging */,
+				DAA30AF42755139700D665D6 /* FirebaseStorage */,
+			);
 			productName = Alamofire;
 			productReference = 5D797E9A5C5782CE845840781FA1CC81 /* Alamofire.framework */;
 			productType = "com.apple.product-type.framework";
@@ -1357,6 +1371,10 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			packageReferences = (
+				DAA30AE8275504FD00D665D6 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				DAA30AEF2755139700D665D6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 3EE49A5D5F373F942780D1AB96D0A9C2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -2588,6 +2606,48 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DAA30AE8275504FD00D665D6 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		DAA30AEF2755139700D665D6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DAA30AE9275504FD00D665D6 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DAA30AE8275504FD00D665D6 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		DAA30AF02755139700D665D6 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DAA30AEF2755139700D665D6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		DAA30AF22755139700D665D6 /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DAA30AEF2755139700D665D6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+		DAA30AF42755139700D665D6 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DAA30AEF2755139700D665D6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 }

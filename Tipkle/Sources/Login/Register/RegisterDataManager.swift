@@ -1,18 +1,17 @@
 //
-//  SignInDataManager.swift
-//  EduTemplate
+//  RegisterDataManager.swift
+//  Tipkle
 //
-//  Created by Zero Yoon on 2020/10/10.
+//  Created by 이유리 on 2021/11/29.
 //
 
 import Alamofire
 
-//네트워크 통신만 담당하는 친구
-class SignInDataManager {
-    func postSignIn(_ parameters: SignInRequest, viewController: SignInViewController) {
-        AF.request("\(Constant.BASE_URL)/signin", method: .post, parameters: parameters, encoder: JSONParameterEncoder(), headers: nil)
+class RegisterDataManager {
+    func postKakaoLogin(_ parameters: KakaoLoginRequest, viewController: LoginViewController) {
+        AF.request("\(Constant.BASE_URL)/login/kakao", method: .post, parameters: parameters, encoder: JSONParameterEncoder(), headers: nil)
             .validate()
-            .responseDecodable(of: SignInResponse.self) { response in
+            .responseDecodable(of: KakaoLoginResponse.self) { response in
                 switch response.result {
                 case .success(let response):
                     if response.isSuccess, let result = response.result {
