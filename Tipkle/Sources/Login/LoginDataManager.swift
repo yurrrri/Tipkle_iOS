@@ -1,5 +1,5 @@
 //
-//  RegisterDataManager.swift
+//  LoginDataManager.swift
 //  Tipkle
 //
 //  Created by 이유리 on 2021/11/29.
@@ -26,14 +26,14 @@ class LoginDataManager {
             }
     }
     
-    func getAutoLogin(_ parameters: nil, viewController: LoginViewController) {
-        AF.request("\(Constant.BASE_URL)auto-login", method: .get, parameters: parameters, encoder: JSONParameterEncoder(), headers: Constant.HEADERS)
+    func getAutoLogin(viewController: LoginViewController) {
+        AF.request("\(Constant.BASE_URL)auto-login", method: .get, parameters: nil, encoding: JSONEncoding.default, headers: Constant.HEADERS)
             .validate()
-            .responseDecodable(of: KakaoLoginResponse.self) { response in
+            .responseDecodable(of: BaseResponse.self) { response in
                 switch response.result {
                 case .success(let response):
-                    if response.isSuccess, let result = response.result {
-                        viewController.did(result)
+                    if response.isSuccess {
+                        viewController.didgetAutoLoginSuccess(response)
                     } else {
                         viewController.failedToRequest(message: response.message)
                     }

@@ -55,14 +55,16 @@
 		DAD4100426FDD791008358B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAD4100326FDD791008358B5 /* Assets.xcassets */; };
 		DAD4100726FDD791008358B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAD4100526FDD791008358B5 /* LaunchScreen.storyboard */; };
 		DAD4101826FDFEE9008358B5 /* HomePagerChildViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD4101726FDFEE9008358B5 /* HomePagerChildViewController.swift */; };
-		DAE5C3402758BC7E001C75BE /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE5C33E2758BC7E001C75BE /* HomeViewController.swift */; };
-		DAE5C3412758BC7E001C75BE /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DAE5C33F2758BC7E001C75BE /* HomeViewController.xib */; };
 		DAE5C3442758BCBE001C75BE /* TipkleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE5C3422758BCBE001C75BE /* TipkleViewController.swift */; };
 		DAE5C3452758BCBE001C75BE /* TipkleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DAE5C3432758BCBE001C75BE /* TipkleViewController.xib */; };
 		DAE5C3522758BFB2001C75BE /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE5C3502758BFB2001C75BE /* SearchViewController.swift */; };
 		DAE5C3532758BFB2001C75BE /* SearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DAE5C3512758BFB2001C75BE /* SearchViewController.xib */; };
 		DAE5C3562758BFC5001C75BE /* MyPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE5C3542758BFC5001C75BE /* MyPageViewController.swift */; };
 		DAE5C3572758BFC5001C75BE /* MyPageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DAE5C3552758BFC5001C75BE /* MyPageViewController.xib */; };
+		DAE5C3592758DBAE001C75BE /* BaseResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE5C3582758DBAE001C75BE /* BaseResponse.swift */; };
+		DAE5C35C2759289C001C75BE /* HomeDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE5C35B2759289C001C75BE /* HomeDataManager.swift */; };
+		DAE5C35F27592AFF001C75BE /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE5C35D27592AFE001C75BE /* HomeViewController.swift */; };
+		DAE5C36027592AFF001C75BE /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DAE5C35E27592AFF001C75BE /* HomeViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -117,14 +119,16 @@
 		DAD4100626FDD791008358B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DAD4100826FDD791008358B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DAD4101726FDFEE9008358B5 /* HomePagerChildViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePagerChildViewController.swift; sourceTree = "<group>"; };
-		DAE5C33E2758BC7E001C75BE /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		DAE5C33F2758BC7E001C75BE /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 		DAE5C3422758BCBE001C75BE /* TipkleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipkleViewController.swift; sourceTree = "<group>"; };
 		DAE5C3432758BCBE001C75BE /* TipkleViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TipkleViewController.xib; sourceTree = "<group>"; };
 		DAE5C3502758BFB2001C75BE /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		DAE5C3512758BFB2001C75BE /* SearchViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchViewController.xib; sourceTree = "<group>"; };
 		DAE5C3542758BFC5001C75BE /* MyPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPageViewController.swift; sourceTree = "<group>"; };
 		DAE5C3552758BFC5001C75BE /* MyPageViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyPageViewController.xib; sourceTree = "<group>"; };
+		DAE5C3582758DBAE001C75BE /* BaseResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseResponse.swift; sourceTree = "<group>"; };
+		DAE5C35B2759289C001C75BE /* HomeDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDataManager.swift; sourceTree = "<group>"; };
+		DAE5C35D27592AFE001C75BE /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		DAE5C35E27592AFF001C75BE /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,8 +173,10 @@
 		DA17B82227579B880053C5D3 /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				DAE5C33E2758BC7E001C75BE /* HomeViewController.swift */,
-				DAE5C33F2758BC7E001C75BE /* HomeViewController.xib */,
+				DAE5C35A2759288A001C75BE /* Entity */,
+				DAE5C35B2759289C001C75BE /* HomeDataManager.swift */,
+				DAE5C35D27592AFE001C75BE /* HomeViewController.swift */,
+				DAE5C35E27592AFF001C75BE /* HomeViewController.xib */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -220,6 +226,7 @@
 			children = (
 				DA87B6C3270CA6F40012D133 /* IndicatorView.swift */,
 				DA87B6C4270CA6F40012D133 /* Device.swift */,
+				DAE5C3582758DBAE001C75BE /* BaseResponse.swift */,
 			);
 			path = CommonClass;
 			sourceTree = "<group>";
@@ -413,6 +420,13 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		DAE5C35A2759288A001C75BE /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -481,7 +495,6 @@
 				DA87B70D270CA6F40012D133 /* SignInViewController.xib in Resources */,
 				DAE5C3452758BCBE001C75BE /* TipkleViewController.xib in Resources */,
 				DA87B703270CA6F40012D133 /* NotoSansCJKkr-Regular.otf in Resources */,
-				DAE5C3412758BC7E001C75BE /* HomeViewController.xib in Resources */,
 				DAA30AEE275512E500D665D6 /* GoogleService-Info.plist in Resources */,
 				DAE5C3572758BFC5001C75BE /* MyPageViewController.xib in Resources */,
 				DAD4100726FDD791008358B5 /* LaunchScreen.storyboard in Resources */,
@@ -492,6 +505,7 @@
 				DAD4100226FDD790008358B5 /* Main.storyboard in Resources */,
 				DA87B702270CA6F40012D133 /* NotoSansCJKkr-Medium.otf in Resources */,
 				DA87B715270CA6F40012D133 /* TransitionNextViewController.xib in Resources */,
+				DAE5C36027592AFF001C75BE /* HomeViewController.xib in Resources */,
 				DA87B704270CA6F40012D133 /* NotoSansCJKkr-Bold.otf in Resources */,
 				DAE5C3532758BFB2001C75BE /* SearchViewController.xib in Resources */,
 				DA87B719270CA6F40012D133 /* AlertViewController.xib in Resources */,
@@ -550,13 +564,15 @@
 				DA87B716270CA6F40012D133 /* TransitionViewController.swift in Sources */,
 				DAD4101826FDFEE9008358B5 /* HomePagerChildViewController.swift in Sources */,
 				DA87B70C270CA6F40012D133 /* KakaoLoginRequest.swift in Sources */,
-				DAE5C3402758BC7E001C75BE /* HomeViewController.swift in Sources */,
 				DA97645427025942007A7B7F /* LookAroundTip.swift in Sources */,
+				DAE5C3592758DBAE001C75BE /* BaseResponse.swift in Sources */,
 				DA87B718270CA6F40012D133 /* ActionViewController.swift in Sources */,
 				DA87B71D270CA82F0012D133 /* JwtToken.swift in Sources */,
 				DA87B70B270CA6F40012D133 /* KakaoLoginResponse.swift in Sources */,
 				DA87B6FD270CA6F40012D133 /* UIViewController.swift in Sources */,
+				DAE5C35C2759289C001C75BE /* HomeDataManager.swift in Sources */,
 				DA87B6FA270CA6F40012D133 /* Date.swift in Sources */,
+				DAE5C35F27592AFF001C75BE /* HomeViewController.swift in Sources */,
 				DA97644F27023B66007A7B7F /* TipListViewController.swift in Sources */,
 				DAAB0E2B2703B0EE007659FD /* SearchPagerViewController.swift in Sources */,
 				DAD40FFB26FDD790008358B5 /* AppDelegate.swift in Sources */,

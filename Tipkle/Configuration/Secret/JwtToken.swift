@@ -5,7 +5,8 @@
 //  Created by 이유리 on 2021/10/06.
 //
 
+import Foundation
+
 struct JwtToken{
-    static var token: String =
-    "토큰값" //토큰값 -> 실제 토큰값 넣기
+    static var token: String? = UserDefaults.standard.string(forKey: "jwt")
 }

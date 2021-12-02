@@ -2,7 +2,7 @@
 //  HomeViewController.swift
 //  Tipkle
 //
-//  Created by 이유리 on 2021/12/02.
+//  Created by 이유리 on 2021/12/03.
 //
 
 import UIKit
@@ -12,7 +12,9 @@ class HomeViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        // Do any additional setup after oading the view.
+        
+        
     }
 
 

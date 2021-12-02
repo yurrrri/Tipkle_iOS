@@ -19,6 +19,14 @@
          </PersistentStrings>
       </ContextState>
       <ContextState
+         contextName = "LoginDataManager.getAutoLogin(viewController:):LoginDataManager.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "Constant.HEADERS">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
          contextName = "closure #2 in LoginViewController.touchKakaoLogin(_:):LoginViewController.swift">
       </ContextState>
    </ContextStates>

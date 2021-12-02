@@ -15,6 +15,15 @@ class LoginViewController: BaseViewController {
     var acceessToken:String?=nil //property
     //lazy : 사용되기전까지는 연산이 되지 않는다는 뜻
 
+    override func viewDidLoad() {
+        self.showIndicator()
+        self.dismissKeyboard()
+        
+        if (UserDefaults.standard.string(forKey: "jwt") != nil){
+            dataManager.getAutoLogin(viewController: self)
+        }
+    }
+
     //카카오 로그인
     @IBAction func touchKakaoLogin(_ sender: Any) {
         //카카오톡 설치여부 확인 -> 카카오로 로그인
@@ -62,8 +71,15 @@ class LoginViewController: BaseViewController {
 extension LoginViewController {
     func didSuccessKakaoLogin(_ result: KakaoLoginResult) {
         if (result.jwt != nil){
+            UserDefaults.standard.set(result.jwt, forKey: "jwt")
             JwtToken.token = result.jwt!
             self.changeRootViewController(BaseTabBarController())
+        }
+    }
+    
+    func didgetAutoLoginSuccess(_ result: BaseResponse){
+        if (result.isSuccess){
+            UIApplication.shared.windows.first?.rootViewController = BaseTabBarController()
         }
     }
     
