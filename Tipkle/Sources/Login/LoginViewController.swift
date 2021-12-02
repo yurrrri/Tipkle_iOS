@@ -11,11 +11,15 @@ import KakaoSDKAuth
 import KakaoSDKUser
 
 class LoginViewController: BaseViewController {
+    lazy var dataManager = LoginDataManager()
+    var acceessToken:String?=nil //property
+    //lazy : 사용되기전까지는 연산이 되지 않는다는 뜻
+
     //카카오 로그인
     @IBAction func touchKakaoLogin(_ sender: Any) {
         //카카오톡 설치여부 확인 -> 카카오로 로그인
         if (UserApi.isKakaoTalkLoginAvailable()) {
-            UserApi.shared.loginWithKakaoTalk {(oauthToken, error) in
+            UserApi.shared.loginWithKakaoTalk { [self](oauthToken, error) in
                 if let error = error {
                     print(error)
                 }
@@ -23,7 +27,13 @@ class LoginViewController: BaseViewController {
                     print("loginWithKakaoTalk() success.")
 
                     //do something
-                    _ = oauthToken
+                    self.acceessToken = oauthToken?.accessToken
+                    
+                    // Request KakaoLogin
+                    self.showIndicator()
+                    self.dismissKeyboard()
+                    let input = KakaoLoginRequest(accessToken: self.acceessToken!, fcmToken: fcmToken.token)
+                    dataManager.postKakaoLogin(input, viewController: self)
                 }
             }
         }
@@ -37,9 +47,27 @@ class LoginViewController: BaseViewController {
                         print("loginWithKakaoAccount() success.")
 
                         //do something
-                        _ = oauthToken
+                        self.acceessToken = oauthToken?.accessToken
+                        
+                        self.showIndicator()
+                        self.dismissKeyboard()
+                        let input = KakaoLoginRequest(accessToken: self.acceessToken!, fcmToken: fcmToken.token)
+                        self.dataManager.postKakaoLogin(input, viewController: self)
                     }
                 }
         }
+    }
+}
+
+extension LoginViewController {
+    func didSuccessKakaoLogin(_ result: KakaoLoginResult) {
+        if (result.jwt != nil){
+            JwtToken.token = result.jwt!
+            self.changeRootViewController(BaseTabBarController())
+        }
+    }
+    
+    func failedToRequest(message: String) {
+        self.presentAlert(title: message)
     }
 }

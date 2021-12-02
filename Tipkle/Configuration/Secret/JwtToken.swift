@@ -6,6 +6,6 @@
 //
 
 struct JwtToken{
-    static let token: String =
+    static var token: String =
     "토큰값" //토큰값 -> 실제 토큰값 넣기
 }

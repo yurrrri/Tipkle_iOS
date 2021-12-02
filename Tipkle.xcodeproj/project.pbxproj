@@ -18,7 +18,6 @@
 		DA87B6FE270CA6F40012D133 /* UINavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA87B6CA270CA6F40012D133 /* UINavigationBar.swift */; };
 		DA87B6FF270CA6F40012D133 /* UIFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA87B6CB270CA6F40012D133 /* UIFont.swift */; };
 		DA87B700270CA6F40012D133 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA87B6CC270CA6F40012D133 /* Color.swift */; };
-		DA87B701270CA6F40012D133 /* KobisKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA87B6CE270CA6F40012D133 /* KobisKey.swift */; };
 		DA87B702270CA6F40012D133 /* NotoSansCJKkr-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = DA87B6D0270CA6F40012D133 /* NotoSansCJKkr-Medium.otf */; };
 		DA87B703270CA6F40012D133 /* NotoSansCJKkr-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = DA87B6D1270CA6F40012D133 /* NotoSansCJKkr-Regular.otf */; };
 		DA87B704270CA6F40012D133 /* NotoSansCJKkr-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = DA87B6D2270CA6F40012D133 /* NotoSansCJKkr-Bold.otf */; };
@@ -26,16 +25,10 @@
 		DA87B706270CA6F40012D133 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA87B6D5270CA6F40012D133 /* BaseViewController.swift */; };
 		DA87B707270CA6F40012D133 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA87B6D8270CA6F40012D133 /* LoginViewController.swift */; };
 		DA87B708270CA6F40012D133 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA87B6D9270CA6F40012D133 /* LoginViewController.xib */; };
-		DA87B709270CA6F40012D133 /* NetworkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA87B6DB270CA6F40012D133 /* NetworkViewController.swift */; };
 		DA87B70B270CA6F40012D133 /* KakaoLoginResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA87B6DF270CA6F40012D133 /* KakaoLoginResponse.swift */; };
 		DA87B70C270CA6F40012D133 /* KakaoLoginRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA87B6E0270CA6F40012D133 /* KakaoLoginRequest.swift */; };
 		DA87B70D270CA6F40012D133 /* SignInViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA87B6E1270CA6F40012D133 /* SignInViewController.xib */; };
 		DA87B70E270CA6F40012D133 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA87B6E2270CA6F40012D133 /* SignInViewController.swift */; };
-		DA87B70F270CA6F40012D133 /* MovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA87B6E5270CA6F40012D133 /* MovieViewController.swift */; };
-		DA87B710270CA6F40012D133 /* BoxOfficeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA87B6E6270CA6F40012D133 /* BoxOfficeViewController.swift */; };
-		DA87B711270CA6F40012D133 /* BoxOfficeResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA87B6E8270CA6F40012D133 /* BoxOfficeResponse.swift */; };
-		DA87B712270CA6F40012D133 /* BoxOfficeDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA87B6E9270CA6F40012D133 /* BoxOfficeDataManager.swift */; };
-		DA87B713270CA6F40012D133 /* NetworkViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA87B6EA270CA6F40012D133 /* NetworkViewController.xib */; };
 		DA87B714270CA6F40012D133 /* TransitionNextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA87B6EE270CA6F40012D133 /* TransitionNextViewController.swift */; };
 		DA87B715270CA6F40012D133 /* TransitionNextViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA87B6EF270CA6F40012D133 /* TransitionNextViewController.xib */; };
 		DA87B716270CA6F40012D133 /* TransitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA87B6F0270CA6F40012D133 /* TransitionViewController.swift */; };
@@ -49,11 +42,9 @@
 		DA97644D270224BA007A7B7F /* HomeTip.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA97644C270224BA007A7B7F /* HomeTip.swift */; };
 		DA97644F27023B66007A7B7F /* TipListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA97644E27023B66007A7B7F /* TipListViewController.swift */; };
 		DA97645427025942007A7B7F /* LookAroundTip.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA97645327025942007A7B7F /* LookAroundTip.swift */; };
-		DAA30AEC2755055400D665D6 /* RegisterDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA30AEB2755055400D665D6 /* RegisterDataManager.swift */; };
+		DAA30AEC2755055400D665D6 /* LoginDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA30AEB2755055400D665D6 /* LoginDataManager.swift */; };
 		DAA30AEE275512E500D665D6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DAA30AED275512E500D665D6 /* GoogleService-Info.plist */; };
 		DAA30AF727552E6300D665D6 /* fcmToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA30AF627552E6300D665D6 /* fcmToken.swift */; };
-		DAAB0E2527038261007659FD /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAB0E2427038261007659FD /* HomeViewController.swift */; };
-		DAAB0E272703828E007659FD /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAB0E262703828E007659FD /* SearchViewController.swift */; };
 		DAAB0E2927039592007659FD /* CleanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAB0E2827039592007659FD /* CleanViewController.swift */; };
 		DAAB0E2B2703B0EE007659FD /* SearchPagerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAB0E2A2703B0EE007659FD /* SearchPagerViewController.swift */; };
 		DAAB0E312703B608007659FD /* PopularKeyword.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAB0E302703B608007659FD /* PopularKeyword.swift */; };
@@ -64,8 +55,14 @@
 		DAD4100426FDD791008358B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAD4100326FDD791008358B5 /* Assets.xcassets */; };
 		DAD4100726FDD791008358B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAD4100526FDD791008358B5 /* LaunchScreen.storyboard */; };
 		DAD4101826FDFEE9008358B5 /* HomePagerChildViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD4101726FDFEE9008358B5 /* HomePagerChildViewController.swift */; };
-		DAFF427E270CC10A00B8A366 /* RegisterNickNameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFF427C270CC10A00B8A366 /* RegisterNickNameViewController.swift */; };
-		DAFF427F270CC10A00B8A366 /* RegisterNickNameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DAFF427D270CC10A00B8A366 /* RegisterNickNameViewController.xib */; };
+		DAE5C3402758BC7E001C75BE /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE5C33E2758BC7E001C75BE /* HomeViewController.swift */; };
+		DAE5C3412758BC7E001C75BE /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DAE5C33F2758BC7E001C75BE /* HomeViewController.xib */; };
+		DAE5C3442758BCBE001C75BE /* TipkleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE5C3422758BCBE001C75BE /* TipkleViewController.swift */; };
+		DAE5C3452758BCBE001C75BE /* TipkleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DAE5C3432758BCBE001C75BE /* TipkleViewController.xib */; };
+		DAE5C3522758BFB2001C75BE /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE5C3502758BFB2001C75BE /* SearchViewController.swift */; };
+		DAE5C3532758BFB2001C75BE /* SearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DAE5C3512758BFB2001C75BE /* SearchViewController.xib */; };
+		DAE5C3562758BFC5001C75BE /* MyPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE5C3542758BFC5001C75BE /* MyPageViewController.swift */; };
+		DAE5C3572758BFC5001C75BE /* MyPageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DAE5C3552758BFC5001C75BE /* MyPageViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -82,7 +79,6 @@
 		DA87B6CA270CA6F40012D133 /* UINavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UINavigationBar.swift; sourceTree = "<group>"; };
 		DA87B6CB270CA6F40012D133 /* UIFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIFont.swift; sourceTree = "<group>"; };
 		DA87B6CC270CA6F40012D133 /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
-		DA87B6CE270CA6F40012D133 /* KobisKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KobisKey.swift; sourceTree = "<group>"; };
 		DA87B6D0270CA6F40012D133 /* NotoSansCJKkr-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansCJKkr-Medium.otf"; sourceTree = "<group>"; };
 		DA87B6D1270CA6F40012D133 /* NotoSansCJKkr-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansCJKkr-Regular.otf"; sourceTree = "<group>"; };
 		DA87B6D2270CA6F40012D133 /* NotoSansCJKkr-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansCJKkr-Bold.otf"; sourceTree = "<group>"; };
@@ -90,16 +86,10 @@
 		DA87B6D5270CA6F40012D133 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		DA87B6D8270CA6F40012D133 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		DA87B6D9270CA6F40012D133 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
-		DA87B6DB270CA6F40012D133 /* NetworkViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkViewController.swift; sourceTree = "<group>"; };
 		DA87B6DF270CA6F40012D133 /* KakaoLoginResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KakaoLoginResponse.swift; sourceTree = "<group>"; };
 		DA87B6E0270CA6F40012D133 /* KakaoLoginRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KakaoLoginRequest.swift; sourceTree = "<group>"; };
 		DA87B6E1270CA6F40012D133 /* SignInViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SignInViewController.xib; sourceTree = "<group>"; };
 		DA87B6E2270CA6F40012D133 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
-		DA87B6E5270CA6F40012D133 /* MovieViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieViewController.swift; sourceTree = "<group>"; };
-		DA87B6E6270CA6F40012D133 /* BoxOfficeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoxOfficeViewController.swift; sourceTree = "<group>"; };
-		DA87B6E8270CA6F40012D133 /* BoxOfficeResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoxOfficeResponse.swift; sourceTree = "<group>"; };
-		DA87B6E9270CA6F40012D133 /* BoxOfficeDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoxOfficeDataManager.swift; sourceTree = "<group>"; };
-		DA87B6EA270CA6F40012D133 /* NetworkViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NetworkViewController.xib; sourceTree = "<group>"; };
 		DA87B6EE270CA6F40012D133 /* TransitionNextViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionNextViewController.swift; sourceTree = "<group>"; };
 		DA87B6EF270CA6F40012D133 /* TransitionNextViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TransitionNextViewController.xib; sourceTree = "<group>"; };
 		DA87B6F0270CA6F40012D133 /* TransitionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionViewController.swift; sourceTree = "<group>"; };
@@ -112,11 +102,9 @@
 		DA97644C270224BA007A7B7F /* HomeTip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTip.swift; sourceTree = "<group>"; };
 		DA97644E27023B66007A7B7F /* TipListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipListViewController.swift; sourceTree = "<group>"; };
 		DA97645327025942007A7B7F /* LookAroundTip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LookAroundTip.swift; sourceTree = "<group>"; };
-		DAA30AEB2755055400D665D6 /* RegisterDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterDataManager.swift; sourceTree = "<group>"; };
+		DAA30AEB2755055400D665D6 /* LoginDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginDataManager.swift; sourceTree = "<group>"; };
 		DAA30AED275512E500D665D6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		DAA30AF627552E6300D665D6 /* fcmToken.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fcmToken.swift; sourceTree = "<group>"; };
-		DAAB0E2427038261007659FD /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		DAAB0E262703828E007659FD /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		DAAB0E2827039592007659FD /* CleanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleanViewController.swift; sourceTree = "<group>"; };
 		DAAB0E2A2703B0EE007659FD /* SearchPagerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchPagerViewController.swift; sourceTree = "<group>"; };
 		DAAB0E302703B608007659FD /* PopularKeyword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularKeyword.swift; sourceTree = "<group>"; };
@@ -129,8 +117,14 @@
 		DAD4100626FDD791008358B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DAD4100826FDD791008358B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DAD4101726FDFEE9008358B5 /* HomePagerChildViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePagerChildViewController.swift; sourceTree = "<group>"; };
-		DAFF427C270CC10A00B8A366 /* RegisterNickNameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterNickNameViewController.swift; sourceTree = "<group>"; };
-		DAFF427D270CC10A00B8A366 /* RegisterNickNameViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RegisterNickNameViewController.xib; sourceTree = "<group>"; };
+		DAE5C33E2758BC7E001C75BE /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		DAE5C33F2758BC7E001C75BE /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		DAE5C3422758BCBE001C75BE /* TipkleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipkleViewController.swift; sourceTree = "<group>"; };
+		DAE5C3432758BCBE001C75BE /* TipkleViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TipkleViewController.xib; sourceTree = "<group>"; };
+		DAE5C3502758BFB2001C75BE /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		DAE5C3512758BFB2001C75BE /* SearchViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchViewController.xib; sourceTree = "<group>"; };
+		DAE5C3542758BFC5001C75BE /* MyPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPageViewController.swift; sourceTree = "<group>"; };
+		DAE5C3552758BFC5001C75BE /* MyPageViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyPageViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,11 +157,49 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		DA34E61E26FFA61900CF079C /* Cell */ = {
+		DA17B82127576DF40053C5D3 /* Entity */ = {
 			isa = PBXGroup;
 			children = (
+				DA87B6DF270CA6F40012D133 /* KakaoLoginResponse.swift */,
+				DA87B6E0270CA6F40012D133 /* KakaoLoginRequest.swift */,
 			);
-			path = Cell;
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		DA17B82227579B880053C5D3 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				DAE5C33E2758BC7E001C75BE /* HomeViewController.swift */,
+				DAE5C33F2758BC7E001C75BE /* HomeViewController.xib */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		DA17B82327579B940053C5D3 /* Tipkle */ = {
+			isa = PBXGroup;
+			children = (
+				DAE5C3422758BCBE001C75BE /* TipkleViewController.swift */,
+				DAE5C3432758BCBE001C75BE /* TipkleViewController.xib */,
+			);
+			path = Tipkle;
+			sourceTree = "<group>";
+		};
+		DA17B82427579B9A0053C5D3 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				DAE5C3502758BFB2001C75BE /* SearchViewController.swift */,
+				DAE5C3512758BFB2001C75BE /* SearchViewController.xib */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		DA17B82527579B9E0053C5D3 /* MyPage */ = {
+			isa = PBXGroup;
+			children = (
+				DAE5C3542758BFC5001C75BE /* MyPageViewController.swift */,
+				DAE5C3552758BFC5001C75BE /* MyPageViewController.xib */,
+			);
+			path = MyPage;
 			sourceTree = "<group>";
 		};
 		DA87B6C0270CA6F40012D133 /* Configuration */ = {
@@ -209,7 +241,6 @@
 		DA87B6CD270CA6F40012D133 /* Secret */ = {
 			isa = PBXGroup;
 			children = (
-				DA87B6CE270CA6F40012D133 /* KobisKey.swift */,
 				DA87B71C270CA82F0012D133 /* JwtToken.swift */,
 				DAA30AF627552E6300D665D6 /* fcmToken.swift */,
 			);
@@ -238,6 +269,10 @@
 		DA87B6D6270CA6F40012D133 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				DA17B82527579B9E0053C5D3 /* MyPage */,
+				DA17B82427579B9A0053C5D3 /* Search */,
+				DA17B82327579B940053C5D3 /* Tipkle */,
+				DA17B82227579B880053C5D3 /* Home */,
 				DA87B6D7270CA6F40012D133 /* Login */,
 				DA87B6DA270CA6F40012D133 /* Network */,
 				DA87B6EB270CA6F40012D133 /* Action */,
@@ -248,7 +283,8 @@
 		DA87B6D7270CA6F40012D133 /* Login */ = {
 			isa = PBXGroup;
 			children = (
-				DAFF4273270CBE2900B8A366 /* Register */,
+				DA17B82127576DF40053C5D3 /* Entity */,
+				DAA30AEB2755055400D665D6 /* LoginDataManager.swift */,
 				DA87B6D8270CA6F40012D133 /* LoginViewController.swift */,
 				DA87B6D9270CA6F40012D133 /* LoginViewController.xib */,
 			);
@@ -258,10 +294,7 @@
 		DA87B6DA270CA6F40012D133 /* Network */ = {
 			isa = PBXGroup;
 			children = (
-				DA87B6DB270CA6F40012D133 /* NetworkViewController.swift */,
 				DA87B6DC270CA6F40012D133 /* SignIn */,
-				DA87B6E3270CA6F40012D133 /* BoxOffice */,
-				DA87B6EA270CA6F40012D133 /* NetworkViewController.xib */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -273,43 +306,6 @@
 				DA87B6E2270CA6F40012D133 /* SignInViewController.swift */,
 			);
 			path = SignIn;
-			sourceTree = "<group>";
-		};
-		DA87B6DE270CA6F40012D133 /* Entity */ = {
-			isa = PBXGroup;
-			children = (
-				DA87B6DF270CA6F40012D133 /* KakaoLoginResponse.swift */,
-				DA87B6E0270CA6F40012D133 /* KakaoLoginRequest.swift */,
-			);
-			name = Entity;
-			path = ../../Network/SignIn/Entity;
-			sourceTree = "<group>";
-		};
-		DA87B6E3270CA6F40012D133 /* BoxOffice */ = {
-			isa = PBXGroup;
-			children = (
-				DA87B6E4270CA6F40012D133 /* Movie */,
-				DA87B6E6270CA6F40012D133 /* BoxOfficeViewController.swift */,
-				DA87B6E7270CA6F40012D133 /* Entity */,
-				DA87B6E9270CA6F40012D133 /* BoxOfficeDataManager.swift */,
-			);
-			path = BoxOffice;
-			sourceTree = "<group>";
-		};
-		DA87B6E4270CA6F40012D133 /* Movie */ = {
-			isa = PBXGroup;
-			children = (
-				DA87B6E5270CA6F40012D133 /* MovieViewController.swift */,
-			);
-			path = Movie;
-			sourceTree = "<group>";
-		};
-		DA87B6E7270CA6F40012D133 /* Entity */ = {
-			isa = PBXGroup;
-			children = (
-				DA87B6E8270CA6F40012D133 /* BoxOfficeResponse.swift */,
-			);
-			path = Entity;
 			sourceTree = "<group>";
 		};
 		DA87B6EB270CA6F40012D133 /* Action */ = {
@@ -389,7 +385,6 @@
 		DAD4100F26FDD96E008358B5 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				DA34E61E26FFA61900CF079C /* Cell */,
 				DAD4100526FDD791008358B5 /* LaunchScreen.storyboard */,
 				DAD4100026FDD790008358B5 /* Main.storyboard */,
 			);
@@ -401,8 +396,6 @@
 			children = (
 				DAD4101726FDFEE9008358B5 /* HomePagerChildViewController.swift */,
 				DA97644E27023B66007A7B7F /* TipListViewController.swift */,
-				DAAB0E2427038261007659FD /* HomeViewController.swift */,
-				DAAB0E262703828E007659FD /* SearchViewController.swift */,
 				DAAB0E2827039592007659FD /* CleanViewController.swift */,
 				DAAB0E2A2703B0EE007659FD /* SearchPagerViewController.swift */,
 				DAAB0E322703BBDD007659FD /* PopularKeywordViewController.swift */,
@@ -418,17 +411,6 @@
 				DAAB0E302703B608007659FD /* PopularKeyword.swift */,
 			);
 			path = Model;
-			sourceTree = "<group>";
-		};
-		DAFF4273270CBE2900B8A366 /* Register */ = {
-			isa = PBXGroup;
-			children = (
-				DA87B6DE270CA6F40012D133 /* Entity */,
-				DAFF427C270CC10A00B8A366 /* RegisterNickNameViewController.swift */,
-				DAFF427D270CC10A00B8A366 /* RegisterNickNameViewController.xib */,
-				DAA30AEB2755055400D665D6 /* RegisterDataManager.swift */,
-			);
-			path = Register;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -497,20 +479,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA87B70D270CA6F40012D133 /* SignInViewController.xib in Resources */,
+				DAE5C3452758BCBE001C75BE /* TipkleViewController.xib in Resources */,
 				DA87B703270CA6F40012D133 /* NotoSansCJKkr-Regular.otf in Resources */,
+				DAE5C3412758BC7E001C75BE /* HomeViewController.xib in Resources */,
 				DAA30AEE275512E500D665D6 /* GoogleService-Info.plist in Resources */,
+				DAE5C3572758BFC5001C75BE /* MyPageViewController.xib in Resources */,
 				DAD4100726FDD791008358B5 /* LaunchScreen.storyboard in Resources */,
 				DA87B717270CA6F40012D133 /* TransitionViewController.xib in Resources */,
 				DAD4100426FDD791008358B5 /* Assets.xcassets in Resources */,
 				DA87B71B270CA6F40012D133 /* ActionViewController.xib in Resources */,
 				DA87B708270CA6F40012D133 /* LoginViewController.xib in Resources */,
-				DA87B713270CA6F40012D133 /* NetworkViewController.xib in Resources */,
 				DAD4100226FDD790008358B5 /* Main.storyboard in Resources */,
 				DA87B702270CA6F40012D133 /* NotoSansCJKkr-Medium.otf in Resources */,
 				DA87B715270CA6F40012D133 /* TransitionNextViewController.xib in Resources */,
 				DA87B704270CA6F40012D133 /* NotoSansCJKkr-Bold.otf in Resources */,
+				DAE5C3532758BFB2001C75BE /* SearchViewController.xib in Resources */,
 				DA87B719270CA6F40012D133 /* AlertViewController.xib in Resources */,
-				DAFF427F270CC10A00B8A366 /* RegisterNickNameViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -566,8 +550,8 @@
 				DA87B716270CA6F40012D133 /* TransitionViewController.swift in Sources */,
 				DAD4101826FDFEE9008358B5 /* HomePagerChildViewController.swift in Sources */,
 				DA87B70C270CA6F40012D133 /* KakaoLoginRequest.swift in Sources */,
+				DAE5C3402758BC7E001C75BE /* HomeViewController.swift in Sources */,
 				DA97645427025942007A7B7F /* LookAroundTip.swift in Sources */,
-				DAAB0E272703828E007659FD /* SearchViewController.swift in Sources */,
 				DA87B718270CA6F40012D133 /* ActionViewController.swift in Sources */,
 				DA87B71D270CA82F0012D133 /* JwtToken.swift in Sources */,
 				DA87B70B270CA6F40012D133 /* KakaoLoginResponse.swift in Sources */,
@@ -578,33 +562,28 @@
 				DAD40FFB26FDD790008358B5 /* AppDelegate.swift in Sources */,
 				DA87B705270CA6F40012D133 /* BaseTabBarController.swift in Sources */,
 				DAD40FFD26FDD790008358B5 /* SceneDelegate.swift in Sources */,
-				DAAB0E2527038261007659FD /* HomeViewController.swift in Sources */,
+				DAE5C3442758BCBE001C75BE /* TipkleViewController.swift in Sources */,
 				DAAB0E332703BBDD007659FD /* PopularKeywordViewController.swift in Sources */,
 				DA87B6F9270CA6F40012D133 /* Device.swift in Sources */,
+				DAE5C3562758BFC5001C75BE /* MyPageViewController.swift in Sources */,
 				DA87B6F7270CA6F40012D133 /* Constant.swift in Sources */,
-				DA87B712270CA6F40012D133 /* BoxOfficeDataManager.swift in Sources */,
-				DAA30AEC2755055400D665D6 /* RegisterDataManager.swift in Sources */,
+				DAA30AEC2755055400D665D6 /* LoginDataManager.swift in Sources */,
 				DA87B700270CA6F40012D133 /* Color.swift in Sources */,
 				DA87B6F8270CA6F40012D133 /* IndicatorView.swift in Sources */,
-				DA87B70F270CA6F40012D133 /* MovieViewController.swift in Sources */,
-				DA87B709270CA6F40012D133 /* NetworkViewController.swift in Sources */,
-				DA87B701270CA6F40012D133 /* KobisKey.swift in Sources */,
 				DA97644D270224BA007A7B7F /* HomeTip.swift in Sources */,
 				DA87B6FB270CA6F40012D133 /* String.swift in Sources */,
 				DA87B707270CA6F40012D133 /* LoginViewController.swift in Sources */,
+				DAE5C3522758BFB2001C75BE /* SearchViewController.swift in Sources */,
 				DA87B70E270CA6F40012D133 /* SignInViewController.swift in Sources */,
 				DAAB0E2927039592007659FD /* CleanViewController.swift in Sources */,
 				DA87B706270CA6F40012D133 /* BaseViewController.swift in Sources */,
-				DA87B711270CA6F40012D133 /* BoxOfficeResponse.swift in Sources */,
 				DA87B6FF270CA6F40012D133 /* UIFont.swift in Sources */,
 				DAAB0E312703B608007659FD /* PopularKeyword.swift in Sources */,
 				DA87B6FC270CA6F40012D133 /* UIButton.swift in Sources */,
 				DA87B6FE270CA6F40012D133 /* UINavigationBar.swift in Sources */,
 				DA87B714270CA6F40012D133 /* TransitionNextViewController.swift in Sources */,
 				DAA30AF727552E6300D665D6 /* fcmToken.swift in Sources */,
-				DAFF427E270CC10A00B8A366 /* RegisterNickNameViewController.swift in Sources */,
 				DA87B71A270CA6F40012D133 /* AlertViewController.swift in Sources */,
-				DA87B710270CA6F40012D133 /* BoxOfficeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

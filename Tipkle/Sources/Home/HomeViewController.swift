@@ -1,13 +1,13 @@
 //
-//  RegisterNickNameViewController.swift
+//  HomeViewController.swift
 //  Tipkle
 //
-//  Created by 이유리 on 2021/10/06.
+//  Created by 이유리 on 2021/12/02.
 //
 
 import UIKit
 
-class RegisterNickNameViewController: UIViewController {
+class HomeViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

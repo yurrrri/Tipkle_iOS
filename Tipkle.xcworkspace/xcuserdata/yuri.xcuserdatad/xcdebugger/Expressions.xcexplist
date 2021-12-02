@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "closure #1 in LoginDataManager.postKakaoLogin(_:viewController:):LoginDataManager.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "\(Constant.BASE_URL)login/kakao">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "LoginDataManager.postKakaoLogin(_:viewController:):LoginDataManager.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "&quot;\(Constant.BASE_URL)/login/kakao&quot;">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #2 in LoginViewController.touchKakaoLogin(_:):LoginViewController.swift">
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
