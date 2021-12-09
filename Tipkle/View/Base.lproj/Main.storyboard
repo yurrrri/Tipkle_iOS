@@ -88,10 +88,10 @@
             </objects>
             <point key="canvasLocation" x="1934.7826086956522" y="206.91964285714286"/>
         </scene>
-        <!--Home Pager Child View Controller-->
+        <!--Home Pager View Controller-->
         <scene sceneID="nsG-2q-NRU">
             <objects>
-                <viewController id="feh-nn-dKF" customClass="HomePagerChildViewController" customModule="Tipkle" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="feh-nn-dKF" customClass="HomePagerViewController" customModule="Tipkle" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="PfE-T4-UTt">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="1000"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

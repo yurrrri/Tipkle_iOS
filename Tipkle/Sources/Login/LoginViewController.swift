@@ -73,7 +73,8 @@ extension LoginViewController {
         if (result.jwt != nil){
             UserDefaults.standard.set(result.jwt, forKey: "jwt")
             JwtToken.token = result.jwt!
-            self.changeRootViewController(BaseTabBarController())
+            
+            UIApplication.shared.windows.first?.rootViewController = BaseTabBarController()
         }
     }
     

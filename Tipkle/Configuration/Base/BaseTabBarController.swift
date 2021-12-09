@@ -24,6 +24,7 @@ class BaseTabBarController: UITabBarController, UITabBarControllerDelegate {
         super.viewDidLoad()
         
         self.tabBarController?.selectedIndex = 0 //처음 갔을때 디폴트 뷰컨 세팅
+        self.tabBarController?.tabBar.backgroundColor = .white
         
         //선택했을때의 tabbar icon 세팅
         homeTabBarItem.selectedImage = UIImage(named: "icon_home_full")

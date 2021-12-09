@@ -3,4 +3,114 @@
    uuid = "52BC1917-F938-4E1A-947A-A528BD0DD206"
    type = "0"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "091F2779-7965-4F92-BF35-763891CC5D3E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Tipkle/Configuration/Base/BaseTabBarController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "BaseTabBarController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "091F2779-7965-4F92-BF35-763891CC5D3E - ee32803cb63b07c8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Tipkle.BaseTabBarController.vc.getter : Swift.String"
+                  moduleName = "Tipkle"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yuri/Library/Mobile%20Documents/com~apple~CloudDocs/iOSProjects/Tipkle/Tipkle/Configuration/Base/BaseTabBarController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "100">
+               </Location>
+               <Location
+                  uuid = "091F2779-7965-4F92-BF35-763891CC5D3E - 1f4712993c63f7c4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Tipkle.BaseTabBarController.vc.setter : Swift.String"
+                  moduleName = "Tipkle"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yuri/Library/Mobile%20Documents/com~apple~CloudDocs/iOSProjects/Tipkle/Tipkle/Configuration/Base/BaseTabBarController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "136">
+               </Location>
+               <Location
+                  uuid = "091F2779-7965-4F92-BF35-763891CC5D3E - 96671f36fc5bd9aa"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Tipkle.BaseTabBarController.vc.modify : Swift.String"
+                  moduleName = "Tipkle"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yuri/Library/Mobile%20Documents/com~apple~CloudDocs/iOSProjects/Tipkle/Tipkle/Configuration/Base/BaseTabBarController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "091F2779-7965-4F92-BF35-763891CC5D3E - 52e2f32c9d1ab1c4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Tipkle.BaseTabBarController.vc.modify : Swift.String with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "Tipkle"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yuri/Library/Mobile%20Documents/com~apple~CloudDocs/iOSProjects/Tipkle/Tipkle/Configuration/Base/BaseTabBarController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "091F2779-7965-4F92-BF35-763891CC5D3E - d32f9765513f1e10"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Tipkle.BaseTabBarController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Tipkle.BaseTabBarController"
+                  moduleName = "Tipkle"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yuri/Library/Mobile%20Documents/com~apple~CloudDocs/iOSProjects/Tipkle/Tipkle/Configuration/Base/BaseTabBarController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "140">
+               </Location>
+               <Location
+                  uuid = "091F2779-7965-4F92-BF35-763891CC5D3E - b56265cba9b6010e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Tipkle.BaseTabBarController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Tipkle.BaseTabBarController&gt;"
+                  moduleName = "Tipkle"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yuri/Library/Mobile%20Documents/com~apple~CloudDocs/iOSProjects/Tipkle/Tipkle/Configuration/Base/BaseTabBarController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "116">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>

@@ -3,10 +3,10 @@
    version = "1.0">
    <ContextStates>
       <ContextState
-         contextName = "closure #1 in LoginDataManager.postKakaoLogin(_:viewController:):LoginDataManager.swift">
+         contextName = "LoginDataManager.getAutoLogin(viewController:):LoginDataManager.swift">
          <PersistentStrings>
             <PersistentString
-               value = "\(Constant.BASE_URL)login/kakao">
+               value = "Constant.HEADERS">
             </PersistentString>
          </PersistentStrings>
       </ContextState>
@@ -19,7 +19,15 @@
          </PersistentStrings>
       </ContextState>
       <ContextState
-         contextName = "LoginDataManager.getAutoLogin(viewController:):LoginDataManager.swift">
+         contextName = "closure #1 in LoginDataManager.postKakaoLogin(_:viewController:):LoginDataManager.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "\(Constant.BASE_URL)login/kakao">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in HomeDataManager.getUserCategories(viewController:):HomeDataManager.swift">
          <PersistentStrings>
             <PersistentString
                value = "Constant.HEADERS">
@@ -28,6 +36,9 @@
       </ContextState>
       <ContextState
          contextName = "closure #2 in LoginViewController.touchKakaoLogin(_:):LoginViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "HomePagerChildViewController.init(nibName:bundle:):HomePagerChildViewController.swift">
       </ContextState>
    </ContextStates>
 </VariablesViewState>

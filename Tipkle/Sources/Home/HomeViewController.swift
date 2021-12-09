@@ -9,23 +9,39 @@ import UIKit
 
 class HomeViewController: UIViewController {
 
+    @IBOutlet weak var containerView: UIView!
+    var homepagerchildViewControllerTitles:[String] = []
+    var homepagerchildViewControllers:[UIViewController] = []
+    lazy var homeDataManager = HomeDataManager()
+    
     override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Do any additional setup after oading the view.
-        
-        
+        // containerview
+        self.showIndicator()
+        homeDataManager.getUserCategories(viewController: self)
     }
+}
 
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+extension HomeViewController {
+    func didSuccessGetUserCategories(_ result: [GetUserCategoryResult]){
+        self.dismissIndicator()
+        
+        for i in result{
+            homepagerchildViewControllerTitles.append(i.categoryName)
+            homepagerchildViewControllers.append(HomePagerChildViewController())
+        }
+        
+        let vc = HomePagerViewController() //상단 탭 컨트롤러에 데이터 넘기기
+        vc.viewControllerTitles = homepagerchildViewControllerTitles
+        vc.viewControllers = homepagerchildViewControllers
+                
+        self.addChild(vc)
+        self.containerView.addSubview(vc.view)
+        vc.view.frame = self.containerView.bounds
+        //containerViewController에 childViewController가 등록되었을 때 호출되는 메소드
+        vc.didMove(toParent: self)
     }
-    */
-
+    
+    func failedToRequest(message: String) {
+        self.presentAlert(title: message)
+    }
 }
