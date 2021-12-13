@@ -8,10 +8,12 @@
 import UIKit
 import Tabman
 import Pageboy
+import ImageSlideshowKingfisher
 
 class HomePagerViewController: TabmanViewController {
+    var selectedIndex = -1
     lazy var homeDataManager = HomeDataManager()
-    var viewControllers: [UIViewController] = []
+    var viewControllers: [HomePagerChildViewController] = []
     var viewControllerTitles: [String] = []
     let bar = TMBar.ButtonBar()
     
@@ -33,6 +35,31 @@ class HomePagerViewController: TabmanViewController {
         }
         //add bar to view
         addBar(bar, dataSource: self, at: .top)
+    }
+    
+    //클릭했을때의 동작 실행
+    //여기서 API 불러오기
+    override func pageboyViewController(_ pageboyViewController: PageboyViewController, didScrollToPageAt index: TabmanViewController.PageIndex, direction: PageboyViewController.NavigationDirection, animated: Bool) {
+        
+        //배너얻어오기
+        selectedIndex = index //클릭한 인덱스
+        self.showIndicator()
+        homeDataManager.getBanner(viewController: self)
+    }
+}
+
+extension HomePagerViewController {
+    func didSuccessGetBanner(_ result: [GetBanner]){
+        self.dismissIndicator()
+        var imageSources:[KingfisherSource] = []
+        for i in result{
+            imageSources.append(KingfisherSource(urlString: i.thumbnailUrl, placeholder: UIImage(systemName: "photo"), options: .none)!)
+        }
+        viewControllers[selectedIndex].homeTopBannerSlide.setImageInputs(imageSources)
+    }
+    
+    func failedToRequest(message: String) {
+        self.presentAlert(title: message)
     }
 }
 

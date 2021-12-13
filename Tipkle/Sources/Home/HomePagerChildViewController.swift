@@ -6,24 +6,20 @@
 //
 
 import UIKit
+import ImageSlideshow
 
 class HomePagerChildViewController: UIViewController {
-
+    
+    @IBOutlet weak var viewLookAround: UIView!
+    @IBOutlet weak var homeViewCurrent: UILabel!
+    @IBOutlet weak var homeViewPopular: UILabel!
+    @IBOutlet weak var homeTopBannerSlide: ImageSlideshow!
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        homeTopBannerSlide.contentScaleMode = .scaleAspectFill
+        homeTopBannerSlide.pageIndicator = LabelPageIndicator()
+        homeTopBannerSlide.pageIndicatorPosition = PageIndicatorPosition(horizontal: .left(padding:24), vertical: .customBottom(padding: 20))
+
     }
-
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }

@@ -8,10 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		7AF62CDB543864BB0A3D5670 /* Pods_Tipkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99D65FA7D8ABE57F8F0CBBA2 /* Pods_Tipkle.framework */; };
+		DA38966C2767BC53006B146F /* HomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA38966A2767BC52006B146F /* HomeCollectionViewCell.swift */; };
+		DA38966D2767BC53006B146F /* HomeCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA38966B2767BC53006B146F /* HomeCollectionViewCell.xib */; };
 		DA445F76275F98FD00A760D5 /* HomePagerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA445F74275F98FD00A760D5 /* HomePagerViewController.swift */; };
 		DA445F77275F98FD00A760D5 /* HomePagerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA445F75275F98FD00A760D5 /* HomePagerViewController.xib */; };
 		DA445F7A275F997200A760D5 /* HomePagerChildViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA445F78275F997200A760D5 /* HomePagerChildViewController.swift */; };
 		DA445F7B275F997200A760D5 /* HomePagerChildViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA445F79275F997200A760D5 /* HomePagerChildViewController.xib */; };
+		DA75A4F62764DEDC00D7C9F9 /* ImageSlideshow in Frameworks */ = {isa = PBXBuildFile; productRef = DA75A4F52764DEDC00D7C9F9 /* ImageSlideshow */; };
+		DA75A4F82764DEDC00D7C9F9 /* ImageSlideshow/Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = DA75A4F72764DEDC00D7C9F9 /* ImageSlideshow/Alamofire */; };
+		DA75A4FA2764DEDC00D7C9F9 /* ImageSlideshow/Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = DA75A4F92764DEDC00D7C9F9 /* ImageSlideshow/Kingfisher */; };
+		DA75A4FC2764DEDC00D7C9F9 /* ImageSlideshow/SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = DA75A4FB2764DEDC00D7C9F9 /* ImageSlideshow/SDWebImage */; };
+		DA75A4FE2764E18D00D7C9F9 /* GetBannerResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA75A4FD2764E18D00D7C9F9 /* GetBannerResponse.swift */; };
 		DA87B6F7270CA6F40012D133 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA87B6C1270CA6F40012D133 /* Constant.swift */; };
 		DA87B6F8270CA6F40012D133 /* IndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA87B6C3270CA6F40012D133 /* IndicatorView.swift */; };
 		DA87B6F9270CA6F40012D133 /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA87B6C4270CA6F40012D133 /* Device.swift */; };
@@ -21,7 +28,7 @@
 		DA87B6FD270CA6F40012D133 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA87B6C9270CA6F40012D133 /* UIViewController.swift */; };
 		DA87B6FE270CA6F40012D133 /* UINavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA87B6CA270CA6F40012D133 /* UINavigationBar.swift */; };
 		DA87B6FF270CA6F40012D133 /* UIFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA87B6CB270CA6F40012D133 /* UIFont.swift */; };
-		DA87B700270CA6F40012D133 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA87B6CC270CA6F40012D133 /* Color.swift */; };
+		DA87B700270CA6F40012D133 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA87B6CC270CA6F40012D133 /* UIColor.swift */; };
 		DA87B702270CA6F40012D133 /* NotoSansCJKkr-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = DA87B6D0270CA6F40012D133 /* NotoSansCJKkr-Medium.otf */; };
 		DA87B703270CA6F40012D133 /* NotoSansCJKkr-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = DA87B6D1270CA6F40012D133 /* NotoSansCJKkr-Regular.otf */; };
 		DA87B704270CA6F40012D133 /* NotoSansCJKkr-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = DA87B6D2270CA6F40012D133 /* NotoSansCJKkr-Bold.otf */; };
@@ -74,10 +81,13 @@
 		23449EE9BB5C631C87FD11C5 /* Pods-Tipkle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tipkle.debug.xcconfig"; path = "Target Support Files/Pods-Tipkle/Pods-Tipkle.debug.xcconfig"; sourceTree = "<group>"; };
 		2347202900326E948E2427DF /* Pods-Tipkle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tipkle.release.xcconfig"; path = "Target Support Files/Pods-Tipkle/Pods-Tipkle.release.xcconfig"; sourceTree = "<group>"; };
 		99D65FA7D8ABE57F8F0CBBA2 /* Pods_Tipkle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tipkle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA38966A2767BC52006B146F /* HomeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewCell.swift; sourceTree = "<group>"; };
+		DA38966B2767BC53006B146F /* HomeCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeCollectionViewCell.xib; sourceTree = "<group>"; };
 		DA445F74275F98FD00A760D5 /* HomePagerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePagerViewController.swift; sourceTree = "<group>"; };
 		DA445F75275F98FD00A760D5 /* HomePagerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomePagerViewController.xib; sourceTree = "<group>"; };
 		DA445F78275F997200A760D5 /* HomePagerChildViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePagerChildViewController.swift; sourceTree = "<group>"; };
 		DA445F79275F997200A760D5 /* HomePagerChildViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomePagerChildViewController.xib; sourceTree = "<group>"; };
+		DA75A4FD2764E18D00D7C9F9 /* GetBannerResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetBannerResponse.swift; sourceTree = "<group>"; };
 		DA87B6C1270CA6F40012D133 /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		DA87B6C3270CA6F40012D133 /* IndicatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IndicatorView.swift; sourceTree = "<group>"; };
 		DA87B6C4270CA6F40012D133 /* Device.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
@@ -87,7 +97,7 @@
 		DA87B6C9270CA6F40012D133 /* UIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
 		DA87B6CA270CA6F40012D133 /* UINavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UINavigationBar.swift; sourceTree = "<group>"; };
 		DA87B6CB270CA6F40012D133 /* UIFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIFont.swift; sourceTree = "<group>"; };
-		DA87B6CC270CA6F40012D133 /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		DA87B6CC270CA6F40012D133 /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
 		DA87B6D0270CA6F40012D133 /* NotoSansCJKkr-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansCJKkr-Medium.otf"; sourceTree = "<group>"; };
 		DA87B6D1270CA6F40012D133 /* NotoSansCJKkr-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansCJKkr-Regular.otf"; sourceTree = "<group>"; };
 		DA87B6D2270CA6F40012D133 /* NotoSansCJKkr-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansCJKkr-Bold.otf"; sourceTree = "<group>"; };
@@ -142,7 +152,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA75A4F82764DEDC00D7C9F9 /* ImageSlideshow/Alamofire in Frameworks */,
+				DA75A4F62764DEDC00D7C9F9 /* ImageSlideshow in Frameworks */,
 				7AF62CDB543864BB0A3D5670 /* Pods_Tipkle.framework in Frameworks */,
+				DA75A4FC2764DEDC00D7C9F9 /* ImageSlideshow/SDWebImage in Frameworks */,
+				DA75A4FA2764DEDC00D7C9F9 /* ImageSlideshow/Kingfisher in Frameworks */,
 				DA87B720270CA9380012D133 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -179,6 +193,7 @@
 		DA17B82227579B880053C5D3 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				DA3896692767BC30006B146F /* Cell */,
 				DAE5C35A2759288A001C75BE /* Entity */,
 				DAE5C35B2759289C001C75BE /* HomeDataManager.swift */,
 				DAD9A261275930EA00E99682 /* HomeViewController.swift */,
@@ -218,6 +233,15 @@
 			path = MyPage;
 			sourceTree = "<group>";
 		};
+		DA3896692767BC30006B146F /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				DA38966A2767BC52006B146F /* HomeCollectionViewCell.swift */,
+				DA38966B2767BC53006B146F /* HomeCollectionViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 		DA87B6C0270CA6F40012D133 /* Configuration */ = {
 			isa = PBXGroup;
 			children = (
@@ -250,7 +274,7 @@
 				DA87B6C9270CA6F40012D133 /* UIViewController.swift */,
 				DA87B6CA270CA6F40012D133 /* UINavigationBar.swift */,
 				DA87B6CB270CA6F40012D133 /* UIFont.swift */,
-				DA87B6CC270CA6F40012D133 /* Color.swift */,
+				DA87B6CC270CA6F40012D133 /* UIColor.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -432,6 +456,7 @@
 			isa = PBXGroup;
 			children = (
 				DAC6D83527593F7A004625FB /* GetUserCeategoryResponse.swift */,
+				DA75A4FD2764E18D00D7C9F9 /* GetBannerResponse.swift */,
 			);
 			path = Entity;
 			sourceTree = "<group>";
@@ -456,6 +481,10 @@
 			name = Tipkle;
 			packageProductDependencies = (
 				DA87B71F270CA9380012D133 /* SnapKit */,
+				DA75A4F52764DEDC00D7C9F9 /* ImageSlideshow */,
+				DA75A4F72764DEDC00D7C9F9 /* ImageSlideshow/Alamofire */,
+				DA75A4F92764DEDC00D7C9F9 /* ImageSlideshow/Kingfisher */,
+				DA75A4FB2764DEDC00D7C9F9 /* ImageSlideshow/SDWebImage */,
 			);
 			productName = Tipkle;
 			productReference = DAD40FF726FDD790008358B5 /* Tipkle.app */;
@@ -486,6 +515,7 @@
 			mainGroup = DAD40FEE26FDD790008358B5;
 			packageReferences = (
 				DA87B71E270CA9380012D133 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				DA75A4F42764DEDC00D7C9F9 /* XCRemoteSwiftPackageReference "ImageSlideshow" */,
 			);
 			productRefGroup = DAD40FF826FDD790008358B5 /* Products */;
 			projectDirPath = "";
@@ -516,6 +546,7 @@
 				DAD4100226FDD790008358B5 /* Main.storyboard in Resources */,
 				DA87B702270CA6F40012D133 /* NotoSansCJKkr-Medium.otf in Resources */,
 				DA87B715270CA6F40012D133 /* TransitionNextViewController.xib in Resources */,
+				DA38966D2767BC53006B146F /* HomeCollectionViewCell.xib in Resources */,
 				DAD9A264275930EA00E99682 /* HomeViewController.xib in Resources */,
 				DA87B704270CA6F40012D133 /* NotoSansCJKkr-Bold.otf in Resources */,
 				DAE5C3532758BFB2001C75BE /* SearchViewController.xib in Resources */,
@@ -579,6 +610,7 @@
 				DAE5C3592758DBAE001C75BE /* BaseResponse.swift in Sources */,
 				DA445F76275F98FD00A760D5 /* HomePagerViewController.swift in Sources */,
 				DA87B718270CA6F40012D133 /* ActionViewController.swift in Sources */,
+				DA75A4FE2764E18D00D7C9F9 /* GetBannerResponse.swift in Sources */,
 				DA87B71D270CA82F0012D133 /* JwtToken.swift in Sources */,
 				DA87B70B270CA6F40012D133 /* KakaoLoginResponse.swift in Sources */,
 				DA87B6FD270CA6F40012D133 /* UIViewController.swift in Sources */,
@@ -597,7 +629,7 @@
 				DAE5C3562758BFC5001C75BE /* MyPageViewController.swift in Sources */,
 				DA87B6F7270CA6F40012D133 /* Constant.swift in Sources */,
 				DAA30AEC2755055400D665D6 /* LoginDataManager.swift in Sources */,
-				DA87B700270CA6F40012D133 /* Color.swift in Sources */,
+				DA87B700270CA6F40012D133 /* UIColor.swift in Sources */,
 				DA87B6F8270CA6F40012D133 /* IndicatorView.swift in Sources */,
 				DA97644D270224BA007A7B7F /* HomeTip.swift in Sources */,
 				DA87B6FB270CA6F40012D133 /* String.swift in Sources */,
@@ -606,6 +638,7 @@
 				DA87B70E270CA6F40012D133 /* SignInViewController.swift in Sources */,
 				DA87B706270CA6F40012D133 /* BaseViewController.swift in Sources */,
 				DA87B6FF270CA6F40012D133 /* UIFont.swift in Sources */,
+				DA38966C2767BC53006B146F /* HomeCollectionViewCell.swift in Sources */,
 				DAAB0E312703B608007659FD /* PopularKeyword.swift in Sources */,
 				DA87B6FC270CA6F40012D133 /* UIButton.swift in Sources */,
 				DA87B6FE270CA6F40012D133 /* UINavigationBar.swift in Sources */,
@@ -819,6 +852,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		DA75A4F42764DEDC00D7C9F9 /* XCRemoteSwiftPackageReference "ImageSlideshow" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/zvonicek/ImageSlideshow.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
 		DA87B71E270CA9380012D133 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
@@ -830,6 +871,26 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		DA75A4F52764DEDC00D7C9F9 /* ImageSlideshow */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DA75A4F42764DEDC00D7C9F9 /* XCRemoteSwiftPackageReference "ImageSlideshow" */;
+			productName = ImageSlideshow;
+		};
+		DA75A4F72764DEDC00D7C9F9 /* ImageSlideshow/Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DA75A4F42764DEDC00D7C9F9 /* XCRemoteSwiftPackageReference "ImageSlideshow" */;
+			productName = ImageSlideshow/Alamofire;
+		};
+		DA75A4F92764DEDC00D7C9F9 /* ImageSlideshow/Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DA75A4F42764DEDC00D7C9F9 /* XCRemoteSwiftPackageReference "ImageSlideshow" */;
+			productName = ImageSlideshow/Kingfisher;
+		};
+		DA75A4FB2764DEDC00D7C9F9 /* ImageSlideshow/SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DA75A4F42764DEDC00D7C9F9 /* XCRemoteSwiftPackageReference "ImageSlideshow" */;
+			productName = ImageSlideshow/SDWebImage;
+		};
 		DA87B71F270CA9380012D133 /* SnapKit */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = DA87B71E270CA9380012D133 /* XCRemoteSwiftPackageReference "SnapKit" */;

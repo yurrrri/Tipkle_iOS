@@ -11,7 +11,7 @@ class HomeViewController: UIViewController {
 
     @IBOutlet weak var containerView: UIView!
     var homepagerchildViewControllerTitles:[String] = []
-    var homepagerchildViewControllers:[UIViewController] = []
+    var homepagerchildViewControllers:[HomePagerChildViewController] = []
     lazy var homeDataManager = HomeDataManager()
     
     override func viewDidLoad() {
@@ -26,8 +26,9 @@ extension HomeViewController {
         self.dismissIndicator()
         
         for i in result{
+            let vc = HomePagerChildViewController()
             homepagerchildViewControllerTitles.append(i.categoryName)
-            homepagerchildViewControllers.append(HomePagerChildViewController())
+            homepagerchildViewControllers.append(vc)
         }
         
         let vc = HomePagerViewController() //상단 탭 컨트롤러에 데이터 넘기기
