@@ -10,16 +10,21 @@ import ImageSlideshow
 
 class HomePagerChildViewController: UIViewController {
     
+    @IBOutlet weak var bannerTitle: UILabel!
     @IBOutlet weak var viewLookAround: UIView!
     @IBOutlet weak var homeViewCurrent: UILabel!
     @IBOutlet weak var homeViewPopular: UILabel!
+    
+    var bannerTitles:[String] = []
     @IBOutlet weak var homeTopBannerSlide: ImageSlideshow!
     override func viewDidLoad() {
         super.viewDidLoad()
 
         homeTopBannerSlide.contentScaleMode = .scaleAspectFill
-        homeTopBannerSlide.pageIndicator = LabelPageIndicator()
-        homeTopBannerSlide.pageIndicatorPosition = PageIndicatorPosition(horizontal: .left(padding:24), vertical: .customBottom(padding: 20))
-
+        bannerTitle.layer.zPosition = 999 //맨위로 올라가도록
+        
+        homeTopBannerSlide.currentPageChanged = { page in
+            self.bannerTitle.text = self.bannerTitles[page]
+        }
     }
 }

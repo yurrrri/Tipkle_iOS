@@ -54,7 +54,9 @@ extension HomePagerViewController {
         var imageSources:[KingfisherSource] = []
         for i in result{
             imageSources.append(KingfisherSource(urlString: i.thumbnailUrl, placeholder: UIImage(systemName: "photo"), options: .none)!)
+            viewControllers[selectedIndex].bannerTitles.append(i.title)
         }
+        viewControllers[selectedIndex].bannerTitle.text = result[0].title //첫번째 이미지에 title setting
         viewControllers[selectedIndex].homeTopBannerSlide.setImageInputs(imageSources)
     }
     
