@@ -18,7 +18,7 @@ class HomeViewController: UIViewController {
         // containerview
         self.showIndicator()
         homeDataManager.getUserCategories(viewController: self)
-    }
+        }
 }
 
 extension HomeViewController {
@@ -27,6 +27,7 @@ extension HomeViewController {
         
         for i in result{
             let vc = HomePagerChildViewController()
+            vc.categoryName = i.categoryName
             homepagerchildViewControllerTitles.append(i.categoryName)
             homepagerchildViewControllers.append(vc)
         }

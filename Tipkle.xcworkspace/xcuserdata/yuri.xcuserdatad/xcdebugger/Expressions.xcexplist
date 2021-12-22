@@ -41,10 +41,26 @@
          </PersistentStrings>
       </ContextState>
       <ContextState
+         contextName = "HomeDataManager.getPreviewTips(viewController:categoryName:order:):HomeDataManager.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "\(Constant.BASE_URL)categories/&quot;+categoryName+&quot;/tips?&quot;+order">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
          contextName = "closure #1 in HomeDataManager.getUserCategories(viewController:):HomeDataManager.swift">
          <PersistentStrings>
             <PersistentString
                value = "Constant.HEADERS">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in HomeDataManager.getPreviewTips(viewController:categoryName:order:):HomeDataManager.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "error">
             </PersistentString>
          </PersistentStrings>
       </ContextState>

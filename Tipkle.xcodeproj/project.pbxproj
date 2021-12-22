@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		7AF62CDB543864BB0A3D5670 /* Pods_Tipkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99D65FA7D8ABE57F8F0CBBA2 /* Pods_Tipkle.framework */; };
-		DA38966C2767BC53006B146F /* HomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA38966A2767BC52006B146F /* HomeCollectionViewCell.swift */; };
-		DA38966D2767BC53006B146F /* HomeCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA38966B2767BC53006B146F /* HomeCollectionViewCell.xib */; };
 		DA445F76275F98FD00A760D5 /* HomePagerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA445F74275F98FD00A760D5 /* HomePagerViewController.swift */; };
 		DA445F77275F98FD00A760D5 /* HomePagerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA445F75275F98FD00A760D5 /* HomePagerViewController.xib */; };
 		DA445F7A275F997200A760D5 /* HomePagerChildViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA445F78275F997200A760D5 /* HomePagerChildViewController.swift */; };
@@ -59,6 +57,9 @@
 		DAAB0E2B2703B0EE007659FD /* SearchPagerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAB0E2A2703B0EE007659FD /* SearchPagerViewController.swift */; };
 		DAAB0E312703B608007659FD /* PopularKeyword.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAB0E302703B608007659FD /* PopularKeyword.swift */; };
 		DAAB0E332703BBDD007659FD /* PopularKeywordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAB0E322703BBDD007659FD /* PopularKeywordViewController.swift */; };
+		DABEFC68276B4D0000362CA5 /* HomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABEFC66276B4D0000362CA5 /* HomeCollectionViewCell.swift */; };
+		DABEFC69276B4D0000362CA5 /* HomeCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DABEFC67276B4D0000362CA5 /* HomeCollectionViewCell.xib */; };
+		DABEFC6B276B662A00362CA5 /* GetPreviewTips.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABEFC6A276B662A00362CA5 /* GetPreviewTips.swift */; };
 		DAC6D83627593F7A004625FB /* GetUserCeategoryResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC6D83527593F7A004625FB /* GetUserCeategoryResponse.swift */; };
 		DAD40FFB26FDD790008358B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD40FFA26FDD790008358B5 /* AppDelegate.swift */; };
 		DAD40FFD26FDD790008358B5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD40FFC26FDD790008358B5 /* SceneDelegate.swift */; };
@@ -81,8 +82,6 @@
 		23449EE9BB5C631C87FD11C5 /* Pods-Tipkle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tipkle.debug.xcconfig"; path = "Target Support Files/Pods-Tipkle/Pods-Tipkle.debug.xcconfig"; sourceTree = "<group>"; };
 		2347202900326E948E2427DF /* Pods-Tipkle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tipkle.release.xcconfig"; path = "Target Support Files/Pods-Tipkle/Pods-Tipkle.release.xcconfig"; sourceTree = "<group>"; };
 		99D65FA7D8ABE57F8F0CBBA2 /* Pods_Tipkle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tipkle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DA38966A2767BC52006B146F /* HomeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewCell.swift; sourceTree = "<group>"; };
-		DA38966B2767BC53006B146F /* HomeCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeCollectionViewCell.xib; sourceTree = "<group>"; };
 		DA445F74275F98FD00A760D5 /* HomePagerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePagerViewController.swift; sourceTree = "<group>"; };
 		DA445F75275F98FD00A760D5 /* HomePagerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomePagerViewController.xib; sourceTree = "<group>"; };
 		DA445F78275F997200A760D5 /* HomePagerChildViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePagerChildViewController.swift; sourceTree = "<group>"; };
@@ -127,6 +126,9 @@
 		DAAB0E2A2703B0EE007659FD /* SearchPagerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchPagerViewController.swift; sourceTree = "<group>"; };
 		DAAB0E302703B608007659FD /* PopularKeyword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularKeyword.swift; sourceTree = "<group>"; };
 		DAAB0E322703BBDD007659FD /* PopularKeywordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularKeywordViewController.swift; sourceTree = "<group>"; };
+		DABEFC66276B4D0000362CA5 /* HomeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewCell.swift; sourceTree = "<group>"; };
+		DABEFC67276B4D0000362CA5 /* HomeCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeCollectionViewCell.xib; sourceTree = "<group>"; };
+		DABEFC6A276B662A00362CA5 /* GetPreviewTips.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetPreviewTips.swift; sourceTree = "<group>"; };
 		DAC6D83527593F7A004625FB /* GetUserCeategoryResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetUserCeategoryResponse.swift; sourceTree = "<group>"; };
 		DAD40FF726FDD790008358B5 /* Tipkle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tipkle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAD40FFA26FDD790008358B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -236,8 +238,8 @@
 		DA3896692767BC30006B146F /* Cell */ = {
 			isa = PBXGroup;
 			children = (
-				DA38966A2767BC52006B146F /* HomeCollectionViewCell.swift */,
-				DA38966B2767BC53006B146F /* HomeCollectionViewCell.xib */,
+				DABEFC66276B4D0000362CA5 /* HomeCollectionViewCell.swift */,
+				DABEFC67276B4D0000362CA5 /* HomeCollectionViewCell.xib */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -457,6 +459,7 @@
 			children = (
 				DAC6D83527593F7A004625FB /* GetUserCeategoryResponse.swift */,
 				DA75A4FD2764E18D00D7C9F9 /* GetBannerResponse.swift */,
+				DABEFC6A276B662A00362CA5 /* GetPreviewTips.swift */,
 			);
 			path = Entity;
 			sourceTree = "<group>";
@@ -546,7 +549,7 @@
 				DAD4100226FDD790008358B5 /* Main.storyboard in Resources */,
 				DA87B702270CA6F40012D133 /* NotoSansCJKkr-Medium.otf in Resources */,
 				DA87B715270CA6F40012D133 /* TransitionNextViewController.xib in Resources */,
-				DA38966D2767BC53006B146F /* HomeCollectionViewCell.xib in Resources */,
+				DABEFC69276B4D0000362CA5 /* HomeCollectionViewCell.xib in Resources */,
 				DAD9A264275930EA00E99682 /* HomeViewController.xib in Resources */,
 				DA87B704270CA6F40012D133 /* NotoSansCJKkr-Bold.otf in Resources */,
 				DAE5C3532758BFB2001C75BE /* SearchViewController.xib in Resources */,
@@ -619,6 +622,7 @@
 				DAD9A263275930EA00E99682 /* HomeViewController.swift in Sources */,
 				DA97644F27023B66007A7B7F /* TipListViewController.swift in Sources */,
 				DAAB0E2B2703B0EE007659FD /* SearchPagerViewController.swift in Sources */,
+				DABEFC6B276B662A00362CA5 /* GetPreviewTips.swift in Sources */,
 				DAD40FFB26FDD790008358B5 /* AppDelegate.swift in Sources */,
 				DAC6D83627593F7A004625FB /* GetUserCeategoryResponse.swift in Sources */,
 				DA87B705270CA6F40012D133 /* BaseTabBarController.swift in Sources */,
@@ -638,7 +642,7 @@
 				DA87B70E270CA6F40012D133 /* SignInViewController.swift in Sources */,
 				DA87B706270CA6F40012D133 /* BaseViewController.swift in Sources */,
 				DA87B6FF270CA6F40012D133 /* UIFont.swift in Sources */,
-				DA38966C2767BC53006B146F /* HomeCollectionViewCell.swift in Sources */,
+				DABEFC68276B4D0000362CA5 /* HomeCollectionViewCell.swift in Sources */,
 				DAAB0E312703B608007659FD /* PopularKeyword.swift in Sources */,
 				DA87B6FC270CA6F40012D133 /* UIButton.swift in Sources */,
 				DA87B6FE270CA6F40012D133 /* UINavigationBar.swift in Sources */,

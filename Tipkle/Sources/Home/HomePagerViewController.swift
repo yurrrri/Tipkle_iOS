@@ -45,10 +45,12 @@ class HomePagerViewController: TabmanViewController {
         selectedIndex = index //클릭한 인덱스
         self.showIndicator()
         homeDataManager.getBanner(viewController: self)
+        homeDataManager.getPreviewTips(viewController: self, categoryName: viewControllerTitles[index], order: "recent")
     }
 }
 
 extension HomePagerViewController {
+    
     func didSuccessGetBanner(_ result: [GetBanner]){
         self.dismissIndicator()
         var imageSources:[KingfisherSource] = []
@@ -58,6 +60,13 @@ extension HomePagerViewController {
         }
         viewControllers[selectedIndex].bannerTitle.text = result[0].title //첫번째 이미지에 title setting
         viewControllers[selectedIndex].homeTopBannerSlide.setImageInputs(imageSources)
+    }
+    
+    func didSuccessGetPreviewTips(_ result: [GetPreview]){
+        self.dismissIndicator()
+        viewControllers[selectedIndex].homeTipCount = result.count
+        viewControllers[selectedIndex].homeTipArray = result
+        viewControllers[selectedIndex].homeCollectionView.reloadData()
     }
     
     func failedToRequest(message: String) {
