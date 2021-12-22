@@ -16,5 +16,7 @@ Awards - 8th MakeUs 데모데이 팔레트상
 
 
 ## Develop Environment
+iOS, UIKit, Swift
 
 ## Library
+Alamofire
