@@ -89,4 +89,25 @@ class HomeDataManager {
                     }
         }
     }
+    
+    func getCategoryFeed(viewController: LookAroundViewController, categoryName: String, order: String){
+        let parameters = ["categoryName":categoryName, "order":order, "page":"1", "limit":"10"]
+        
+        AF.request("\(Constant.BASE_URL)posts", method: .get, parameters: parameters, encoder: URLEncodedFormParameterEncoder.default, headers: Constant.HEADERS)
+            .validate()
+            .responseDecodable(of: GetCategoryFeedResponse.self) { response in
+                switch response.result {
+                case .success(let response):
+                    if response.isSuccess {
+                        print(response)
+                        viewController.didSuccessGetFeed(response.result!)
+                    } else {
+                        viewController.failedToRequest(message: response.message)
+                    }
+                case .failure(let error):
+                    print(error)
+                    viewController.failedToRequest(message: "서버와의 연결이 원활하지 않습니다")
+                }
+            }
+    }
 }

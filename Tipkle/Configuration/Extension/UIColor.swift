@@ -24,5 +24,6 @@ extension UIColor {
     class var mainOrange: UIColor { UIColor(hex: 0xF5663F) }
     class var gray97: UIColor { UIColor(hex: 0x979797) }
     class var mint: UIColor { UIColor(hex: 0x39D3C6) }
+    class var darkMint: UIColor { UIColor(hex:0x48B9B2) }
     class var grayDB: UIColor { UIColor(hex: 0xDBDBDB) }
 }

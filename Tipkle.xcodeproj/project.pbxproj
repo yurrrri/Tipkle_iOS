@@ -17,6 +17,8 @@
 		DA75A4FA2764DEDC00D7C9F9 /* ImageSlideshow/Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = DA75A4F92764DEDC00D7C9F9 /* ImageSlideshow/Kingfisher */; };
 		DA75A4FC2764DEDC00D7C9F9 /* ImageSlideshow/SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = DA75A4FB2764DEDC00D7C9F9 /* ImageSlideshow/SDWebImage */; };
 		DA75A4FE2764E18D00D7C9F9 /* GetBannerResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA75A4FD2764E18D00D7C9F9 /* GetBannerResponse.swift */; };
+		DA85774927746FF20009EFEB /* LookAroundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA85774727746FF20009EFEB /* LookAroundViewController.swift */; };
+		DA85774A27746FF20009EFEB /* LookAroundViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA85774827746FF20009EFEB /* LookAroundViewController.xib */; };
 		DA87B6F7270CA6F40012D133 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA87B6C1270CA6F40012D133 /* Constant.swift */; };
 		DA87B6F8270CA6F40012D133 /* IndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA87B6C3270CA6F40012D133 /* IndicatorView.swift */; };
 		DA87B6F9270CA6F40012D133 /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA87B6C4270CA6F40012D133 /* Device.swift */; };
@@ -48,15 +50,11 @@
 		DA87B71B270CA6F40012D133 /* ActionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA87B6F6270CA6F40012D133 /* ActionViewController.xib */; };
 		DA87B71D270CA82F0012D133 /* JwtToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA87B71C270CA82F0012D133 /* JwtToken.swift */; };
 		DA87B720270CA9380012D133 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = DA87B71F270CA9380012D133 /* SnapKit */; };
-		DA97644D270224BA007A7B7F /* HomeTip.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA97644C270224BA007A7B7F /* HomeTip.swift */; };
-		DA97644F27023B66007A7B7F /* TipListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA97644E27023B66007A7B7F /* TipListViewController.swift */; };
-		DA97645427025942007A7B7F /* LookAroundTip.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA97645327025942007A7B7F /* LookAroundTip.swift */; };
+		DA93234027748D8600D5B489 /* HomeLookAroundCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA93233E27748D8600D5B489 /* HomeLookAroundCollectionViewCell.swift */; };
+		DA93234127748D8600D5B489 /* HomeLookAroundCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA93233F27748D8600D5B489 /* HomeLookAroundCollectionViewCell.xib */; };
 		DAA30AEC2755055400D665D6 /* LoginDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA30AEB2755055400D665D6 /* LoginDataManager.swift */; };
 		DAA30AEE275512E500D665D6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DAA30AED275512E500D665D6 /* GoogleService-Info.plist */; };
 		DAA30AF727552E6300D665D6 /* fcmToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA30AF627552E6300D665D6 /* fcmToken.swift */; };
-		DAAB0E2B2703B0EE007659FD /* SearchPagerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAB0E2A2703B0EE007659FD /* SearchPagerViewController.swift */; };
-		DAAB0E312703B608007659FD /* PopularKeyword.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAB0E302703B608007659FD /* PopularKeyword.swift */; };
-		DAAB0E332703BBDD007659FD /* PopularKeywordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAB0E322703BBDD007659FD /* PopularKeywordViewController.swift */; };
 		DABEFC68276B4D0000362CA5 /* HomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABEFC66276B4D0000362CA5 /* HomeCollectionViewCell.swift */; };
 		DABEFC69276B4D0000362CA5 /* HomeCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DABEFC67276B4D0000362CA5 /* HomeCollectionViewCell.xib */; };
 		DABEFC6B276B662A00362CA5 /* GetPreviewTips.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABEFC6A276B662A00362CA5 /* GetPreviewTips.swift */; };
@@ -66,6 +64,7 @@
 		DAD4100226FDD790008358B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAD4100026FDD790008358B5 /* Main.storyboard */; };
 		DAD4100426FDD791008358B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAD4100326FDD791008358B5 /* Assets.xcassets */; };
 		DAD4100726FDD791008358B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAD4100526FDD791008358B5 /* LaunchScreen.storyboard */; };
+		DAD681AB2778DC8400B85FD9 /* GetCategoryFeedResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD681AA2778DC8400B85FD9 /* GetCategoryFeedResponse.swift */; };
 		DAD9A263275930EA00E99682 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD9A261275930EA00E99682 /* HomeViewController.swift */; };
 		DAD9A264275930EA00E99682 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DAD9A262275930EA00E99682 /* HomeViewController.xib */; };
 		DAE5C3442758BCBE001C75BE /* TipkleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE5C3422758BCBE001C75BE /* TipkleViewController.swift */; };
@@ -87,6 +86,8 @@
 		DA445F78275F997200A760D5 /* HomePagerChildViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePagerChildViewController.swift; sourceTree = "<group>"; };
 		DA445F79275F997200A760D5 /* HomePagerChildViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomePagerChildViewController.xib; sourceTree = "<group>"; };
 		DA75A4FD2764E18D00D7C9F9 /* GetBannerResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetBannerResponse.swift; sourceTree = "<group>"; };
+		DA85774727746FF20009EFEB /* LookAroundViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LookAroundViewController.swift; sourceTree = "<group>"; };
+		DA85774827746FF20009EFEB /* LookAroundViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LookAroundViewController.xib; sourceTree = "<group>"; };
 		DA87B6C1270CA6F40012D133 /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		DA87B6C3270CA6F40012D133 /* IndicatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IndicatorView.swift; sourceTree = "<group>"; };
 		DA87B6C4270CA6F40012D133 /* Device.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
@@ -117,15 +118,11 @@
 		DA87B6F5270CA6F40012D133 /* AlertViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertViewController.swift; sourceTree = "<group>"; };
 		DA87B6F6270CA6F40012D133 /* ActionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ActionViewController.xib; sourceTree = "<group>"; };
 		DA87B71C270CA82F0012D133 /* JwtToken.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JwtToken.swift; sourceTree = "<group>"; };
-		DA97644C270224BA007A7B7F /* HomeTip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTip.swift; sourceTree = "<group>"; };
-		DA97644E27023B66007A7B7F /* TipListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipListViewController.swift; sourceTree = "<group>"; };
-		DA97645327025942007A7B7F /* LookAroundTip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LookAroundTip.swift; sourceTree = "<group>"; };
+		DA93233E27748D8600D5B489 /* HomeLookAroundCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeLookAroundCollectionViewCell.swift; sourceTree = "<group>"; };
+		DA93233F27748D8600D5B489 /* HomeLookAroundCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeLookAroundCollectionViewCell.xib; sourceTree = "<group>"; };
 		DAA30AEB2755055400D665D6 /* LoginDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginDataManager.swift; sourceTree = "<group>"; };
 		DAA30AED275512E500D665D6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		DAA30AF627552E6300D665D6 /* fcmToken.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fcmToken.swift; sourceTree = "<group>"; };
-		DAAB0E2A2703B0EE007659FD /* SearchPagerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchPagerViewController.swift; sourceTree = "<group>"; };
-		DAAB0E302703B608007659FD /* PopularKeyword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularKeyword.swift; sourceTree = "<group>"; };
-		DAAB0E322703BBDD007659FD /* PopularKeywordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularKeywordViewController.swift; sourceTree = "<group>"; };
 		DABEFC66276B4D0000362CA5 /* HomeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewCell.swift; sourceTree = "<group>"; };
 		DABEFC67276B4D0000362CA5 /* HomeCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeCollectionViewCell.xib; sourceTree = "<group>"; };
 		DABEFC6A276B662A00362CA5 /* GetPreviewTips.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetPreviewTips.swift; sourceTree = "<group>"; };
@@ -137,6 +134,7 @@
 		DAD4100326FDD791008358B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DAD4100626FDD791008358B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DAD4100826FDD791008358B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAD681AA2778DC8400B85FD9 /* GetCategoryFeedResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetCategoryFeedResponse.swift; sourceTree = "<group>"; };
 		DAD9A261275930EA00E99682 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		DAD9A262275930EA00E99682 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 		DAE5C3422758BCBE001C75BE /* TipkleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipkleViewController.swift; sourceTree = "<group>"; };
@@ -204,6 +202,8 @@
 				DA445F75275F98FD00A760D5 /* HomePagerViewController.xib */,
 				DA445F78275F997200A760D5 /* HomePagerChildViewController.swift */,
 				DA445F79275F997200A760D5 /* HomePagerChildViewController.xib */,
+				DA85774727746FF20009EFEB /* LookAroundViewController.swift */,
+				DA85774827746FF20009EFEB /* LookAroundViewController.xib */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -240,6 +240,8 @@
 			children = (
 				DABEFC66276B4D0000362CA5 /* HomeCollectionViewCell.swift */,
 				DABEFC67276B4D0000362CA5 /* HomeCollectionViewCell.xib */,
+				DA93233E27748D8600D5B489 /* HomeLookAroundCollectionViewCell.swift */,
+				DA93233F27748D8600D5B489 /* HomeLookAroundCollectionViewCell.xib */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -411,16 +413,14 @@
 		DAD40FF926FDD790008358B5 /* Tipkle */ = {
 			isa = PBXGroup;
 			children = (
+				DAD4100826FDD791008358B5 /* Info.plist */,
 				DAA30AED275512E500D665D6 /* GoogleService-Info.plist */,
 				DAD4100326FDD791008358B5 /* Assets.xcassets */,
 				DAD40FFA26FDD790008358B5 /* AppDelegate.swift */,
 				DAD40FFC26FDD790008358B5 /* SceneDelegate.swift */,
 				DA87B6C0270CA6F40012D133 /* Configuration */,
 				DA87B6D6270CA6F40012D133 /* Sources */,
-				DAD4101126FDD9B4008358B5 /* Model */,
 				DAD4100F26FDD96E008358B5 /* View */,
-				DAD4101026FDD996008358B5 /* Controller */,
-				DAD4100826FDD791008358B5 /* Info.plist */,
 			);
 			path = Tipkle;
 			sourceTree = "<group>";
@@ -434,32 +434,13 @@
 			path = View;
 			sourceTree = "<group>";
 		};
-		DAD4101026FDD996008358B5 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				DA97644E27023B66007A7B7F /* TipListViewController.swift */,
-				DAAB0E2A2703B0EE007659FD /* SearchPagerViewController.swift */,
-				DAAB0E322703BBDD007659FD /* PopularKeywordViewController.swift */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		DAD4101126FDD9B4008358B5 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				DA97644C270224BA007A7B7F /* HomeTip.swift */,
-				DA97645327025942007A7B7F /* LookAroundTip.swift */,
-				DAAB0E302703B608007659FD /* PopularKeyword.swift */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
 		DAE5C35A2759288A001C75BE /* Entity */ = {
 			isa = PBXGroup;
 			children = (
 				DAC6D83527593F7A004625FB /* GetUserCeategoryResponse.swift */,
 				DA75A4FD2764E18D00D7C9F9 /* GetBannerResponse.swift */,
 				DABEFC6A276B662A00362CA5 /* GetPreviewTips.swift */,
+				DAD681AA2778DC8400B85FD9 /* GetCategoryFeedResponse.swift */,
 			);
 			path = Entity;
 			sourceTree = "<group>";
@@ -541,7 +522,9 @@
 				DAE5C3572758BFC5001C75BE /* MyPageViewController.xib in Resources */,
 				DA445F77275F98FD00A760D5 /* HomePagerViewController.xib in Resources */,
 				DAD4100726FDD791008358B5 /* LaunchScreen.storyboard in Resources */,
+				DA85774A27746FF20009EFEB /* LookAroundViewController.xib in Resources */,
 				DA87B717270CA6F40012D133 /* TransitionViewController.xib in Resources */,
+				DA93234127748D8600D5B489 /* HomeLookAroundCollectionViewCell.xib in Resources */,
 				DAD4100426FDD791008358B5 /* Assets.xcassets in Resources */,
 				DA87B71B270CA6F40012D133 /* ActionViewController.xib in Resources */,
 				DA445F7B275F997200A760D5 /* HomePagerChildViewController.xib in Resources */,
@@ -608,8 +591,8 @@
 			files = (
 				DA445F7A275F997200A760D5 /* HomePagerChildViewController.swift in Sources */,
 				DA87B716270CA6F40012D133 /* TransitionViewController.swift in Sources */,
+				DA85774927746FF20009EFEB /* LookAroundViewController.swift in Sources */,
 				DA87B70C270CA6F40012D133 /* KakaoLoginRequest.swift in Sources */,
-				DA97645427025942007A7B7F /* LookAroundTip.swift in Sources */,
 				DAE5C3592758DBAE001C75BE /* BaseResponse.swift in Sources */,
 				DA445F76275F98FD00A760D5 /* HomePagerViewController.swift in Sources */,
 				DA87B718270CA6F40012D133 /* ActionViewController.swift in Sources */,
@@ -620,30 +603,27 @@
 				DAE5C35C2759289C001C75BE /* HomeDataManager.swift in Sources */,
 				DA87B6FA270CA6F40012D133 /* Date.swift in Sources */,
 				DAD9A263275930EA00E99682 /* HomeViewController.swift in Sources */,
-				DA97644F27023B66007A7B7F /* TipListViewController.swift in Sources */,
-				DAAB0E2B2703B0EE007659FD /* SearchPagerViewController.swift in Sources */,
 				DABEFC6B276B662A00362CA5 /* GetPreviewTips.swift in Sources */,
 				DAD40FFB26FDD790008358B5 /* AppDelegate.swift in Sources */,
+				DAD681AB2778DC8400B85FD9 /* GetCategoryFeedResponse.swift in Sources */,
 				DAC6D83627593F7A004625FB /* GetUserCeategoryResponse.swift in Sources */,
 				DA87B705270CA6F40012D133 /* BaseTabBarController.swift in Sources */,
 				DAD40FFD26FDD790008358B5 /* SceneDelegate.swift in Sources */,
 				DAE5C3442758BCBE001C75BE /* TipkleViewController.swift in Sources */,
-				DAAB0E332703BBDD007659FD /* PopularKeywordViewController.swift in Sources */,
 				DA87B6F9270CA6F40012D133 /* Device.swift in Sources */,
 				DAE5C3562758BFC5001C75BE /* MyPageViewController.swift in Sources */,
 				DA87B6F7270CA6F40012D133 /* Constant.swift in Sources */,
 				DAA30AEC2755055400D665D6 /* LoginDataManager.swift in Sources */,
 				DA87B700270CA6F40012D133 /* UIColor.swift in Sources */,
 				DA87B6F8270CA6F40012D133 /* IndicatorView.swift in Sources */,
-				DA97644D270224BA007A7B7F /* HomeTip.swift in Sources */,
 				DA87B6FB270CA6F40012D133 /* String.swift in Sources */,
 				DA87B707270CA6F40012D133 /* LoginViewController.swift in Sources */,
+				DA93234027748D8600D5B489 /* HomeLookAroundCollectionViewCell.swift in Sources */,
 				DAE5C3522758BFB2001C75BE /* SearchViewController.swift in Sources */,
 				DA87B70E270CA6F40012D133 /* SignInViewController.swift in Sources */,
 				DA87B706270CA6F40012D133 /* BaseViewController.swift in Sources */,
 				DA87B6FF270CA6F40012D133 /* UIFont.swift in Sources */,
 				DABEFC68276B4D0000362CA5 /* HomeCollectionViewCell.swift in Sources */,
-				DAAB0E312703B608007659FD /* PopularKeyword.swift in Sources */,
 				DA87B6FC270CA6F40012D133 /* UIButton.swift in Sources */,
 				DA87B6FE270CA6F40012D133 /* UINavigationBar.swift in Sources */,
 				DA87B714270CA6F40012D133 /* TransitionNextViewController.swift in Sources */,

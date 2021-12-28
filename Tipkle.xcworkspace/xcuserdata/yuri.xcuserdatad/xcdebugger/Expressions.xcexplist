@@ -33,18 +33,18 @@
          contextName = "HomePagerChildViewController.init(nibName:bundle:):HomePagerChildViewController.swift">
       </ContextState>
       <ContextState
-         contextName = "LoginDataManager.getAutoLogin(viewController:):LoginDataManager.swift">
-         <PersistentStrings>
-            <PersistentString
-               value = "Constant.HEADERS">
-            </PersistentString>
-         </PersistentStrings>
-      </ContextState>
-      <ContextState
          contextName = "HomeDataManager.getPreviewTips(viewController:categoryName:order:):HomeDataManager.swift">
          <PersistentStrings>
             <PersistentString
                value = "\(Constant.BASE_URL)categories/&quot;+categoryName+&quot;/tips?&quot;+order">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "LoginDataManager.getAutoLogin(viewController:):LoginDataManager.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "Constant.HEADERS">
             </PersistentString>
          </PersistentStrings>
       </ContextState>
@@ -61,6 +61,14 @@
          <PersistentStrings>
             <PersistentString
                value = "error">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "HomeDataManager.getCategoryFeed(viewController:categoryName:order:):HomeDataManager.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "\(Constant.BASE_URL)posts">
             </PersistentString>
          </PersistentStrings>
       </ContextState>

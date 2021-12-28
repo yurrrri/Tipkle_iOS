@@ -59,7 +59,11 @@ class HomePagerChildViewController: UIViewController {
         tvRecentTip.addGestureRecognizer(recentTipGesture)
         
         let popularTipGesture = UITapGestureRecognizer(target: self, action: #selector(tvPopularTipTapped))
+        
         tvPopularTip.addGestureRecognizer(popularTipGesture)
+        
+        let lookAroundTapped = UITapGestureRecognizer(target: self, action: #selector(lookAroundTapped))
+        viewLookAround.addGestureRecognizer(lookAroundTapped)
     }
     
     @objc func tvRecentTipTapped(sender: UITapGestureRecognizer) {
@@ -83,7 +87,14 @@ class HomePagerChildViewController: UIViewController {
         tvPopularTip.textColor = .black
         
         homeDataManager.getPreviewTips(viewController: self, categoryName: self.categoryName, order: "popular")
-        
+    }
+    
+    @objc func lookAroundTapped(sender: UITapGestureRecognizer) {
+        let vc = LookAroundViewController()
+        vc.categoryName = categoryName
+        self.parent?.navigationController?.pushViewController(vc, animated: true)
+    
+        print("hi")
     }
 }
 

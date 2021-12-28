@@ -1,5 +1,6 @@
 PODS:
   - Alamofire (5.4.4)
+  - Cosmos (23.0.0)
   - KakaoSDKAuth (2.8.1):
     - KakaoSDKCommon (= 2.8.1)
   - KakaoSDKCommon (2.8.1):
@@ -14,34 +15,33 @@ PODS:
   - Pageboy (3.6.2)
   - Tabman (2.11.1):
     - Pageboy (~> 3.6.0)
-  - XLPagerTabStrip (9.0.0)
 
 DEPENDENCIES:
+  - Cosmos (~> 23.0)
   - KakaoSDKAuth
   - KakaoSDKCommon
   - KakaoSDKUser
   - Tabman (~> 2.11)
-  - XLPagerTabStrip (~> 9.0)
 
 SPEC REPOS:
   trunk:
     - Alamofire
+    - Cosmos
     - KakaoSDKAuth
     - KakaoSDKCommon
     - KakaoSDKUser
     - Pageboy
     - Tabman
-    - XLPagerTabStrip
 
 SPEC CHECKSUMS:
   Alamofire: f3b09a368f1582ab751b3fff5460276e0d2cf5c9
+  Cosmos: b5c6a9a637e28a061b54c8f8b1d8529d7d4db73f
   KakaoSDKAuth: 3cf74660531ac85cd2c7931df8d90d562b0a8fe2
   KakaoSDKCommon: 701ef2a9b92215a4bf131b2a6139c3586b5e8d99
   KakaoSDKUser: c4bdbca17b05ce7a25c67176ac68b6b0c8b1db56
   Pageboy: cf121b9dd48c63f3f281b2a9ec93d02e0f23879b
   Tabman: 792ac76fd1ec95af175c93db880a3c47cabedc91
-  XLPagerTabStrip: 61c57fd61f611ee5f01ff1495ad6fbee8bf496c5
 
-PODFILE CHECKSUM: d8737e27f359cb346ff1b4091a1e8e1649dcd50f
+PODFILE CHECKSUM: 8ee4ac236839a28256476272b808d1f4b1c37448
 
 COCOAPODS: 1.11.0
