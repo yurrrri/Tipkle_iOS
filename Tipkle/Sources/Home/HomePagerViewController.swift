@@ -90,6 +90,7 @@ extension HomePagerViewController: PageboyViewControllerDataSource, TMBarDataSou
     func barItem(for bar: TMBar, at index: Int) -> TMBarItemable {
         let item = TMBarItem(title: "")
         item.title = viewControllerTitles[index]
+        item.image = UIImage(systemName: "photo")
                                             
         return item
     }

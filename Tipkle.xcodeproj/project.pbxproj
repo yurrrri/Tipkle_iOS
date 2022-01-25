@@ -12,6 +12,9 @@
 		DA445F77275F98FD00A760D5 /* HomePagerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA445F75275F98FD00A760D5 /* HomePagerViewController.xib */; };
 		DA445F7A275F997200A760D5 /* HomePagerChildViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA445F78275F997200A760D5 /* HomePagerChildViewController.swift */; };
 		DA445F7B275F997200A760D5 /* HomePagerChildViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA445F79275F997200A760D5 /* HomePagerChildViewController.xib */; };
+		DA73E1BA277B75A600C8230D /* HomeLookAroundCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA73E1B9277B75A600C8230D /* HomeLookAroundCollectionViewCell.xib */; };
+		DA73E1BC277B92D800C8230D /* HomeLookAroundImageCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA73E1BB277B92D800C8230D /* HomeLookAroundImageCollectionViewCell.xib */; };
+		DA73E1BE277B930A00C8230D /* HomeLookAroundImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA73E1BD277B930A00C8230D /* HomeLookAroundImageCollectionViewCell.swift */; };
 		DA75A4F62764DEDC00D7C9F9 /* ImageSlideshow in Frameworks */ = {isa = PBXBuildFile; productRef = DA75A4F52764DEDC00D7C9F9 /* ImageSlideshow */; };
 		DA75A4F82764DEDC00D7C9F9 /* ImageSlideshow/Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = DA75A4F72764DEDC00D7C9F9 /* ImageSlideshow/Alamofire */; };
 		DA75A4FA2764DEDC00D7C9F9 /* ImageSlideshow/Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = DA75A4F92764DEDC00D7C9F9 /* ImageSlideshow/Kingfisher */; };
@@ -50,13 +53,12 @@
 		DA87B71B270CA6F40012D133 /* ActionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA87B6F6270CA6F40012D133 /* ActionViewController.xib */; };
 		DA87B71D270CA82F0012D133 /* JwtToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA87B71C270CA82F0012D133 /* JwtToken.swift */; };
 		DA87B720270CA9380012D133 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = DA87B71F270CA9380012D133 /* SnapKit */; };
+		DA8CAA5A278687B5004BFA9D /* HomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8CAA58278687B5004BFA9D /* HomeCollectionViewCell.swift */; };
+		DA8CAA5B278687B5004BFA9D /* HomeCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA8CAA59278687B5004BFA9D /* HomeCollectionViewCell.xib */; };
 		DA93234027748D8600D5B489 /* HomeLookAroundCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA93233E27748D8600D5B489 /* HomeLookAroundCollectionViewCell.swift */; };
-		DA93234127748D8600D5B489 /* HomeLookAroundCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA93233F27748D8600D5B489 /* HomeLookAroundCollectionViewCell.xib */; };
 		DAA30AEC2755055400D665D6 /* LoginDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA30AEB2755055400D665D6 /* LoginDataManager.swift */; };
 		DAA30AEE275512E500D665D6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DAA30AED275512E500D665D6 /* GoogleService-Info.plist */; };
 		DAA30AF727552E6300D665D6 /* fcmToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA30AF627552E6300D665D6 /* fcmToken.swift */; };
-		DABEFC68276B4D0000362CA5 /* HomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABEFC66276B4D0000362CA5 /* HomeCollectionViewCell.swift */; };
-		DABEFC69276B4D0000362CA5 /* HomeCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DABEFC67276B4D0000362CA5 /* HomeCollectionViewCell.xib */; };
 		DABEFC6B276B662A00362CA5 /* GetPreviewTips.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABEFC6A276B662A00362CA5 /* GetPreviewTips.swift */; };
 		DAC6D83627593F7A004625FB /* GetUserCeategoryResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC6D83527593F7A004625FB /* GetUserCeategoryResponse.swift */; };
 		DAD40FFB26FDD790008358B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD40FFA26FDD790008358B5 /* AppDelegate.swift */; };
@@ -85,6 +87,9 @@
 		DA445F75275F98FD00A760D5 /* HomePagerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomePagerViewController.xib; sourceTree = "<group>"; };
 		DA445F78275F997200A760D5 /* HomePagerChildViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePagerChildViewController.swift; sourceTree = "<group>"; };
 		DA445F79275F997200A760D5 /* HomePagerChildViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomePagerChildViewController.xib; sourceTree = "<group>"; };
+		DA73E1B9277B75A600C8230D /* HomeLookAroundCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeLookAroundCollectionViewCell.xib; sourceTree = "<group>"; };
+		DA73E1BB277B92D800C8230D /* HomeLookAroundImageCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeLookAroundImageCollectionViewCell.xib; sourceTree = "<group>"; };
+		DA73E1BD277B930A00C8230D /* HomeLookAroundImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeLookAroundImageCollectionViewCell.swift; sourceTree = "<group>"; };
 		DA75A4FD2764E18D00D7C9F9 /* GetBannerResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetBannerResponse.swift; sourceTree = "<group>"; };
 		DA85774727746FF20009EFEB /* LookAroundViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LookAroundViewController.swift; sourceTree = "<group>"; };
 		DA85774827746FF20009EFEB /* LookAroundViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LookAroundViewController.xib; sourceTree = "<group>"; };
@@ -118,13 +123,12 @@
 		DA87B6F5270CA6F40012D133 /* AlertViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertViewController.swift; sourceTree = "<group>"; };
 		DA87B6F6270CA6F40012D133 /* ActionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ActionViewController.xib; sourceTree = "<group>"; };
 		DA87B71C270CA82F0012D133 /* JwtToken.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JwtToken.swift; sourceTree = "<group>"; };
+		DA8CAA58278687B5004BFA9D /* HomeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewCell.swift; sourceTree = "<group>"; };
+		DA8CAA59278687B5004BFA9D /* HomeCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeCollectionViewCell.xib; sourceTree = "<group>"; };
 		DA93233E27748D8600D5B489 /* HomeLookAroundCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeLookAroundCollectionViewCell.swift; sourceTree = "<group>"; };
-		DA93233F27748D8600D5B489 /* HomeLookAroundCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeLookAroundCollectionViewCell.xib; sourceTree = "<group>"; };
 		DAA30AEB2755055400D665D6 /* LoginDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginDataManager.swift; sourceTree = "<group>"; };
 		DAA30AED275512E500D665D6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		DAA30AF627552E6300D665D6 /* fcmToken.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fcmToken.swift; sourceTree = "<group>"; };
-		DABEFC66276B4D0000362CA5 /* HomeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewCell.swift; sourceTree = "<group>"; };
-		DABEFC67276B4D0000362CA5 /* HomeCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeCollectionViewCell.xib; sourceTree = "<group>"; };
 		DABEFC6A276B662A00362CA5 /* GetPreviewTips.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetPreviewTips.swift; sourceTree = "<group>"; };
 		DAC6D83527593F7A004625FB /* GetUserCeategoryResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetUserCeategoryResponse.swift; sourceTree = "<group>"; };
 		DAD40FF726FDD790008358B5 /* Tipkle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tipkle.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -238,10 +242,12 @@
 		DA3896692767BC30006B146F /* Cell */ = {
 			isa = PBXGroup;
 			children = (
-				DABEFC66276B4D0000362CA5 /* HomeCollectionViewCell.swift */,
-				DABEFC67276B4D0000362CA5 /* HomeCollectionViewCell.xib */,
+				DA8CAA58278687B5004BFA9D /* HomeCollectionViewCell.swift */,
+				DA8CAA59278687B5004BFA9D /* HomeCollectionViewCell.xib */,
 				DA93233E27748D8600D5B489 /* HomeLookAroundCollectionViewCell.swift */,
-				DA93233F27748D8600D5B489 /* HomeLookAroundCollectionViewCell.xib */,
+				DA73E1B9277B75A600C8230D /* HomeLookAroundCollectionViewCell.xib */,
+				DA73E1BD277B930A00C8230D /* HomeLookAroundImageCollectionViewCell.swift */,
+				DA73E1BB277B92D800C8230D /* HomeLookAroundImageCollectionViewCell.xib */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -519,12 +525,13 @@
 				DAE5C3452758BCBE001C75BE /* TipkleViewController.xib in Resources */,
 				DA87B703270CA6F40012D133 /* NotoSansCJKkr-Regular.otf in Resources */,
 				DAA30AEE275512E500D665D6 /* GoogleService-Info.plist in Resources */,
+				DA73E1BC277B92D800C8230D /* HomeLookAroundImageCollectionViewCell.xib in Resources */,
 				DAE5C3572758BFC5001C75BE /* MyPageViewController.xib in Resources */,
 				DA445F77275F98FD00A760D5 /* HomePagerViewController.xib in Resources */,
 				DAD4100726FDD791008358B5 /* LaunchScreen.storyboard in Resources */,
 				DA85774A27746FF20009EFEB /* LookAroundViewController.xib in Resources */,
 				DA87B717270CA6F40012D133 /* TransitionViewController.xib in Resources */,
-				DA93234127748D8600D5B489 /* HomeLookAroundCollectionViewCell.xib in Resources */,
+				DA73E1BA277B75A600C8230D /* HomeLookAroundCollectionViewCell.xib in Resources */,
 				DAD4100426FDD791008358B5 /* Assets.xcassets in Resources */,
 				DA87B71B270CA6F40012D133 /* ActionViewController.xib in Resources */,
 				DA445F7B275F997200A760D5 /* HomePagerChildViewController.xib in Resources */,
@@ -532,7 +539,7 @@
 				DAD4100226FDD790008358B5 /* Main.storyboard in Resources */,
 				DA87B702270CA6F40012D133 /* NotoSansCJKkr-Medium.otf in Resources */,
 				DA87B715270CA6F40012D133 /* TransitionNextViewController.xib in Resources */,
-				DABEFC69276B4D0000362CA5 /* HomeCollectionViewCell.xib in Resources */,
+				DA8CAA5B278687B5004BFA9D /* HomeCollectionViewCell.xib in Resources */,
 				DAD9A264275930EA00E99682 /* HomeViewController.xib in Resources */,
 				DA87B704270CA6F40012D133 /* NotoSansCJKkr-Bold.otf in Resources */,
 				DAE5C3532758BFB2001C75BE /* SearchViewController.xib in Resources */,
@@ -596,6 +603,7 @@
 				DAE5C3592758DBAE001C75BE /* BaseResponse.swift in Sources */,
 				DA445F76275F98FD00A760D5 /* HomePagerViewController.swift in Sources */,
 				DA87B718270CA6F40012D133 /* ActionViewController.swift in Sources */,
+				DA73E1BE277B930A00C8230D /* HomeLookAroundImageCollectionViewCell.swift in Sources */,
 				DA75A4FE2764E18D00D7C9F9 /* GetBannerResponse.swift in Sources */,
 				DA87B71D270CA82F0012D133 /* JwtToken.swift in Sources */,
 				DA87B70B270CA6F40012D133 /* KakaoLoginResponse.swift in Sources */,
@@ -623,7 +631,7 @@
 				DA87B70E270CA6F40012D133 /* SignInViewController.swift in Sources */,
 				DA87B706270CA6F40012D133 /* BaseViewController.swift in Sources */,
 				DA87B6FF270CA6F40012D133 /* UIFont.swift in Sources */,
-				DABEFC68276B4D0000362CA5 /* HomeCollectionViewCell.swift in Sources */,
+				DA8CAA5A278687B5004BFA9D /* HomeCollectionViewCell.swift in Sources */,
 				DA87B6FC270CA6F40012D133 /* UIButton.swift in Sources */,
 				DA87B6FE270CA6F40012D133 /* UINavigationBar.swift in Sources */,
 				DA87B714270CA6F40012D133 /* TransitionNextViewController.swift in Sources */,

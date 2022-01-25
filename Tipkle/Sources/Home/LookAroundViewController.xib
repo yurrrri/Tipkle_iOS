@@ -4,6 +4,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -35,6 +36,9 @@
                     <rect key="frame" x="12" y="74" width="50" height="50"/>
                     <state key="normal" title="Button"/>
                     <buttonConfiguration key="configuration" style="plain" image="icon_back "/>
+                    <connections>
+                        <action selector="tapbtnBack:" destination="-1" eventType="touchUpInside" id="xfU-Za-Y5y"/>
+                    </connections>
                 </button>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="팁끌 둘러보기" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hHe-yL-22h">
                     <rect key="frame" x="88" y="88.5" width="116.5" height="21"/>
@@ -56,8 +60,8 @@
                 </label>
                 <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="wKc-oG-g9x">
                     <rect key="frame" x="24" y="195" width="366" height="667"/>
-                    <color key="backgroundColor" systemColor="systemPinkColor"/>
-                    <color key="tintColor" systemColor="systemPinkColor"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <color key="tintColor" name="AccentColor"/>
                     <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="0sW-Sx-OW6">
                         <size key="itemSize" width="100" height="128"/>
                         <size key="headerReferenceSize" width="0.0" height="0.0"/>
@@ -86,16 +90,16 @@
                 <constraint firstItem="cRy-eb-2hl" firstAttribute="height" secondItem="i5M-Pr-FkT" secondAttribute="height" multiplier="0.0558036" id="xnM-10-t9C"/>
                 <constraint firstItem="hHe-yL-22h" firstAttribute="height" secondItem="i5M-Pr-FkT" secondAttribute="height" multiplier="0.0234375" id="yZJ-ZY-kgq"/>
             </constraints>
-            <point key="canvasLocation" x="131.8840579710145" y="97.767857142857139"/>
+            <point key="canvasLocation" x="83" y="101"/>
         </view>
     </objects>
     <resources>
         <image name="icon_back " width="24" height="24"/>
+        <namedColor name="AccentColor">
+            <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-        <systemColor name="systemPinkColor">
-            <color red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

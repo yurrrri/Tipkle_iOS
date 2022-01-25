@@ -6,6 +6,7 @@ target 'Tipkle' do
   use_frameworks!
 
   # Pods for Tipkle
+Pod 'Alamofire' ~> '5.5'
 pod 'Tabman', '~> 2.11'
 pod 'KakaoSDKCommon'  # 필수 요소를 담은 공통 모듈
 pod 'KakaoSDKAuth'  # 사용자 인증

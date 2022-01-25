@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import Kingfisher
 
 class LookAroundViewController: UIViewController {
 
@@ -19,6 +20,9 @@ class LookAroundViewController: UIViewController {
     var categoryName:String?=nil
     var feedList:[Feed] = []
     
+    @IBAction func tapbtnBack(_ sender: Any) {
+        self.navigationController?.popViewController(animated: true)
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -58,18 +62,24 @@ extension LookAroundViewController: UICollectionViewDelegate, UICollectionViewDa
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        
         let cell = lookAroundCollectionView.dequeueReusableCell(withReuseIdentifier: "lookaroundCell", for: indexPath) as! HomeLookAroundCollectionViewCell
         
         cell.tvNickName.text = feedList[indexPath.row].nickName
-        cell.imgLookAround.layer.cornerRadius = cell.imgLookAround.frame.width / 2
-        cell.imgLookAround.clipsToBounds = true
-        cell.imgLookAround.kf.setImage(with: URL(string: feedList[indexPath.row].profileImgUrl), placeholder: UIImage(systemName: "photo"), options:.none)
+        
+        let processor = ResizingImageProcessor(referenceSize: CGSize(width: 50, height: 50)) |> RoundCornerImageProcessor(cornerRadius: cell.imgLookAround.frame.width/2)
+        
+        cell.imgLookAround.kf.setImage(with: URL(string: feedList[indexPath.row].profileImgUrl), placeholder: UIImage(systemName: "photo"), options:[.processor(processor)])
+        
         cell.tvWhen.text = feedList[indexPath.row].whenText
         cell.tvHow.text = feedList[indexPath.row].howText
         cell.tvDescription.text = feedList[indexPath.row].description
+        
         cell.rating.text = feedList[indexPath.row].score
         cell.rating.rating = Double(feedList[indexPath.row].star)
         
+        cell.feedimageList = feedList[indexPath.row].imgUrl
+            
         return cell
     }
     
@@ -77,6 +87,6 @@ extension LookAroundViewController: UICollectionViewDelegate, UICollectionViewDa
 
         let width = collectionView.frame.width
         
-        return CGSize(width: width, height: collectionView.frame.height*0.7)
+        return CGSize(width: width, height: collectionView.frame.height*0.76)
     }
 }

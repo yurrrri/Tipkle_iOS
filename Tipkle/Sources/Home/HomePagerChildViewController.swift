@@ -33,6 +33,7 @@ class HomePagerChildViewController: UIViewController {
     var homeTipCount = 0
     var homeTipArray:[GetPreview] = []
     
+    
     @IBOutlet weak var homeTopBannerSlide: ImageSlideshow!
     
     override func viewDidLoad() {
@@ -120,7 +121,7 @@ extension HomePagerChildViewController: UICollectionViewDelegate, UICollectionVi
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         //기기 사이즈 대응
         // in case you you want the cell to be 40% of your controllers view
-        return CGSize(width: collectionView.frame.size.width/2-6, height: height*0.41)
+        return CGSize(width: collectionView.frame.size.width/2-6, height: height*(0.41 - 0.06))
     }
 }
 
