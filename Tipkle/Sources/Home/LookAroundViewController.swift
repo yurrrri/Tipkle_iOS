@@ -100,9 +100,12 @@ extension LookAroundViewController: UICollectionViewDelegate, UICollectionViewDa
         
         cell.tvNickName.text = feedList[indexPath.row].nickName
         
-        let processor = ResizingImageProcessor(referenceSize: CGSize(width: 50, height: 50)) |> RoundCornerImageProcessor(cornerRadius: cell.imgLookAround.frame.width/2)
-        
-        cell.imgLookAround.kf.setImage(with: URL(string: feedList[indexPath.row].profileImgUrl), placeholder: UIImage(systemName: "photo"), options:[.processor(processor)])
+        //kingfisher를 이용하여 round image 만드는 방법
+//        let processor = ResizingImageProcessor(referenceSize: CGSize(width: 50, height: 50)) |> RoundCornerImageProcessor(cornerRadius: cell.imgLookAround.frame.width/2)
+//
+        cell.imgLookAround.kf.setImage(with: URL(string: feedList[indexPath.row].profileImgUrl), placeholder: UIImage(systemName: "photo"), options:.none)
+        cell.imgLookAround.layer.cornerRadius = cell.imgLookAround.frame.height / 2
+        cell.imgLookAround.clipsToBounds = true
         
         cell.tvWhen.text = feedList[indexPath.row].whenText
         cell.tvHow.text = feedList[indexPath.row].howText
