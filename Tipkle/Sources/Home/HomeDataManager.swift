@@ -90,8 +90,8 @@ class HomeDataManager {
         }
     }
     
-    func getCategoryFeed(viewController: LookAroundViewController, categoryName: String, order: String){
-        let parameters = ["categoryName":categoryName, "order":order, "page":"1", "limit":"10"]
+    func getCategoryFeed(viewController: LookAroundViewController, categoryName: String, order: String, page: Int){
+        let parameters = ["categoryName":categoryName, "order":order, "page":String(page), "limit":"5"]
         
         AF.request("\(Constant.BASE_URL)posts", method: .get, parameters: parameters, encoder: URLEncodedFormParameterEncoder.default, headers: Constant.HEADERS)
             .validate()

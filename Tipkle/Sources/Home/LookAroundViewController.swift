@@ -8,7 +8,7 @@
 import UIKit
 import Kingfisher
 
-class LookAroundViewController: UIViewController {
+class LookAroundViewController: UIViewController, UIScrollViewDelegate {
 
     private let cellID = "HomeLookAroundCollectionViewCell"
 
@@ -18,11 +18,14 @@ class LookAroundViewController: UIViewController {
     @IBOutlet weak var tvPopular: UILabel!
     @IBOutlet weak var lookAroundBack: UIButton!
     var categoryName:String?=nil
-    var feedList:[Feed] = []
+    var feedList:[Feed] = [] //list
+    var page = 1 //무한스크롤 페이지
+    var fetchingMore = true //더 스크롤할지 여부
     
     @IBAction func tapbtnBack(_ sender: Any) {
         self.navigationController?.popViewController(animated: true)
     }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -39,16 +42,46 @@ class LookAroundViewController: UIViewController {
         
         // Do any additional setup after loading the view.
         self.showIndicator()
-        homeDataManager.getCategoryFeed(viewController: self, categoryName: categoryName!, order: "recent")
+        homeDataManager.getCategoryFeed(viewController: self, categoryName: categoryName!, order: "recent", page:page)
     }
+            
+    func scrollViewDidScroll(_ scrollView: UIScrollView) {
+        if (lookAroundCollectionView.contentOffset.y > (lookAroundCollectionView.contentSize.height - lookAroundCollectionView.bounds.size.height)){
+            
+            if (fetchingMore){
+                beginBatchFetch()
+            }
+        }
+    }
+    
+    func beginBatchFetch() {
+            DispatchQueue.main.asyncAfter(deadline: .now() + 0.7, execute: {
+                self.page += 1
+            
+                self.showIndicator()
+                self.homeDataManager.getCategoryFeed(viewController: self, categoryName: self.categoryName!, order: "recent", page:self.page)
+                
+                self.lookAroundCollectionView.reloadData()
+            })
+     }
 }
+        
 
 extension LookAroundViewController{
     func didSuccessGetFeed(_ result: [Feed]){
         self.dismissIndicator()
 
-        feedList = result
-        lookAroundCollectionView.reloadData()
+        if (page==1 && feedList.isEmpty){ //맨 처음
+            feedList = result
+            lookAroundCollectionView.reloadData()
+        }
+        else if (page != 1 && result.isEmpty){ //비었을때 그만 불러오기
+            fetchingMore = false
+        }
+        else{
+            feedList.append(contentsOf: result)
+            lookAroundCollectionView.reloadData()
+        }
     }
     
     func failedToRequest(message: String) {
