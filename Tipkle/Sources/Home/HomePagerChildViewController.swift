@@ -43,7 +43,7 @@ class HomePagerChildViewController: UIViewController {
         width = view.frame.size.width
 
         homeTopBannerSlide.contentScaleMode = .scaleAspectFill
-        bannerTitle.layer.zPosition = 999 //맨위로 올라가도록
+        bannerTitle.layer.zPosition = 999 //맨위로 올라가도록 (중첩)
         
         homeTopBannerSlide.currentPageChanged = { page in
             self.bannerTitle.text = self.bannerTitles[page]

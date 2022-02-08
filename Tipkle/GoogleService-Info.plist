@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>87082722862-g9ic0l03ntmo83bqg6uioonujvtp1jmc.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.87082722862-g9ic0l03ntmo83bqg6uioonujvtp1jmc</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDDqsjliQ3RS5UPpRw3MHuci4Lu1YSRLVE</string>
+	<key>GCM_SENDER_ID</key>
+	<string>87082722862</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.yuri.Tipkle</string>
+	<key>PROJECT_ID</key>
+	<string>tipkle-1c752</string>
+	<key>STORAGE_BUCKET</key>
+	<string>tipkle-1c752.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:87082722862:ios:1672268f6136aa5743a1bf</string>
+</dict>
+</plist>

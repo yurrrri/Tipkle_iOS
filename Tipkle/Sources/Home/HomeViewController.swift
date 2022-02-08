@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import PanModal
 
 class HomeViewController: UIViewController {
 
@@ -13,6 +14,25 @@ class HomeViewController: UIViewController {
     var homepagerchildViewControllerTitles:[String] = []
     var homepagerchildViewControllers:[HomePagerChildViewController] = []
     lazy var homeDataManager = HomeDataManager()
+    @IBAction func btnChooseCategory(_ sender: Any) {
+        // 바텀 시트로 쓰일 뷰컨트롤러 생성
+        let vc = HomeCategoryBottomSheetViewController()
+        
+        // MDC 바텀 시트로 설정
+//        vc.modalPresentationStyle = .pageSheet
+        
+//        if #available(iOS 15.0, *) {
+//            if let sheet = vc.sheetPresentationController{
+//                sheet.detents = [.medium(), .large()]
+//            }
+//        } else {
+//            // Fallback on earlier versions
+//            // 이전 버전은 라이브러리
+            self.presentPanModal(vc)
+//        }
+        
+//        present(vc, animated: true, completion: nil)
+    }
     
     override func viewDidLoad() {
         // containerview

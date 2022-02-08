@@ -12,6 +12,10 @@
 		DA445F77275F98FD00A760D5 /* HomePagerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA445F75275F98FD00A760D5 /* HomePagerViewController.xib */; };
 		DA445F7A275F997200A760D5 /* HomePagerChildViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA445F78275F997200A760D5 /* HomePagerChildViewController.swift */; };
 		DA445F7B275F997200A760D5 /* HomePagerChildViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA445F79275F997200A760D5 /* HomePagerChildViewController.xib */; };
+		DA6ECA4927B2B53400433D75 /* HomeCategoryBottomSheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6ECA4727B2B53400433D75 /* HomeCategoryBottomSheetViewController.swift */; };
+		DA6ECA4A27B2B53400433D75 /* HomeCategoryBottomSheetViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA6ECA4827B2B53400433D75 /* HomeCategoryBottomSheetViewController.xib */; };
+		DA6ECA4D27B2BE4200433D75 /* PanModal in Frameworks */ = {isa = PBXBuildFile; productRef = DA6ECA4C27B2BE4200433D75 /* PanModal */; };
+		DA6ECA4F27B2C02500433D75 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA6ECA4E27B2C02500433D75 /* GoogleService-Info.plist */; };
 		DA73E1BA277B75A600C8230D /* HomeLookAroundCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA73E1B9277B75A600C8230D /* HomeLookAroundCollectionViewCell.xib */; };
 		DA73E1BC277B92D800C8230D /* HomeLookAroundImageCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA73E1BB277B92D800C8230D /* HomeLookAroundImageCollectionViewCell.xib */; };
 		DA73E1BE277B930A00C8230D /* HomeLookAroundImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA73E1BD277B930A00C8230D /* HomeLookAroundImageCollectionViewCell.swift */; };
@@ -57,7 +61,6 @@
 		DA8CAA5B278687B5004BFA9D /* HomeCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA8CAA59278687B5004BFA9D /* HomeCollectionViewCell.xib */; };
 		DA93234027748D8600D5B489 /* HomeLookAroundCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA93233E27748D8600D5B489 /* HomeLookAroundCollectionViewCell.swift */; };
 		DAA30AEC2755055400D665D6 /* LoginDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA30AEB2755055400D665D6 /* LoginDataManager.swift */; };
-		DAA30AEE275512E500D665D6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DAA30AED275512E500D665D6 /* GoogleService-Info.plist */; };
 		DAA30AF727552E6300D665D6 /* fcmToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA30AF627552E6300D665D6 /* fcmToken.swift */; };
 		DABEFC6B276B662A00362CA5 /* GetPreviewTips.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABEFC6A276B662A00362CA5 /* GetPreviewTips.swift */; };
 		DAC6D83627593F7A004625FB /* GetUserCeategoryResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC6D83527593F7A004625FB /* GetUserCeategoryResponse.swift */; };
@@ -87,6 +90,9 @@
 		DA445F75275F98FD00A760D5 /* HomePagerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomePagerViewController.xib; sourceTree = "<group>"; };
 		DA445F78275F997200A760D5 /* HomePagerChildViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePagerChildViewController.swift; sourceTree = "<group>"; };
 		DA445F79275F997200A760D5 /* HomePagerChildViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomePagerChildViewController.xib; sourceTree = "<group>"; };
+		DA6ECA4727B2B53400433D75 /* HomeCategoryBottomSheetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCategoryBottomSheetViewController.swift; sourceTree = "<group>"; };
+		DA6ECA4827B2B53400433D75 /* HomeCategoryBottomSheetViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeCategoryBottomSheetViewController.xib; sourceTree = "<group>"; };
+		DA6ECA4E27B2C02500433D75 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		DA73E1B9277B75A600C8230D /* HomeLookAroundCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeLookAroundCollectionViewCell.xib; sourceTree = "<group>"; };
 		DA73E1BB277B92D800C8230D /* HomeLookAroundImageCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeLookAroundImageCollectionViewCell.xib; sourceTree = "<group>"; };
 		DA73E1BD277B930A00C8230D /* HomeLookAroundImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeLookAroundImageCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -127,7 +133,6 @@
 		DA8CAA59278687B5004BFA9D /* HomeCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeCollectionViewCell.xib; sourceTree = "<group>"; };
 		DA93233E27748D8600D5B489 /* HomeLookAroundCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeLookAroundCollectionViewCell.swift; sourceTree = "<group>"; };
 		DAA30AEB2755055400D665D6 /* LoginDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginDataManager.swift; sourceTree = "<group>"; };
-		DAA30AED275512E500D665D6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		DAA30AF627552E6300D665D6 /* fcmToken.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fcmToken.swift; sourceTree = "<group>"; };
 		DABEFC6A276B662A00362CA5 /* GetPreviewTips.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetPreviewTips.swift; sourceTree = "<group>"; };
 		DAC6D83527593F7A004625FB /* GetUserCeategoryResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetUserCeategoryResponse.swift; sourceTree = "<group>"; };
@@ -162,6 +167,7 @@
 				DA75A4FC2764DEDC00D7C9F9 /* ImageSlideshow/SDWebImage in Frameworks */,
 				DA75A4FA2764DEDC00D7C9F9 /* ImageSlideshow/Kingfisher in Frameworks */,
 				DA87B720270CA9380012D133 /* SnapKit in Frameworks */,
+				DA6ECA4D27B2BE4200433D75 /* PanModal in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,6 +214,8 @@
 				DA445F79275F997200A760D5 /* HomePagerChildViewController.xib */,
 				DA85774727746FF20009EFEB /* LookAroundViewController.swift */,
 				DA85774827746FF20009EFEB /* LookAroundViewController.xib */,
+				DA6ECA4727B2B53400433D75 /* HomeCategoryBottomSheetViewController.swift */,
+				DA6ECA4827B2B53400433D75 /* HomeCategoryBottomSheetViewController.xib */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -420,7 +428,7 @@
 			isa = PBXGroup;
 			children = (
 				DAD4100826FDD791008358B5 /* Info.plist */,
-				DAA30AED275512E500D665D6 /* GoogleService-Info.plist */,
+				DA6ECA4E27B2C02500433D75 /* GoogleService-Info.plist */,
 				DAD4100326FDD791008358B5 /* Assets.xcassets */,
 				DAD40FFA26FDD790008358B5 /* AppDelegate.swift */,
 				DAD40FFC26FDD790008358B5 /* SceneDelegate.swift */,
@@ -475,6 +483,7 @@
 				DA75A4F72764DEDC00D7C9F9 /* ImageSlideshow/Alamofire */,
 				DA75A4F92764DEDC00D7C9F9 /* ImageSlideshow/Kingfisher */,
 				DA75A4FB2764DEDC00D7C9F9 /* ImageSlideshow/SDWebImage */,
+				DA6ECA4C27B2BE4200433D75 /* PanModal */,
 			);
 			productName = Tipkle;
 			productReference = DAD40FF726FDD790008358B5 /* Tipkle.app */;
@@ -506,6 +515,7 @@
 			packageReferences = (
 				DA87B71E270CA9380012D133 /* XCRemoteSwiftPackageReference "SnapKit" */,
 				DA75A4F42764DEDC00D7C9F9 /* XCRemoteSwiftPackageReference "ImageSlideshow" */,
+				DA6ECA4B27B2BE4200433D75 /* XCRemoteSwiftPackageReference "PanModal" */,
 			);
 			productRefGroup = DAD40FF826FDD790008358B5 /* Products */;
 			projectDirPath = "";
@@ -524,7 +534,6 @@
 				DA87B70D270CA6F40012D133 /* SignInViewController.xib in Resources */,
 				DAE5C3452758BCBE001C75BE /* TipkleViewController.xib in Resources */,
 				DA87B703270CA6F40012D133 /* NotoSansCJKkr-Regular.otf in Resources */,
-				DAA30AEE275512E500D665D6 /* GoogleService-Info.plist in Resources */,
 				DA73E1BC277B92D800C8230D /* HomeLookAroundImageCollectionViewCell.xib in Resources */,
 				DAE5C3572758BFC5001C75BE /* MyPageViewController.xib in Resources */,
 				DA445F77275F98FD00A760D5 /* HomePagerViewController.xib in Resources */,
@@ -539,10 +548,12 @@
 				DAD4100226FDD790008358B5 /* Main.storyboard in Resources */,
 				DA87B702270CA6F40012D133 /* NotoSansCJKkr-Medium.otf in Resources */,
 				DA87B715270CA6F40012D133 /* TransitionNextViewController.xib in Resources */,
+				DA6ECA4F27B2C02500433D75 /* GoogleService-Info.plist in Resources */,
 				DA8CAA5B278687B5004BFA9D /* HomeCollectionViewCell.xib in Resources */,
 				DAD9A264275930EA00E99682 /* HomeViewController.xib in Resources */,
 				DA87B704270CA6F40012D133 /* NotoSansCJKkr-Bold.otf in Resources */,
 				DAE5C3532758BFB2001C75BE /* SearchViewController.xib in Resources */,
+				DA6ECA4A27B2B53400433D75 /* HomeCategoryBottomSheetViewController.xib in Resources */,
 				DA87B719270CA6F40012D133 /* AlertViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -612,6 +623,7 @@
 				DA87B6FA270CA6F40012D133 /* Date.swift in Sources */,
 				DAD9A263275930EA00E99682 /* HomeViewController.swift in Sources */,
 				DABEFC6B276B662A00362CA5 /* GetPreviewTips.swift in Sources */,
+				DA6ECA4927B2B53400433D75 /* HomeCategoryBottomSheetViewController.swift in Sources */,
 				DAD40FFB26FDD790008358B5 /* AppDelegate.swift in Sources */,
 				DAD681AB2778DC8400B85FD9 /* GetCategoryFeedResponse.swift in Sources */,
 				DAC6D83627593F7A004625FB /* GetUserCeategoryResponse.swift in Sources */,
@@ -844,6 +856,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		DA6ECA4B27B2BE4200433D75 /* XCRemoteSwiftPackageReference "PanModal" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/slackhq/PanModal.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
 		DA75A4F42764DEDC00D7C9F9 /* XCRemoteSwiftPackageReference "ImageSlideshow" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/zvonicek/ImageSlideshow.git";
@@ -863,6 +883,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		DA6ECA4C27B2BE4200433D75 /* PanModal */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DA6ECA4B27B2BE4200433D75 /* XCRemoteSwiftPackageReference "PanModal" */;
+			productName = PanModal;
+		};
 		DA75A4F52764DEDC00D7C9F9 /* ImageSlideshow */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = DA75A4F42764DEDC00D7C9F9 /* XCRemoteSwiftPackageReference "ImageSlideshow" */;
