@@ -53,11 +53,13 @@ class HomeLookAroundCollectionViewCell: UICollectionViewCell {
         layout.minimumLineSpacing = 0
         layout.minimumInteritemSpacing = 0
         self.lookAroundSecondTableView?.collectionViewLayout = layout
+        
+//        lookAroundSecondTableView.reloadData()
     }
     
-    override func prepareForReuse() {
-        lookAroundSecondTableView.reloadData()
-    }
+//    override func prepareForReuse() {
+//        lookAroundSecondTableView.reloadData()
+//    }
 }
 
 extension HomeLookAroundCollectionViewCell:UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
@@ -68,7 +70,8 @@ extension HomeLookAroundCollectionViewCell:UICollectionViewDelegate, UICollectio
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = lookAroundSecondTableView.dequeueReusableCell(withReuseIdentifier: "lookaroundimageCell", for: indexPath) as! HomeLookAroundImageCollectionViewCell
         
-        cell.image.kf.setImage(with: URL(string: feedimageList[indexPath.row]), placeholder: UIImage(systemName: "photo"), options: .none)
+        //캐싱처리 : .onlyFromCache
+        cell.image.kf.setImage(with: URL(string: feedimageList[indexPath.row]), placeholder: UIImage(systemName: "photo"), options: [.onlyFromCache])
         
         return cell
     }
@@ -76,6 +79,7 @@ extension HomeLookAroundCollectionViewCell:UICollectionViewDelegate, UICollectio
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         
         let numberOfItemsPerRow:CGFloat = 3 //1줄에 보여줄 아이템의 개수
+        
         let spacingBetweenCells:CGFloat = 8 //아이템간 간격
         let totalSpacing = ((numberOfItemsPerRow-1) * spacingBetweenCells) //토탈 간격
     

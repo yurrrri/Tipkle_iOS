@@ -2,6 +2,15 @@
   "object": {
     "pins": [
       {
+        "package": "AdvancedPageControl",
+        "repositoryURL": "https://github.com/mohn93/AdvancedPageControl.git",
+        "state": {
+          "branch": null,
+          "revision": "0dbe238ed2be3d46fb255e63c94e1e7ffd10b460",
+          "version": "0.9.0"
+        }
+      },
+      {
         "package": "Alamofire",
         "repositoryURL": "https://github.com/Alamofire/Alamofire.git",
         "state": {

@@ -125,4 +125,10 @@ extension LookAroundViewController: UICollectionViewDelegate, UICollectionViewDa
         
         return CGSize(width: width, height: collectionView.frame.height*0.76)
     }
+    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        let vc = HomeFeedDetailViewController()
+        vc.postId = feedList[indexPath.row].postId
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
 }

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7AF62CDB543864BB0A3D5670 /* Pods_Tipkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99D65FA7D8ABE57F8F0CBBA2 /* Pods_Tipkle.framework */; };
+		DA0258B527B3F369009FD222 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA0258B427B3F369009FD222 /* GoogleService-Info.plist */; };
 		DA445F76275F98FD00A760D5 /* HomePagerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA445F74275F98FD00A760D5 /* HomePagerViewController.swift */; };
 		DA445F77275F98FD00A760D5 /* HomePagerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA445F75275F98FD00A760D5 /* HomePagerViewController.xib */; };
 		DA445F7A275F997200A760D5 /* HomePagerChildViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA445F78275F997200A760D5 /* HomePagerChildViewController.swift */; };
@@ -15,9 +16,6 @@
 		DA6ECA4927B2B53400433D75 /* HomeCategoryBottomSheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6ECA4727B2B53400433D75 /* HomeCategoryBottomSheetViewController.swift */; };
 		DA6ECA4A27B2B53400433D75 /* HomeCategoryBottomSheetViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA6ECA4827B2B53400433D75 /* HomeCategoryBottomSheetViewController.xib */; };
 		DA6ECA4D27B2BE4200433D75 /* PanModal in Frameworks */ = {isa = PBXBuildFile; productRef = DA6ECA4C27B2BE4200433D75 /* PanModal */; };
-		DA6ECA4F27B2C02500433D75 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA6ECA4E27B2C02500433D75 /* GoogleService-Info.plist */; };
-		DA73E1BA277B75A600C8230D /* HomeLookAroundCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA73E1B9277B75A600C8230D /* HomeLookAroundCollectionViewCell.xib */; };
-		DA73E1BC277B92D800C8230D /* HomeLookAroundImageCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA73E1BB277B92D800C8230D /* HomeLookAroundImageCollectionViewCell.xib */; };
 		DA73E1BE277B930A00C8230D /* HomeLookAroundImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA73E1BD277B930A00C8230D /* HomeLookAroundImageCollectionViewCell.swift */; };
 		DA75A4F62764DEDC00D7C9F9 /* ImageSlideshow in Frameworks */ = {isa = PBXBuildFile; productRef = DA75A4F52764DEDC00D7C9F9 /* ImageSlideshow */; };
 		DA75A4F82764DEDC00D7C9F9 /* ImageSlideshow/Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = DA75A4F72764DEDC00D7C9F9 /* ImageSlideshow/Alamofire */; };
@@ -72,6 +70,8 @@
 		DAD681AB2778DC8400B85FD9 /* GetCategoryFeedResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD681AA2778DC8400B85FD9 /* GetCategoryFeedResponse.swift */; };
 		DAD9A263275930EA00E99682 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD9A261275930EA00E99682 /* HomeViewController.swift */; };
 		DAD9A264275930EA00E99682 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DAD9A262275930EA00E99682 /* HomeViewController.xib */; };
+		DADB239F27BEA38F004BD51A /* AdvancedPageControl in Frameworks */ = {isa = PBXBuildFile; productRef = DADB239E27BEA38F004BD51A /* AdvancedPageControl */; };
+		DADB23A127BEA8B4004BD51A /* GetFeedDetailResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADB23A027BEA8B4004BD51A /* GetFeedDetailResponse.swift */; };
 		DAE5C3442758BCBE001C75BE /* TipkleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE5C3422758BCBE001C75BE /* TipkleViewController.swift */; };
 		DAE5C3452758BCBE001C75BE /* TipkleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DAE5C3432758BCBE001C75BE /* TipkleViewController.xib */; };
 		DAE5C3522758BFB2001C75BE /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE5C3502758BFB2001C75BE /* SearchViewController.swift */; };
@@ -80,21 +80,23 @@
 		DAE5C3572758BFC5001C75BE /* MyPageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DAE5C3552758BFC5001C75BE /* MyPageViewController.xib */; };
 		DAE5C3592758DBAE001C75BE /* BaseResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE5C3582758DBAE001C75BE /* BaseResponse.swift */; };
 		DAE5C35C2759289C001C75BE /* HomeDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE5C35B2759289C001C75BE /* HomeDataManager.swift */; };
+		DAE8D9E427BAC70200C63D3C /* HomeLookAroundCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DAE8D9E327BAC70200C63D3C /* HomeLookAroundCollectionViewCell.xib */; };
+		DAE8D9E627BAC7B500C63D3C /* HomeLookAroundImageCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DAE8D9E527BAC7B500C63D3C /* HomeLookAroundImageCollectionViewCell.xib */; };
+		DAE8D9E927BACA5700C63D3C /* HomeFeedDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE8D9E727BACA5700C63D3C /* HomeFeedDetailViewController.swift */; };
+		DAE8D9EA27BACA5700C63D3C /* HomeFeedDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DAE8D9E827BACA5700C63D3C /* HomeFeedDetailViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		23449EE9BB5C631C87FD11C5 /* Pods-Tipkle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tipkle.debug.xcconfig"; path = "Target Support Files/Pods-Tipkle/Pods-Tipkle.debug.xcconfig"; sourceTree = "<group>"; };
 		2347202900326E948E2427DF /* Pods-Tipkle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tipkle.release.xcconfig"; path = "Target Support Files/Pods-Tipkle/Pods-Tipkle.release.xcconfig"; sourceTree = "<group>"; };
 		99D65FA7D8ABE57F8F0CBBA2 /* Pods_Tipkle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tipkle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA0258B427B3F369009FD222 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		DA445F74275F98FD00A760D5 /* HomePagerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePagerViewController.swift; sourceTree = "<group>"; };
 		DA445F75275F98FD00A760D5 /* HomePagerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomePagerViewController.xib; sourceTree = "<group>"; };
 		DA445F78275F997200A760D5 /* HomePagerChildViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePagerChildViewController.swift; sourceTree = "<group>"; };
 		DA445F79275F997200A760D5 /* HomePagerChildViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomePagerChildViewController.xib; sourceTree = "<group>"; };
 		DA6ECA4727B2B53400433D75 /* HomeCategoryBottomSheetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCategoryBottomSheetViewController.swift; sourceTree = "<group>"; };
 		DA6ECA4827B2B53400433D75 /* HomeCategoryBottomSheetViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeCategoryBottomSheetViewController.xib; sourceTree = "<group>"; };
-		DA6ECA4E27B2C02500433D75 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
-		DA73E1B9277B75A600C8230D /* HomeLookAroundCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeLookAroundCollectionViewCell.xib; sourceTree = "<group>"; };
-		DA73E1BB277B92D800C8230D /* HomeLookAroundImageCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeLookAroundImageCollectionViewCell.xib; sourceTree = "<group>"; };
 		DA73E1BD277B930A00C8230D /* HomeLookAroundImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeLookAroundImageCollectionViewCell.swift; sourceTree = "<group>"; };
 		DA75A4FD2764E18D00D7C9F9 /* GetBannerResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetBannerResponse.swift; sourceTree = "<group>"; };
 		DA85774727746FF20009EFEB /* LookAroundViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LookAroundViewController.swift; sourceTree = "<group>"; };
@@ -146,6 +148,7 @@
 		DAD681AA2778DC8400B85FD9 /* GetCategoryFeedResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetCategoryFeedResponse.swift; sourceTree = "<group>"; };
 		DAD9A261275930EA00E99682 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		DAD9A262275930EA00E99682 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		DADB23A027BEA8B4004BD51A /* GetFeedDetailResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetFeedDetailResponse.swift; sourceTree = "<group>"; };
 		DAE5C3422758BCBE001C75BE /* TipkleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipkleViewController.swift; sourceTree = "<group>"; };
 		DAE5C3432758BCBE001C75BE /* TipkleViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TipkleViewController.xib; sourceTree = "<group>"; };
 		DAE5C3502758BFB2001C75BE /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
@@ -154,6 +157,10 @@
 		DAE5C3552758BFC5001C75BE /* MyPageViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyPageViewController.xib; sourceTree = "<group>"; };
 		DAE5C3582758DBAE001C75BE /* BaseResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseResponse.swift; sourceTree = "<group>"; };
 		DAE5C35B2759289C001C75BE /* HomeDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDataManager.swift; sourceTree = "<group>"; };
+		DAE8D9E327BAC70200C63D3C /* HomeLookAroundCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeLookAroundCollectionViewCell.xib; sourceTree = "<group>"; };
+		DAE8D9E527BAC7B500C63D3C /* HomeLookAroundImageCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeLookAroundImageCollectionViewCell.xib; sourceTree = "<group>"; };
+		DAE8D9E727BACA5700C63D3C /* HomeFeedDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeFeedDetailViewController.swift; sourceTree = "<group>"; };
+		DAE8D9E827BACA5700C63D3C /* HomeFeedDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeFeedDetailViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,6 +175,7 @@
 				DA75A4FA2764DEDC00D7C9F9 /* ImageSlideshow/Kingfisher in Frameworks */,
 				DA87B720270CA9380012D133 /* SnapKit in Frameworks */,
 				DA6ECA4D27B2BE4200433D75 /* PanModal in Frameworks */,
+				DADB239F27BEA38F004BD51A /* AdvancedPageControl in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,6 +224,8 @@
 				DA85774827746FF20009EFEB /* LookAroundViewController.xib */,
 				DA6ECA4727B2B53400433D75 /* HomeCategoryBottomSheetViewController.swift */,
 				DA6ECA4827B2B53400433D75 /* HomeCategoryBottomSheetViewController.xib */,
+				DAE8D9E727BACA5700C63D3C /* HomeFeedDetailViewController.swift */,
+				DAE8D9E827BACA5700C63D3C /* HomeFeedDetailViewController.xib */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -253,9 +263,9 @@
 				DA8CAA58278687B5004BFA9D /* HomeCollectionViewCell.swift */,
 				DA8CAA59278687B5004BFA9D /* HomeCollectionViewCell.xib */,
 				DA93233E27748D8600D5B489 /* HomeLookAroundCollectionViewCell.swift */,
-				DA73E1B9277B75A600C8230D /* HomeLookAroundCollectionViewCell.xib */,
+				DAE8D9E327BAC70200C63D3C /* HomeLookAroundCollectionViewCell.xib */,
 				DA73E1BD277B930A00C8230D /* HomeLookAroundImageCollectionViewCell.swift */,
-				DA73E1BB277B92D800C8230D /* HomeLookAroundImageCollectionViewCell.xib */,
+				DAE8D9E527BAC7B500C63D3C /* HomeLookAroundImageCollectionViewCell.xib */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -428,7 +438,7 @@
 			isa = PBXGroup;
 			children = (
 				DAD4100826FDD791008358B5 /* Info.plist */,
-				DA6ECA4E27B2C02500433D75 /* GoogleService-Info.plist */,
+				DA0258B427B3F369009FD222 /* GoogleService-Info.plist */,
 				DAD4100326FDD791008358B5 /* Assets.xcassets */,
 				DAD40FFA26FDD790008358B5 /* AppDelegate.swift */,
 				DAD40FFC26FDD790008358B5 /* SceneDelegate.swift */,
@@ -455,6 +465,7 @@
 				DA75A4FD2764E18D00D7C9F9 /* GetBannerResponse.swift */,
 				DABEFC6A276B662A00362CA5 /* GetPreviewTips.swift */,
 				DAD681AA2778DC8400B85FD9 /* GetCategoryFeedResponse.swift */,
+				DADB23A027BEA8B4004BD51A /* GetFeedDetailResponse.swift */,
 			);
 			path = Entity;
 			sourceTree = "<group>";
@@ -484,6 +495,7 @@
 				DA75A4F92764DEDC00D7C9F9 /* ImageSlideshow/Kingfisher */,
 				DA75A4FB2764DEDC00D7C9F9 /* ImageSlideshow/SDWebImage */,
 				DA6ECA4C27B2BE4200433D75 /* PanModal */,
+				DADB239E27BEA38F004BD51A /* AdvancedPageControl */,
 			);
 			productName = Tipkle;
 			productReference = DAD40FF726FDD790008358B5 /* Tipkle.app */;
@@ -516,6 +528,7 @@
 				DA87B71E270CA9380012D133 /* XCRemoteSwiftPackageReference "SnapKit" */,
 				DA75A4F42764DEDC00D7C9F9 /* XCRemoteSwiftPackageReference "ImageSlideshow" */,
 				DA6ECA4B27B2BE4200433D75 /* XCRemoteSwiftPackageReference "PanModal" */,
+				DADB239D27BEA38F004BD51A /* XCRemoteSwiftPackageReference "AdvancedPageControl" */,
 			);
 			productRefGroup = DAD40FF826FDD790008358B5 /* Products */;
 			projectDirPath = "";
@@ -533,14 +546,14 @@
 			files = (
 				DA87B70D270CA6F40012D133 /* SignInViewController.xib in Resources */,
 				DAE5C3452758BCBE001C75BE /* TipkleViewController.xib in Resources */,
+				DAE8D9EA27BACA5700C63D3C /* HomeFeedDetailViewController.xib in Resources */,
 				DA87B703270CA6F40012D133 /* NotoSansCJKkr-Regular.otf in Resources */,
-				DA73E1BC277B92D800C8230D /* HomeLookAroundImageCollectionViewCell.xib in Resources */,
+				DAE8D9E627BAC7B500C63D3C /* HomeLookAroundImageCollectionViewCell.xib in Resources */,
 				DAE5C3572758BFC5001C75BE /* MyPageViewController.xib in Resources */,
 				DA445F77275F98FD00A760D5 /* HomePagerViewController.xib in Resources */,
 				DAD4100726FDD791008358B5 /* LaunchScreen.storyboard in Resources */,
 				DA85774A27746FF20009EFEB /* LookAroundViewController.xib in Resources */,
 				DA87B717270CA6F40012D133 /* TransitionViewController.xib in Resources */,
-				DA73E1BA277B75A600C8230D /* HomeLookAroundCollectionViewCell.xib in Resources */,
 				DAD4100426FDD791008358B5 /* Assets.xcassets in Resources */,
 				DA87B71B270CA6F40012D133 /* ActionViewController.xib in Resources */,
 				DA445F7B275F997200A760D5 /* HomePagerChildViewController.xib in Resources */,
@@ -548,11 +561,12 @@
 				DAD4100226FDD790008358B5 /* Main.storyboard in Resources */,
 				DA87B702270CA6F40012D133 /* NotoSansCJKkr-Medium.otf in Resources */,
 				DA87B715270CA6F40012D133 /* TransitionNextViewController.xib in Resources */,
-				DA6ECA4F27B2C02500433D75 /* GoogleService-Info.plist in Resources */,
+				DA0258B527B3F369009FD222 /* GoogleService-Info.plist in Resources */,
 				DA8CAA5B278687B5004BFA9D /* HomeCollectionViewCell.xib in Resources */,
 				DAD9A264275930EA00E99682 /* HomeViewController.xib in Resources */,
 				DA87B704270CA6F40012D133 /* NotoSansCJKkr-Bold.otf in Resources */,
 				DAE5C3532758BFB2001C75BE /* SearchViewController.xib in Resources */,
+				DAE8D9E427BAC70200C63D3C /* HomeLookAroundCollectionViewCell.xib in Resources */,
 				DA6ECA4A27B2B53400433D75 /* HomeCategoryBottomSheetViewController.xib in Resources */,
 				DA87B719270CA6F40012D133 /* AlertViewController.xib in Resources */,
 			);
@@ -635,8 +649,10 @@
 				DA87B6F7270CA6F40012D133 /* Constant.swift in Sources */,
 				DAA30AEC2755055400D665D6 /* LoginDataManager.swift in Sources */,
 				DA87B700270CA6F40012D133 /* UIColor.swift in Sources */,
+				DADB23A127BEA8B4004BD51A /* GetFeedDetailResponse.swift in Sources */,
 				DA87B6F8270CA6F40012D133 /* IndicatorView.swift in Sources */,
 				DA87B6FB270CA6F40012D133 /* String.swift in Sources */,
+				DAE8D9E927BACA5700C63D3C /* HomeFeedDetailViewController.swift in Sources */,
 				DA87B707270CA6F40012D133 /* LoginViewController.swift in Sources */,
 				DA93234027748D8600D5B489 /* HomeLookAroundCollectionViewCell.swift in Sources */,
 				DAE5C3522758BFB2001C75BE /* SearchViewController.swift in Sources */,
@@ -880,6 +896,14 @@
 				minimumVersion = 5.0.0;
 			};
 		};
+		DADB239D27BEA38F004BD51A /* XCRemoteSwiftPackageReference "AdvancedPageControl" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mohn93/AdvancedPageControl.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.9.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -912,6 +936,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = DA87B71E270CA9380012D133 /* XCRemoteSwiftPackageReference "SnapKit" */;
 			productName = SnapKit;
+		};
+		DADB239E27BEA38F004BD51A /* AdvancedPageControl */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DADB239D27BEA38F004BD51A /* XCRemoteSwiftPackageReference "AdvancedPageControl" */;
+			productName = AdvancedPageControl;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

@@ -68,7 +68,6 @@ class HomeDataManager {
     }
     
     func getPreviewTips(viewController: HomePagerChildViewController, categoryName:String, order:String){
-        print(order)
         let urlString = "\(Constant.BASE_URL)categories/"+categoryName+"/tips?order="+order
 
         if let encoded = urlString.addingPercentEncoding(withAllowedCharacters: .urlFragmentAllowed), let url = URL(string: encoded){
@@ -109,5 +108,29 @@ class HomeDataManager {
                     viewController.failedToRequest(message: "서버와의 연결이 원활하지 않습니다")
                 }
             }
+    }
+    
+    func getFeedDetail(viewController: HomeFeedDetailViewController, postId:Int){
+
+        let urlString = "\(Constant.BASE_URL)posts/\(postId)"
+
+        if let encoded = urlString.addingPercentEncoding(withAllowedCharacters: .urlFragmentAllowed), let url = URL(string: encoded){
+            AF.request(url, method: .get, parameters:nil, headers:Constant.HEADERS)
+                    .validate()
+                    .responseDecodable(of: GetFeedDetailResponse.self) { response in
+                        switch response.result {
+                        case .success(let response):
+                            if response.isSuccess {
+                                print(response.result)
+                                viewController.didSuccessGetFeedDetail(response.result!)
+                            } else {
+                                viewController.failedToRequest(message: response.message)
+                            }
+                        case .failure(let error):
+                            print(error.localizedDescription)
+                            viewController.failedToRequest(message: "서버와의 연결이 원활하지 않습니다")
+                        }
+                    }
+        }
     }
 }
