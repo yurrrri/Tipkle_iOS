@@ -7,6 +7,7 @@
 
 import UIKit
 import KakaoSDKAuth
+import Alamofire
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
@@ -19,10 +20,37 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         
         guard let scene = scene as? UIWindowScene else { return }
         
-        // Window 설정
-        self.window = UIWindow(windowScene: scene)
-        window?.rootViewController = LoginViewController()
-        window?.makeKeyAndVisible()
+        if (UserDefaults.standard.string(forKey: "jwt") != nil){ //로그인 처리로 Jwt가 있음 -> 자동로그인을 통해 토큰에 대한 유효성 검증
+            AF.request("\(Constant.BASE_URL)auto-login", method: .get, parameters: nil, encoding: JSONEncoding.default, headers: Constant.HEADERS)
+                .validate()
+                .responseDecodable(of: BaseResponse.self) { response in
+                    switch response.result {
+                    case .success(let response):
+                        if response.isSuccess {
+                            // Window 설정
+                            self.window = UIWindow(windowScene: scene)
+                            self.window?.rootViewController = BaseTabBarController()
+                            self.window?.makeKeyAndVisible()
+                        } else {
+                            let alert = UIAlertController(title: "서버와의 연결이 원활하지 않습니다", message:nil, preferredStyle: UIAlertController.Style.alert)
+                                    
+                            // add an action (button)
+                            alert.addAction(UIAlertAction(title: "확인", style: UIAlertAction.Style.default, handler: nil))
+                                   
+                            // show the alert
+                            self.window?.rootViewController?.present(alert, animated: true, completion: nil)
+                        }
+                    case .failure(let error):
+                        print(error)
+                    }
+                }
+        }
+        else{
+            // Window 설정
+            self.window = UIWindow(windowScene: scene)
+            window?.rootViewController = LoginViewController()
+            window?.makeKeyAndVisible()
+        }
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {

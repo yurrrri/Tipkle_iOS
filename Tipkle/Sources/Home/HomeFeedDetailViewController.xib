@@ -135,14 +135,8 @@
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="11L-7G-6bt">
                     <rect key="frame" x="0.0" y="806.5" width="414" height="89.5"/>
                     <subviews>
-                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_star_line" translatesAutoresizingMaskIntoConstraints="NO" id="sNx-Lf-YzT">
-                            <rect key="frame" x="25" y="14" width="25" height="61.5"/>
-                            <constraints>
-                                <constraint firstAttribute="width" constant="25" id="NFO-z2-JnJ"/>
-                            </constraints>
-                        </imageView>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hhr-cO-Ti6">
-                            <rect key="frame" x="58" y="14" width="35.5" height="61.5"/>
+                            <rect key="frame" x="58" y="0.0" width="35.5" height="89.5"/>
                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
                             <nil key="textColor"/>
                             <nil key="highlightedColor"/>
@@ -159,20 +153,25 @@
                             <nil key="textColor"/>
                             <nil key="highlightedColor"/>
                         </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dff-Lp-ovT">
+                            <rect key="frame" x="24" y="0.0" width="20" height="89.5"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <state key="normal" image="ic_star_line"/>
+                        </button>
                     </subviews>
                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     <constraints>
-                        <constraint firstItem="sNx-Lf-YzT" firstAttribute="leading" secondItem="11L-7G-6bt" secondAttribute="leading" constant="25" id="5YN-G4-dn7"/>
-                        <constraint firstItem="Hhr-cO-Ti6" firstAttribute="bottom" secondItem="sNx-Lf-YzT" secondAttribute="bottom" id="72t-zI-EFu"/>
-                        <constraint firstItem="Hhr-cO-Ti6" firstAttribute="top" secondItem="sNx-Lf-YzT" secondAttribute="top" id="FbM-MG-cBS"/>
+                        <constraint firstItem="dff-Lp-ovT" firstAttribute="top" secondItem="11L-7G-6bt" secondAttribute="top" id="0RN-im-UtM"/>
                         <constraint firstItem="JNi-Pb-fyp" firstAttribute="leading" secondItem="Hhr-cO-Ti6" secondAttribute="trailing" constant="20" id="Kq2-mt-RuE"/>
-                        <constraint firstItem="Hhr-cO-Ti6" firstAttribute="leading" secondItem="sNx-Lf-YzT" secondAttribute="trailing" constant="8" symbolic="YES" id="NPb-nJ-GaK"/>
-                        <constraint firstAttribute="bottom" secondItem="sNx-Lf-YzT" secondAttribute="bottom" constant="14" id="Six-oh-zN1"/>
+                        <constraint firstItem="dff-Lp-ovT" firstAttribute="leading" secondItem="11L-7G-6bt" secondAttribute="leading" constant="24" id="Pzi-oI-J3u"/>
+                        <constraint firstItem="Hhr-cO-Ti6" firstAttribute="bottom" secondItem="dff-Lp-ovT" secondAttribute="bottom" id="RGR-rg-JUk"/>
+                        <constraint firstItem="Hhr-cO-Ti6" firstAttribute="top" secondItem="dff-Lp-ovT" secondAttribute="top" id="UQv-e8-rnt"/>
+                        <constraint firstItem="Hhr-cO-Ti6" firstAttribute="leading" secondItem="dff-Lp-ovT" secondAttribute="trailing" constant="14" id="We0-Am-kUX"/>
                         <constraint firstAttribute="bottom" secondItem="JNi-Pb-fyp" secondAttribute="bottom" constant="32.5" id="bFx-dw-IiY"/>
                         <constraint firstItem="tpe-rN-kPM" firstAttribute="bottom" secondItem="JNi-Pb-fyp" secondAttribute="bottom" id="dJP-wh-Xor"/>
                         <constraint firstItem="tpe-rN-kPM" firstAttribute="top" secondItem="JNi-Pb-fyp" secondAttribute="top" id="gyb-Oo-Zfw"/>
                         <constraint firstItem="tpe-rN-kPM" firstAttribute="leading" secondItem="JNi-Pb-fyp" secondAttribute="trailing" constant="10" id="oUb-WG-hfI"/>
-                        <constraint firstItem="sNx-Lf-YzT" firstAttribute="top" secondItem="11L-7G-6bt" secondAttribute="top" constant="14" id="pcK-cj-qLa"/>
+                        <constraint firstAttribute="bottom" secondItem="dff-Lp-ovT" secondAttribute="bottom" id="uHU-Fh-rHI"/>
                         <constraint firstItem="JNi-Pb-fyp" firstAttribute="top" secondItem="11L-7G-6bt" secondAttribute="top" constant="32" id="xou-fa-Tim"/>
                     </constraints>
                 </view>
@@ -239,6 +238,11 @@
             <point key="canvasLocation" x="191.30434782608697" y="127.23214285714285"/>
         </view>
     </objects>
+    <designables>
+        <designable name="gNZ-6U-lVM">
+            <size key="intrinsicContentSize" width="120" height="20"/>
+        </designable>
+    </designables>
     <resources>
         <image name="When__A (1)" width="314" height="42"/>
         <image name="bookmark_line" width="24" height="24"/>

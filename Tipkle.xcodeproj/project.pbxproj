@@ -13,6 +13,8 @@
 		DA445F77275F98FD00A760D5 /* HomePagerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA445F75275F98FD00A760D5 /* HomePagerViewController.xib */; };
 		DA445F7A275F997200A760D5 /* HomePagerChildViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA445F78275F997200A760D5 /* HomePagerChildViewController.swift */; };
 		DA445F7B275F997200A760D5 /* HomePagerChildViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA445F79275F997200A760D5 /* HomePagerChildViewController.xib */; };
+		DA6A808627BF7D7100DB1623 /* RatingAlertView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA6A808527BF7D7100DB1623 /* RatingAlertView.xib */; };
+		DA6A808827BF7D8900DB1623 /* RatingAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6A808727BF7D8900DB1623 /* RatingAlertView.swift */; };
 		DA6ECA4927B2B53400433D75 /* HomeCategoryBottomSheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6ECA4727B2B53400433D75 /* HomeCategoryBottomSheetViewController.swift */; };
 		DA6ECA4A27B2B53400433D75 /* HomeCategoryBottomSheetViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA6ECA4827B2B53400433D75 /* HomeCategoryBottomSheetViewController.xib */; };
 		DA6ECA4D27B2BE4200433D75 /* PanModal in Frameworks */ = {isa = PBXBuildFile; productRef = DA6ECA4C27B2BE4200433D75 /* PanModal */; };
@@ -95,6 +97,8 @@
 		DA445F75275F98FD00A760D5 /* HomePagerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomePagerViewController.xib; sourceTree = "<group>"; };
 		DA445F78275F997200A760D5 /* HomePagerChildViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePagerChildViewController.swift; sourceTree = "<group>"; };
 		DA445F79275F997200A760D5 /* HomePagerChildViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomePagerChildViewController.xib; sourceTree = "<group>"; };
+		DA6A808527BF7D7100DB1623 /* RatingAlertView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RatingAlertView.xib; sourceTree = "<group>"; };
+		DA6A808727BF7D8900DB1623 /* RatingAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingAlertView.swift; sourceTree = "<group>"; };
 		DA6ECA4727B2B53400433D75 /* HomeCategoryBottomSheetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCategoryBottomSheetViewController.swift; sourceTree = "<group>"; };
 		DA6ECA4827B2B53400433D75 /* HomeCategoryBottomSheetViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeCategoryBottomSheetViewController.xib; sourceTree = "<group>"; };
 		DA73E1BD277B930A00C8230D /* HomeLookAroundImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeLookAroundImageCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -226,6 +230,8 @@
 				DA6ECA4827B2B53400433D75 /* HomeCategoryBottomSheetViewController.xib */,
 				DAE8D9E727BACA5700C63D3C /* HomeFeedDetailViewController.swift */,
 				DAE8D9E827BACA5700C63D3C /* HomeFeedDetailViewController.xib */,
+				DA6A808527BF7D7100DB1623 /* RatingAlertView.xib */,
+				DA6A808727BF7D8900DB1623 /* RatingAlertView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -546,6 +552,7 @@
 			files = (
 				DA87B70D270CA6F40012D133 /* SignInViewController.xib in Resources */,
 				DAE5C3452758BCBE001C75BE /* TipkleViewController.xib in Resources */,
+				DA6A808627BF7D7100DB1623 /* RatingAlertView.xib in Resources */,
 				DAE8D9EA27BACA5700C63D3C /* HomeFeedDetailViewController.xib in Resources */,
 				DA87B703270CA6F40012D133 /* NotoSansCJKkr-Regular.otf in Resources */,
 				DAE8D9E627BAC7B500C63D3C /* HomeLookAroundImageCollectionViewCell.xib in Resources */,
@@ -644,6 +651,7 @@
 				DA87B705270CA6F40012D133 /* BaseTabBarController.swift in Sources */,
 				DAD40FFD26FDD790008358B5 /* SceneDelegate.swift in Sources */,
 				DAE5C3442758BCBE001C75BE /* TipkleViewController.swift in Sources */,
+				DA6A808827BF7D8900DB1623 /* RatingAlertView.swift in Sources */,
 				DA87B6F9270CA6F40012D133 /* Device.swift in Sources */,
 				DAE5C3562758BFC5001C75BE /* MyPageViewController.swift in Sources */,
 				DA87B6F7270CA6F40012D133 /* Constant.swift in Sources */,

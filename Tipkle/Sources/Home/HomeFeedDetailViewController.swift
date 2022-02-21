@@ -57,7 +57,6 @@ class HomeFeedDetailViewController: UIViewController {
         howText.textColor = UIColor.mint
         whenTitle.textColor = UIColor.mint
         howTitle.textColor = UIColor.mint
-        tvRatingStar.textColor = UIColor.mint
         
         separateLine.backgroundColor = UIColor.grayDB
         
