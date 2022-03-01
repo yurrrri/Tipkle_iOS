@@ -15,6 +15,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HomeFeedDetailViewController" customModule="Tipkle" customModuleProvider="target">
             <connections>
+                <outlet property="btnStar" destination="dff-Lp-ovT" id="USR-Kd-5yN"/>
                 <outlet property="commentBackgroundView" destination="11L-7G-6bt" id="4If-oZ-NBL"/>
                 <outlet property="feedDetailBack" destination="jlW-wq-Bc4" id="4hC-PN-KXj"/>
                 <outlet property="feedDetailBookMark" destination="XOK-op-tbN" id="Lyy-NN-Btf"/>
@@ -65,12 +66,12 @@
                     </constraints>
                 </imageView>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AD8-hy-oIc">
-                    <rect key="frame" x="80" y="365.5" width="44" height="24"/>
+                    <rect key="frame" x="80" y="365.5" width="43.5" height="24"/>
                     <fontDescription key="fontDescription" name="NotoSansCJKkr-Bold" family="Noto Sans CJK KR" pointSize="16"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gNZ-6U-lVM" customClass="CosmosView" customModule="Cosmos">
+                <view contentMode="scaleAspectFill" translatesAutoresizingMaskIntoConstraints="NO" id="gNZ-6U-lVM" customClass="CosmosView" customModule="Cosmos">
                     <rect key="frame" x="80" y="397" width="64" height="12"/>
                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     <constraints>
@@ -153,10 +154,13 @@
                             <nil key="textColor"/>
                             <nil key="highlightedColor"/>
                         </label>
-                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dff-Lp-ovT">
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dff-Lp-ovT">
                             <rect key="frame" x="24" y="0.0" width="20" height="89.5"/>
                             <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                             <state key="normal" image="ic_star_line"/>
+                            <connections>
+                                <action selector="btnStarTapped:" destination="-1" eventType="touchUpInside" id="ei0-Yj-OY4"/>
+                            </connections>
                         </button>
                     </subviews>
                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>

@@ -133,4 +133,23 @@ class HomeDataManager {
                     }
         }
     }
+    
+    func postStar(_ parameters: PostRatingStarRequest, viewController: RatingAlertViewController, postId:Int) {
+        AF.request("\(Constant.BASE_URL)posts/\(postId)/stars", method: .post, parameters: parameters, encoder: JSONParameterEncoder(), headers: Constant.HEADERS)
+            .validate()
+            .responseDecodable(of: BaseResponse.self) { response in
+                switch response.result {
+                case .success(let response):
+                    if response.isSuccess {
+                        viewController.didPostStarSuccess(response)
+//                        print("ok")
+                    } else {
+                        viewController.failedToRequest(message: response.message)
+                    }
+                case .failure(let error):
+                    print(error)
+                    viewController.failedToRequest(message: "서버와의 연결이 원활하지 않습니다")
+                }
+            }
+    }
 }

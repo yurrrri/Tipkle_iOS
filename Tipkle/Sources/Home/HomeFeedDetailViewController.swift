@@ -16,6 +16,8 @@ class HomeFeedDetailViewController: UIViewController {
     lazy var homeDataManager = HomeDataManager()
     var postId = 0
     var imageSources:[KingfisherSource] = []
+    var isPostedStar = false
+    
     @IBOutlet weak var feedDetailImageSlide: ImageSlideshow!
     @IBOutlet weak var feedDetailBookMark: UIButton!
     @IBOutlet weak var imgProfile: UIImageView!
@@ -31,6 +33,18 @@ class HomeFeedDetailViewController: UIViewController {
     @IBOutlet weak var tvRatingStar: UILabel!
     @IBOutlet weak var tvCommentCount: UILabel!
     @IBOutlet weak var tvNickName: UILabel!
+    @IBOutlet weak var btnStar: UIButton!
+    
+    @IBAction func btnStarTapped(_ sender: Any) {
+        let vc = RatingAlertViewController()
+        vc.postId = postId
+        // 뷰 컨트롤러가 보여지는 스타일
+        vc.modalPresentationStyle = .overCurrentContext
+        // 뷰 컨트롤러가 사라지는 스타일)
+        vc.modalTransitionStyle = .crossDissolve
+        
+        self.present(vc, animated: true, completion: nil)  // 생성
+    }
     
     
     //뒤로가기
@@ -60,6 +74,10 @@ class HomeFeedDetailViewController: UIViewController {
         
         separateLine.backgroundColor = UIColor.grayDB
         
+        if (isPostedStar){
+            btnStar.setImage(UIImage(named: "ic_star_line"), for: .normal)
+        }
+        
 //        commentBackgroundView.layer.shadowOpacity = 0.04
 //        commentBackgroundView.layer.shadowOffset = CGSize(width:commentBackgroundView.frame.width, 0)
 //        commentBackgroundView
@@ -84,8 +102,9 @@ extension HomeFeedDetailViewController{
         mainText.text = "꿀팁 테스트"
         tvRatingStar.text = result.score!
         tvCommentCount.text = String(result.commentCount!)
-        
-        
+        if (result.isStarred!=="Y"){
+            btnStar.setImage(UIImage(named: "ic_star_color"), for: .normal)
+        }
     }
     
     func failedToRequest(message: String) {
