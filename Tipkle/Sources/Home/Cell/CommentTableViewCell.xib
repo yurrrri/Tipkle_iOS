@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="NotoSansCJKkr-Bold.otf">
+            <string>NotoSansCJKkr-Bold</string>
+        </array>
+        <array key="NotoSansCJKkr-Regular.otf">
+            <string>NotoSansCJKkr-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="216" id="KGk-i7-Jjw" customClass="CommentTableViewCell" customModule="Tipkle" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="378" height="216"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="378" height="216"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="jLf-M9-6Ih">
+                        <rect key="frame" x="0.0" y="0.0" width="40" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="40" id="o1f-Pc-GsB"/>
+                            <constraint firstAttribute="height" constant="40" id="urn-22-VFv"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aun-60-Eya">
+                        <rect key="frame" x="48" y="0.0" width="49" height="27"/>
+                        <fontDescription key="fontDescription" name="NotoSansCJKkr-Bold" family="Noto Sans CJK KR" pointSize="18"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KlP-2D-dvU">
+                        <rect key="frame" x="48" y="33" width="330" height="24"/>
+                        <fontDescription key="fontDescription" name="NotoSansCJKkr-Regular" family="Noto Sans CJK KR" pointSize="16"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i8v-b3-kgG">
+                        <rect key="frame" x="358" y="0.0" width="20" height="22"/>
+                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                        <state key="normal" image="ic_more_vertical"/>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nd0-XX-IQE">
+                        <rect key="frame" x="48" y="67" width="36" height="21"/>
+                        <fontDescription key="fontDescription" name="NotoSansCJKkr-Regular" family="Noto Sans CJK KR" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="jLf-M9-6Ih" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="6Vw-A5-Ddr"/>
+                    <constraint firstItem="aun-60-Eya" firstAttribute="leading" secondItem="jLf-M9-6Ih" secondAttribute="trailing" constant="8" symbolic="YES" id="6se-qg-EC0"/>
+                    <constraint firstAttribute="trailing" secondItem="KlP-2D-dvU" secondAttribute="trailing" id="A0c-oX-ByW"/>
+                    <constraint firstItem="KlP-2D-dvU" firstAttribute="leading" secondItem="aun-60-Eya" secondAttribute="leading" id="Cz0-Ea-9Qa"/>
+                    <constraint firstItem="nd0-XX-IQE" firstAttribute="top" secondItem="KlP-2D-dvU" secondAttribute="bottom" constant="10" id="GoD-JL-Gff"/>
+                    <constraint firstItem="i8v-b3-kgG" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="Ree-jK-KWS"/>
+                    <constraint firstItem="jLf-M9-6Ih" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="gXl-j7-SvW"/>
+                    <constraint firstItem="nd0-XX-IQE" firstAttribute="leading" secondItem="KlP-2D-dvU" secondAttribute="leading" id="h7w-FT-khE"/>
+                    <constraint firstItem="aun-60-Eya" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="p0g-nY-muS"/>
+                    <constraint firstItem="KlP-2D-dvU" firstAttribute="top" secondItem="aun-60-Eya" secondAttribute="bottom" constant="6" id="pC8-Vn-OJp"/>
+                    <constraint firstAttribute="trailing" secondItem="i8v-b3-kgG" secondAttribute="trailing" id="zQz-qi-cmk"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <accessibility key="accessibilityConfiguration" identifier="CommentTableViewCell"/>
+            <connections>
+                <outlet property="btnCommentEdit" destination="i8v-b3-kgG" id="WqK-J2-1cx"/>
+                <outlet property="imgProfileComment" destination="jLf-M9-6Ih" id="Vky-QJ-Adm"/>
+                <outlet property="tvCommentContent" destination="KlP-2D-dvU" id="AcR-NM-A7g"/>
+                <outlet property="tvCommentHour" destination="nd0-XX-IQE" id="qfF-0X-TIH"/>
+                <outlet property="tvCommentNickname" destination="aun-60-Eya" id="gqf-Qq-36j"/>
+            </connections>
+            <point key="canvasLocation" x="173.91304347826087" y="165.40178571428569"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="ic_more_vertical" width="20" height="20"/>
+    </resources>
+</document>

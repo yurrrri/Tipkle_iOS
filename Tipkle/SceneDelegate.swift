@@ -27,6 +27,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
                     switch response.result {
                     case .success(let response):
                         if response.isSuccess {
+                            print(UserDefaults.standard.string(forKey: "jwt"))
                             // Window 설정
                             self.window = UIWindow(windowScene: scene)
                             self.window?.rootViewController = BaseTabBarController()

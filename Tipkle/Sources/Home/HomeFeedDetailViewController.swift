@@ -10,6 +10,7 @@ import ImageSlideshow
 import Kingfisher
 import ImageSlideshowKingfisher
 import Cosmos
+import PanModal
 
 class HomeFeedDetailViewController: UIViewController {
 
@@ -34,6 +35,7 @@ class HomeFeedDetailViewController: UIViewController {
     @IBOutlet weak var tvCommentCount: UILabel!
     @IBOutlet weak var tvNickName: UILabel!
     @IBOutlet weak var btnStar: UIButton!
+    @IBOutlet weak var btnComment: UIImageView!
     
     @IBAction func btnStarTapped(_ sender: Any) {
         let vc = RatingAlertViewController()
@@ -84,6 +86,15 @@ class HomeFeedDetailViewController: UIViewController {
         
         self.showIndicator()
         homeDataManager.getFeedDetail(viewController: self, postId: postId)
+    
+        let imgCommentTap = UITapGestureRecognizer(target: self, action: #selector(imgCommentTapped))
+        btnComment.addGestureRecognizer(imgCommentTap)
+    }
+    
+    @objc func imgCommentTapped(sender: UITapGestureRecognizer) {
+        let bottomSheet = HomeCommentBottomSheet()
+        bottomSheet.postId = postId
+        self.presentPanModal(bottomSheet)
     }
 }
 
@@ -108,6 +119,7 @@ extension HomeFeedDetailViewController{
     }
     
     func failedToRequest(message: String) {
+        self.dismissIndicator()
         self.presentAlert(title: message)
     }
 }

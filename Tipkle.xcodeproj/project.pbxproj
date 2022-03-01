@@ -63,6 +63,11 @@
 		DA93234027748D8600D5B489 /* HomeLookAroundCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA93233E27748D8600D5B489 /* HomeLookAroundCollectionViewCell.swift */; };
 		DAA30AEC2755055400D665D6 /* LoginDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA30AEB2755055400D665D6 /* LoginDataManager.swift */; };
 		DAA30AF727552E6300D665D6 /* fcmToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA30AF627552E6300D665D6 /* fcmToken.swift */; };
+		DAA9898327CE5C6A000FE9C3 /* HomeCommentBottomSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA9898127CE5C6A000FE9C3 /* HomeCommentBottomSheet.swift */; };
+		DAA9898427CE5C6A000FE9C3 /* HomeCommentBottomSheet.xib in Resources */ = {isa = PBXBuildFile; fileRef = DAA9898227CE5C6A000FE9C3 /* HomeCommentBottomSheet.xib */; };
+		DAA9898727CE6C68000FE9C3 /* CommentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA9898527CE6C68000FE9C3 /* CommentTableViewCell.swift */; };
+		DAA9898827CE6C68000FE9C3 /* CommentTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DAA9898627CE6C68000FE9C3 /* CommentTableViewCell.xib */; };
+		DAA9898A27CE6CC5000FE9C3 /* GetCommentResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA9898927CE6CC5000FE9C3 /* GetCommentResponse.swift */; };
 		DABEFC6B276B662A00362CA5 /* GetPreviewTips.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABEFC6A276B662A00362CA5 /* GetPreviewTips.swift */; };
 		DAC6D83627593F7A004625FB /* GetUserCeategoryResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC6D83527593F7A004625FB /* GetUserCeategoryResponse.swift */; };
 		DAD40FFB26FDD790008358B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD40FFA26FDD790008358B5 /* AppDelegate.swift */; };
@@ -142,6 +147,11 @@
 		DA93233E27748D8600D5B489 /* HomeLookAroundCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeLookAroundCollectionViewCell.swift; sourceTree = "<group>"; };
 		DAA30AEB2755055400D665D6 /* LoginDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginDataManager.swift; sourceTree = "<group>"; };
 		DAA30AF627552E6300D665D6 /* fcmToken.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fcmToken.swift; sourceTree = "<group>"; };
+		DAA9898127CE5C6A000FE9C3 /* HomeCommentBottomSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCommentBottomSheet.swift; sourceTree = "<group>"; };
+		DAA9898227CE5C6A000FE9C3 /* HomeCommentBottomSheet.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeCommentBottomSheet.xib; sourceTree = "<group>"; };
+		DAA9898527CE6C68000FE9C3 /* CommentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentTableViewCell.swift; sourceTree = "<group>"; };
+		DAA9898627CE6C68000FE9C3 /* CommentTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CommentTableViewCell.xib; sourceTree = "<group>"; };
+		DAA9898927CE6CC5000FE9C3 /* GetCommentResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetCommentResponse.swift; sourceTree = "<group>"; };
 		DABEFC6A276B662A00362CA5 /* GetPreviewTips.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetPreviewTips.swift; sourceTree = "<group>"; };
 		DAC6D83527593F7A004625FB /* GetUserCeategoryResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetUserCeategoryResponse.swift; sourceTree = "<group>"; };
 		DAD40FF726FDD790008358B5 /* Tipkle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tipkle.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -234,6 +244,8 @@
 				DAE8D9E827BACA5700C63D3C /* HomeFeedDetailViewController.xib */,
 				DA7F156E27C3E32C00196515 /* RatingAlertViewController.swift */,
 				DA7F156F27C3E32C00196515 /* RatingAlertViewController.xib */,
+				DAA9898127CE5C6A000FE9C3 /* HomeCommentBottomSheet.swift */,
+				DAA9898227CE5C6A000FE9C3 /* HomeCommentBottomSheet.xib */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -268,6 +280,8 @@
 		DA3896692767BC30006B146F /* Cell */ = {
 			isa = PBXGroup;
 			children = (
+				DAA9898527CE6C68000FE9C3 /* CommentTableViewCell.swift */,
+				DAA9898627CE6C68000FE9C3 /* CommentTableViewCell.xib */,
 				DA8CAA58278687B5004BFA9D /* HomeCollectionViewCell.swift */,
 				DA8CAA59278687B5004BFA9D /* HomeCollectionViewCell.xib */,
 				DA93233E27748D8600D5B489 /* HomeLookAroundCollectionViewCell.swift */,
@@ -475,6 +489,7 @@
 				DAD681AA2778DC8400B85FD9 /* GetCategoryFeedResponse.swift */,
 				DADB23A027BEA8B4004BD51A /* GetFeedDetailResponse.swift */,
 				DA7F157227C3E90A00196515 /* PostRatingStarRequest.swift */,
+				DAA9898927CE6CC5000FE9C3 /* GetCommentResponse.swift */,
 			);
 			path = Entity;
 			sourceTree = "<group>";
@@ -564,6 +579,7 @@
 				DA85774A27746FF20009EFEB /* LookAroundViewController.xib in Resources */,
 				DA87B717270CA6F40012D133 /* TransitionViewController.xib in Resources */,
 				DA7F157127C3E32C00196515 /* RatingAlertViewController.xib in Resources */,
+				DAA9898827CE6C68000FE9C3 /* CommentTableViewCell.xib in Resources */,
 				DAD4100426FDD791008358B5 /* Assets.xcassets in Resources */,
 				DA87B71B270CA6F40012D133 /* ActionViewController.xib in Resources */,
 				DA445F7B275F997200A760D5 /* HomePagerChildViewController.xib in Resources */,
@@ -571,6 +587,7 @@
 				DAD4100226FDD790008358B5 /* Main.storyboard in Resources */,
 				DA87B702270CA6F40012D133 /* NotoSansCJKkr-Medium.otf in Resources */,
 				DA87B715270CA6F40012D133 /* TransitionNextViewController.xib in Resources */,
+				DAA9898427CE5C6A000FE9C3 /* HomeCommentBottomSheet.xib in Resources */,
 				DA0258B527B3F369009FD222 /* GoogleService-Info.plist in Resources */,
 				DA8CAA5B278687B5004BFA9D /* HomeCollectionViewCell.xib in Resources */,
 				DAD9A264275930EA00E99682 /* HomeViewController.xib in Resources */,
@@ -642,6 +659,7 @@
 				DA75A4FE2764E18D00D7C9F9 /* GetBannerResponse.swift in Sources */,
 				DA87B71D270CA82F0012D133 /* JwtToken.swift in Sources */,
 				DA87B70B270CA6F40012D133 /* KakaoLoginResponse.swift in Sources */,
+				DAA9898327CE5C6A000FE9C3 /* HomeCommentBottomSheet.swift in Sources */,
 				DA87B6FD270CA6F40012D133 /* UIViewController.swift in Sources */,
 				DAE5C35C2759289C001C75BE /* HomeDataManager.swift in Sources */,
 				DA87B6FA270CA6F40012D133 /* Date.swift in Sources */,
@@ -661,6 +679,7 @@
 				DAA30AEC2755055400D665D6 /* LoginDataManager.swift in Sources */,
 				DA87B700270CA6F40012D133 /* UIColor.swift in Sources */,
 				DADB23A127BEA8B4004BD51A /* GetFeedDetailResponse.swift in Sources */,
+				DAA9898A27CE6CC5000FE9C3 /* GetCommentResponse.swift in Sources */,
 				DA87B6F8270CA6F40012D133 /* IndicatorView.swift in Sources */,
 				DA87B6FB270CA6F40012D133 /* String.swift in Sources */,
 				DAE8D9E927BACA5700C63D3C /* HomeFeedDetailViewController.swift in Sources */,
@@ -673,6 +692,7 @@
 				DA87B6FF270CA6F40012D133 /* UIFont.swift in Sources */,
 				DA8CAA5A278687B5004BFA9D /* HomeCollectionViewCell.swift in Sources */,
 				DA87B6FC270CA6F40012D133 /* UIButton.swift in Sources */,
+				DAA9898727CE6C68000FE9C3 /* CommentTableViewCell.swift in Sources */,
 				DA87B6FE270CA6F40012D133 /* UINavigationBar.swift in Sources */,
 				DA87B714270CA6F40012D133 /* TransitionNextViewController.swift in Sources */,
 				DAA30AF727552E6300D665D6 /* fcmToken.swift in Sources */,

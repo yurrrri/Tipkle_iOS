@@ -98,7 +98,9 @@ class HomeDataManager {
                 switch response.result {
                 case .success(let response):
                     if response.isSuccess {
-                        print(response)
+                        for i in response.result!{
+                            print(i.postId)
+                        }
                         viewController.didSuccessGetFeed(response.result!)
                     } else {
                         viewController.failedToRequest(message: response.message)
@@ -142,7 +144,6 @@ class HomeDataManager {
                 case .success(let response):
                     if response.isSuccess {
                         viewController.didPostStarSuccess(response)
-//                        print("ok")
                     } else {
                         viewController.failedToRequest(message: response.message)
                     }
@@ -151,5 +152,30 @@ class HomeDataManager {
                     viewController.failedToRequest(message: "서버와의 연결이 원활하지 않습니다")
                 }
             }
+    }
+    
+    func getFeedComment(viewController: HomeCommentBottomSheet, postId:Int){
+
+        let urlString = "\(Constant.BASE_URL)posts/\(postId)/comments"
+
+        if let encoded = urlString.addingPercentEncoding(withAllowedCharacters: .urlFragmentAllowed), let url = URL(string: encoded){
+            AF.request(url, method: .get, parameters:nil, headers:Constant.HEADERS)
+                    .validate()
+                    .responseDecodable(of: GetCommentResponse.self) { response in
+                        switch response.result {
+                        case .success(let response):
+                            if response.isSuccess {
+                                print(response.result)
+                                viewController.getCommentSuccess(response.result!)
+                                
+                            } else {
+                                viewController.failedToRequest(message: response.message)
+                            }
+                        case .failure(let error):
+                            print(error.localizedDescription)
+                            viewController.failedToRequest(message: "서버와의 연결이 원활하지 않습니다")
+                        }
+                    }
+        }
     }
 }
