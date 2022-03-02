@@ -19,4 +19,4 @@ Awards - 8th MakeUs 데모데이 팔레트상
 iOS 13, UIKit, Swift
 
 ## Library
-Alamofire, Kingfisher, Kakao Sdk
+Alamofire, Kingfisher, Kakao Sdk, Cosmos, Panmodal
