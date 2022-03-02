@@ -11,6 +11,14 @@ import PanModal
 class HomeCategoryBottomSheetViewController: UIViewController {
 
     @IBOutlet weak var btnApply: UIButton!
+    @IBOutlet weak var btnClean: UIButton!
+    @IBOutlet weak var btnCook: UIButton!
+    @IBOutlet weak var btnJachi: UIButton!
+    @IBOutlet weak var btnTrip: UIButton!
+    @IBOutlet weak var btnUniv: UIButton!
+    @IBOutlet weak var btnBeauty: UIButton!
+    lazy var homeDataManager = HomeDataManager()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -20,6 +28,9 @@ class HomeCategoryBottomSheetViewController: UIViewController {
         btnApply.backgroundColor = UIColor.mint
         
         btnApply.setNeedsDisplay()
+        
+        self.showIndicator()
+        homeDataManager.getUserCategories(viewController: self)
     
     }
 }
@@ -39,4 +50,36 @@ extension HomeCategoryBottomSheetViewController: PanModalPresentable {
         return .contentHeight(552)
     }
     
+}
+
+extension HomeCategoryBottomSheetViewController {
+    func didSuccessGetUserCategories(_ result: [GetUserCategoryResult]){
+        self.dismissIndicator()
+        for i in result{
+            switch i.categoryName {
+            case "청소" :
+                btnClean.setImage(UIImage(named: "check_box_color"), for: .normal)
+                break
+            case "요리" :
+                btnCook.setImage(UIImage(named: "check_box_color"), for: .normal)
+                break
+            case "자취" :
+                btnJachi.setImage(UIImage(named: "check_box_color"), for: .normal)
+                break
+            case "여행" :
+                btnTrip.setImage(UIImage(named: "check_box_color"), for: .normal)
+                break
+            case "대학" :
+                btnUniv.setImage(UIImage(named: "check_box_color"), for: .normal)
+                break
+            default:
+                btnBeauty.setImage(UIImage(named: "check_box_color"), for: .normal)
+                break
+            }
+        }
+    }
+    
+    func failedToRequest(message: String) {
+        self.presentAlert(title: message)
+    }
 }

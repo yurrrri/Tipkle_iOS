@@ -20,6 +20,12 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HomeCategoryBottomSheetViewController" customModule="Tipkle" customModuleProvider="target">
             <connections>
                 <outlet property="btnApply" destination="MtP-kQ-xM7" id="Zlx-CU-Vtc"/>
+                <outlet property="btnBeauty" destination="ELk-Qr-ULK" id="YpB-Qa-bTp"/>
+                <outlet property="btnClean" destination="y23-1O-UBq" id="ysM-hK-NUC"/>
+                <outlet property="btnCook" destination="pdL-Dg-TlG" id="l9W-sP-lA1"/>
+                <outlet property="btnJachi" destination="26C-2f-8dU" id="4sa-C5-MHF"/>
+                <outlet property="btnTrip" destination="Rbz-3d-5XB" id="RSG-B0-L7w"/>
+                <outlet property="btnUniv" destination="Otl-4c-GHI" id="zpS-wq-Ysg"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -46,7 +52,7 @@
                     <state key="normal" title="Button" image="check_box"/>
                 </button>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="뷰티" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HqT-iw-4AN">
-                    <rect key="frame" x="68" y="427" width="34" height="28"/>
+                    <rect key="frame" x="68" y="427" width="33.5" height="28"/>
                     <fontDescription key="fontDescription" name="NotoSansCJKkr-Regular" family="Noto Sans CJK KR" pointSize="18"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
@@ -61,7 +67,7 @@
                     <state key="normal" title="Button" image="check_box"/>
                 </button>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="대학" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EpY-xf-BQy">
-                    <rect key="frame" x="68" y="373" width="34" height="28"/>
+                    <rect key="frame" x="68" y="373" width="33.5" height="28"/>
                     <fontDescription key="fontDescription" name="NotoSansCJKkr-Regular" family="Noto Sans CJK KR" pointSize="18"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
@@ -76,7 +82,7 @@
                     <state key="normal" title="Button" image="check_box"/>
                 </button>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="여행" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="edB-e9-i51">
-                    <rect key="frame" x="68" y="319" width="34" height="28"/>
+                    <rect key="frame" x="68" y="319" width="33.5" height="28"/>
                     <fontDescription key="fontDescription" name="NotoSansCJKkr-Regular" family="Noto Sans CJK KR" pointSize="18"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
@@ -91,7 +97,7 @@
                     <state key="normal" title="Button" image="check_box"/>
                 </button>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="자취" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3AF-VJ-QLs">
-                    <rect key="frame" x="68" y="265" width="34" height="28"/>
+                    <rect key="frame" x="68" y="265" width="33.5" height="28"/>
                     <fontDescription key="fontDescription" name="NotoSansCJKkr-Regular" family="Noto Sans CJK KR" pointSize="18"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
@@ -115,7 +121,7 @@
                     <state key="normal" image="check_box"/>
                 </button>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="청소" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bQo-c0-oSW">
-                    <rect key="frame" x="68" y="157" width="34" height="28"/>
+                    <rect key="frame" x="68" y="157" width="33.5" height="28"/>
                     <fontDescription key="fontDescription" name="NotoSansCJKkr-Regular" family="Noto Sans CJK KR" pointSize="18"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
@@ -136,7 +142,7 @@
                     <nil key="highlightedColor"/>
                 </label>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="요리" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0ZA-qP-jSp">
-                    <rect key="frame" x="68" y="211" width="34" height="28"/>
+                    <rect key="frame" x="68" y="211" width="33.5" height="28"/>
                     <fontDescription key="fontDescription" name="NotoSansCJKkr-Regular" family="Noto Sans CJK KR" pointSize="18"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>

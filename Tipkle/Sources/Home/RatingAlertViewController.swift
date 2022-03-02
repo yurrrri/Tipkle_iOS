@@ -37,7 +37,6 @@ class RatingAlertViewController: UIViewController {
         ratingBar.settings.starMargin = 12
         ratingBar.settings.starSize = Double( (ratingBar.frame.width/countStars)-(ratingBar.settings.starMargin)) //star size gonna stretch with the width of the ratingbar
     }
-
 }
 
 extension RatingAlertViewController{
