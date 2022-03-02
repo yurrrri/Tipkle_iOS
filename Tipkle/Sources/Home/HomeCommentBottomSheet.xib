@@ -46,7 +46,7 @@
                     <rect key="frame" x="24" y="142" width="366" height="664"/>
                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                 </tableView>
-                <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="omT-O1-q0m">
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="omT-O1-q0m">
                     <rect key="frame" x="0.0" y="825" width="414" height="1"/>
                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     <constraints>
@@ -81,7 +81,9 @@
                 <constraint firstItem="hdB-NE-Jyi" firstAttribute="centerY" secondItem="7q6-QP-NYQ" secondAttribute="centerY" id="HpR-KJ-zVb"/>
                 <constraint firstItem="hdB-NE-Jyi" firstAttribute="leading" secondItem="7q6-QP-NYQ" secondAttribute="trailing" constant="4" id="Jgm-tQ-e8I"/>
                 <constraint firstItem="TZL-bM-hjY" firstAttribute="leading" secondItem="Zm3-Zr-EN2" secondAttribute="trailing" constant="15" id="Jrw-la-WJ2"/>
+                <constraint firstItem="omT-O1-q0m" firstAttribute="centerX" secondItem="F3p-4v-OWN" secondAttribute="centerX" id="P5r-zw-mFv"/>
                 <constraint firstItem="TZL-bM-hjY" firstAttribute="bottom" secondItem="fnl-2z-Ty3" secondAttribute="bottom" constant="10" id="Pae-l1-z4W"/>
+                <constraint firstItem="omT-O1-q0m" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="RS9-5l-rXK"/>
                 <constraint firstItem="7q6-QP-NYQ" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="24" id="WQ8-HD-Wa4"/>
                 <constraint firstItem="Zm3-Zr-EN2" firstAttribute="top" secondItem="omT-O1-q0m" secondAttribute="bottom" constant="4" id="Wyt-cI-znd"/>
                 <constraint firstItem="F3p-4v-OWN" firstAttribute="top" secondItem="7q6-QP-NYQ" secondAttribute="bottom" constant="28" id="lzg-my-o08"/>

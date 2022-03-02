@@ -50,7 +50,6 @@ extension HomeCommentBottomSheet: UITableViewDelegate, UITableViewDataSource{
         
         return cell
     }
-    
 }
 
 extension HomeCommentBottomSheet: PanModalPresentable {

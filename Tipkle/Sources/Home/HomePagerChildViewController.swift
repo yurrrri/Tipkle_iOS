@@ -14,6 +14,7 @@ private let cellID = "HomeCollectionViewCell"
 
 class HomePagerChildViewController: UIViewController {
     
+    @IBOutlet weak var homeFloatingButton: UIButton!
     lazy var homeDataManager  = HomeDataManager()
     
     @IBOutlet weak var bannerTitle: UILabel!
@@ -44,6 +45,7 @@ class HomePagerChildViewController: UIViewController {
 
         homeTopBannerSlide.contentScaleMode = .scaleAspectFill
         bannerTitle.layer.zPosition = 999 //맨위로 올라가도록 (중첩)
+        homeFloatingButton.layer.zPosition = 999
         
         homeTopBannerSlide.currentPageChanged = { page in
             self.bannerTitle.text = self.bannerTitles[page]
