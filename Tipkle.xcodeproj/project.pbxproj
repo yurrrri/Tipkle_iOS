@@ -92,6 +92,10 @@
 		DAE8D9E627BAC7B500C63D3C /* HomeLookAroundImageCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DAE8D9E527BAC7B500C63D3C /* HomeLookAroundImageCollectionViewCell.xib */; };
 		DAE8D9E927BACA5700C63D3C /* HomeFeedDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE8D9E727BACA5700C63D3C /* HomeFeedDetailViewController.swift */; };
 		DAE8D9EA27BACA5700C63D3C /* HomeFeedDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DAE8D9E827BACA5700C63D3C /* HomeFeedDetailViewController.xib */; };
+		DAF99E1927DBAE8400A85FD7 /* WriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF99E1727DBAE8400A85FD7 /* WriteViewController.swift */; };
+		DAF99E1A27DBAE8400A85FD7 /* WriteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DAF99E1827DBAE8400A85FD7 /* WriteViewController.xib */; };
+		DAFBB9D928088CAE00422007 /* MyDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFBB9D828088CAE00422007 /* MyDataManager.swift */; };
+		DAFBB9DC28088D1600422007 /* GetMyPageResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFBB9DB28088D1600422007 /* GetMyPageResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -177,6 +181,10 @@
 		DAE8D9E527BAC7B500C63D3C /* HomeLookAroundImageCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeLookAroundImageCollectionViewCell.xib; sourceTree = "<group>"; };
 		DAE8D9E727BACA5700C63D3C /* HomeFeedDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeFeedDetailViewController.swift; sourceTree = "<group>"; };
 		DAE8D9E827BACA5700C63D3C /* HomeFeedDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeFeedDetailViewController.xib; sourceTree = "<group>"; };
+		DAF99E1727DBAE8400A85FD7 /* WriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriteViewController.swift; sourceTree = "<group>"; };
+		DAF99E1827DBAE8400A85FD7 /* WriteViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WriteViewController.xib; sourceTree = "<group>"; };
+		DAFBB9D828088CAE00422007 /* MyDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDataManager.swift; sourceTree = "<group>"; };
+		DAFBB9DB28088D1600422007 /* GetMyPageResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetMyPageResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -246,6 +254,8 @@
 				DA7F156F27C3E32C00196515 /* RatingAlertViewController.xib */,
 				DAA9898127CE5C6A000FE9C3 /* HomeCommentBottomSheet.swift */,
 				DAA9898227CE5C6A000FE9C3 /* HomeCommentBottomSheet.xib */,
+				DAF99E1727DBAE8400A85FD7 /* WriteViewController.swift */,
+				DAF99E1827DBAE8400A85FD7 /* WriteViewController.xib */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -271,8 +281,10 @@
 		DA17B82527579B9E0053C5D3 /* MyPage */ = {
 			isa = PBXGroup;
 			children = (
+				DAFBB9DA28088CEF00422007 /* Entity */,
 				DAE5C3542758BFC5001C75BE /* MyPageViewController.swift */,
 				DAE5C3552758BFC5001C75BE /* MyPageViewController.xib */,
+				DAFBB9D828088CAE00422007 /* MyDataManager.swift */,
 			);
 			path = MyPage;
 			sourceTree = "<group>";
@@ -494,6 +506,14 @@
 			path = Entity;
 			sourceTree = "<group>";
 		};
+		DAFBB9DA28088CEF00422007 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				DAFBB9DB28088D1600422007 /* GetMyPageResponse.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -580,6 +600,7 @@
 				DA87B717270CA6F40012D133 /* TransitionViewController.xib in Resources */,
 				DA7F157127C3E32C00196515 /* RatingAlertViewController.xib in Resources */,
 				DAA9898827CE6C68000FE9C3 /* CommentTableViewCell.xib in Resources */,
+				DAF99E1A27DBAE8400A85FD7 /* WriteViewController.xib in Resources */,
 				DAD4100426FDD791008358B5 /* Assets.xcassets in Resources */,
 				DA87B71B270CA6F40012D133 /* ActionViewController.xib in Resources */,
 				DA445F7B275F997200A760D5 /* HomePagerChildViewController.xib in Resources */,
@@ -666,8 +687,11 @@
 				DAD9A263275930EA00E99682 /* HomeViewController.swift in Sources */,
 				DABEFC6B276B662A00362CA5 /* GetPreviewTips.swift in Sources */,
 				DA6ECA4927B2B53400433D75 /* HomeCategoryBottomSheetViewController.swift in Sources */,
+				DAF99E1927DBAE8400A85FD7 /* WriteViewController.swift in Sources */,
 				DAD40FFB26FDD790008358B5 /* AppDelegate.swift in Sources */,
+				DAFBB9DC28088D1600422007 /* GetMyPageResponse.swift in Sources */,
 				DAD681AB2778DC8400B85FD9 /* GetCategoryFeedResponse.swift in Sources */,
+				DAFBB9D928088CAE00422007 /* MyDataManager.swift in Sources */,
 				DAC6D83627593F7A004625FB /* GetUserCeategoryResponse.swift in Sources */,
 				DA87B705270CA6F40012D133 /* BaseTabBarController.swift in Sources */,
 				DAD40FFD26FDD790008358B5 /* SceneDelegate.swift in Sources */,

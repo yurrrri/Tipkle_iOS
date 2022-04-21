@@ -6,24 +6,45 @@
 //
 
 import UIKit
+import Kingfisher
 
 class MyPageViewController: UIViewController {
 
+    @IBOutlet weak var myBackgroundView: UIView!
+    @IBOutlet weak var myProfile: UIImageView!
+    @IBOutlet weak var myNickName: UILabel!
+    @IBOutlet weak var myLevel: UIImageView!
+    @IBOutlet weak var myLevelName: UILabel!
+    @IBOutlet weak var myAchievement: UILabel!
+//
+    lazy var myDataManager = MyDataManager()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        myBackgroundView.backgroundColor = UIColor.mint
+        self.tabBarController?.tabBar.barTintColor = UIColor.white
+        
+        self.showIndicator()
+        myDataManager.getMyPage(viewController: self)
     }
-
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }
+
+extension MyPageViewController {
+    func didSuccessGetUserMyPage(_ result: GetMyPageResult){
+        
+        self.dismissIndicator()
+        myProfile.kf.setImage(with: URL(string: result.profileImgUrl), placeholder: UIImage(systemName: "photo"), options:.none)
+        myNickName.text = result.nickName
+        myLevel.image = UIImage(named: "Lv1_40%")
+        myLevelName.text = result.levelName
+        myAchievement.text = result.achievement
+
+    }
+    
+    func failedToRequest(message: String) {
+        self.presentAlert(title: message)
+    }
+}
+

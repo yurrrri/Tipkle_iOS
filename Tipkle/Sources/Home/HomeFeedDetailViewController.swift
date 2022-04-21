@@ -57,6 +57,9 @@ class HomeFeedDetailViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         self.tabBarController?.tabBar.isHidden = true
+        // tabbar가 자연스럽게 없어지게 하기 위한 부분 추가
+        self.tabBarController?.tabBar.isTranslucent = true
+        
         feedDetailImageSlide.contentScaleMode = .scaleToFill
         
         feedDetailBookMark.layer.zPosition = 999

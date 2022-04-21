@@ -24,7 +24,8 @@ class BaseTabBarController: UITabBarController, UITabBarControllerDelegate {
         super.viewDidLoad()
         
         self.tabBarController?.selectedIndex = 0 //처음 갔을때 디폴트 뷰컨 세팅
-        self.tabBarController?.tabBar.backgroundColor = .white
+        self.tabBarController?.tabBar.barTintColor = .white
+        self.tabBarController?.tabBar.isTranslucent = false
         
         //선택했을때의 tabbar icon 세팅
         homeTabBarItem.selectedImage = UIImage(named: "icon_home_full")
@@ -37,6 +38,9 @@ class BaseTabBarController: UITabBarController, UITabBarControllerDelegate {
         let tipNavigationController = UINavigationController(rootViewController: tipkleViewController)
         let searchNavigationController = UINavigationController(rootViewController: searchViewcontroller)
         let myNavigationController = UINavigationController(rootViewController: myViewController)
+        
+        homeNavigationController.navigationBar.isHidden = true //bar hidden
+        myNavigationController.navigationBar.isHidden = true
         
         homeNavigationController.tabBarItem  = homeTabBarItem
         tipNavigationController.tabBarItem = tipTabBarItem

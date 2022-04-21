@@ -44,6 +44,10 @@ class LookAroundViewController: UIViewController, UIScrollViewDelegate {
         self.showIndicator()
         homeDataManager.getCategoryFeed(viewController: self, categoryName: categoryName!, order: "recent", page:page)
     }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        self.tabBarController?.tabBar.isHidden = false
+    }
             
     func scrollViewDidScroll(_ scrollView: UIScrollView) {
         if (lookAroundCollectionView.contentOffset.y > (lookAroundCollectionView.contentSize.height - lookAroundCollectionView.bounds.size.height)){
