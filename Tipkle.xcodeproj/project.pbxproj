@@ -13,6 +13,8 @@
 		DA445F77275F98FD00A760D5 /* HomePagerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA445F75275F98FD00A760D5 /* HomePagerViewController.xib */; };
 		DA445F7A275F997200A760D5 /* HomePagerChildViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA445F78275F997200A760D5 /* HomePagerChildViewController.swift */; };
 		DA445F7B275F997200A760D5 /* HomePagerChildViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA445F79275F997200A760D5 /* HomePagerChildViewController.xib */; };
+		DA526B542812902D0020EF9C /* MyPageEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA526B522812902D0020EF9C /* MyPageEditViewController.swift */; };
+		DA526B552812902D0020EF9C /* MyPageEditViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA526B532812902D0020EF9C /* MyPageEditViewController.xib */; };
 		DA6ECA4927B2B53400433D75 /* HomeCategoryBottomSheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6ECA4727B2B53400433D75 /* HomeCategoryBottomSheetViewController.swift */; };
 		DA6ECA4A27B2B53400433D75 /* HomeCategoryBottomSheetViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA6ECA4827B2B53400433D75 /* HomeCategoryBottomSheetViewController.xib */; };
 		DA6ECA4D27B2BE4200433D75 /* PanModal in Frameworks */ = {isa = PBXBuildFile; productRef = DA6ECA4C27B2BE4200433D75 /* PanModal */; };
@@ -107,6 +109,8 @@
 		DA445F75275F98FD00A760D5 /* HomePagerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomePagerViewController.xib; sourceTree = "<group>"; };
 		DA445F78275F997200A760D5 /* HomePagerChildViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePagerChildViewController.swift; sourceTree = "<group>"; };
 		DA445F79275F997200A760D5 /* HomePagerChildViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomePagerChildViewController.xib; sourceTree = "<group>"; };
+		DA526B522812902D0020EF9C /* MyPageEditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPageEditViewController.swift; sourceTree = "<group>"; };
+		DA526B532812902D0020EF9C /* MyPageEditViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyPageEditViewController.xib; sourceTree = "<group>"; };
 		DA6ECA4727B2B53400433D75 /* HomeCategoryBottomSheetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCategoryBottomSheetViewController.swift; sourceTree = "<group>"; };
 		DA6ECA4827B2B53400433D75 /* HomeCategoryBottomSheetViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeCategoryBottomSheetViewController.xib; sourceTree = "<group>"; };
 		DA73E1BD277B930A00C8230D /* HomeLookAroundImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeLookAroundImageCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -285,6 +289,8 @@
 				DAE5C3542758BFC5001C75BE /* MyPageViewController.swift */,
 				DAE5C3552758BFC5001C75BE /* MyPageViewController.xib */,
 				DAFBB9D828088CAE00422007 /* MyDataManager.swift */,
+				DA526B522812902D0020EF9C /* MyPageEditViewController.swift */,
+				DA526B532812902D0020EF9C /* MyPageEditViewController.xib */,
 			);
 			path = MyPage;
 			sourceTree = "<group>";
@@ -607,6 +613,7 @@
 				DA87B708270CA6F40012D133 /* LoginViewController.xib in Resources */,
 				DAD4100226FDD790008358B5 /* Main.storyboard in Resources */,
 				DA87B702270CA6F40012D133 /* NotoSansCJKkr-Medium.otf in Resources */,
+				DA526B552812902D0020EF9C /* MyPageEditViewController.xib in Resources */,
 				DA87B715270CA6F40012D133 /* TransitionNextViewController.xib in Resources */,
 				DAA9898427CE5C6A000FE9C3 /* HomeCommentBottomSheet.xib in Resources */,
 				DA0258B527B3F369009FD222 /* GoogleService-Info.plist in Resources */,
@@ -674,6 +681,7 @@
 				DA85774927746FF20009EFEB /* LookAroundViewController.swift in Sources */,
 				DA87B70C270CA6F40012D133 /* KakaoLoginRequest.swift in Sources */,
 				DAE5C3592758DBAE001C75BE /* BaseResponse.swift in Sources */,
+				DA526B542812902D0020EF9C /* MyPageEditViewController.swift in Sources */,
 				DA445F76275F98FD00A760D5 /* HomePagerViewController.swift in Sources */,
 				DA87B718270CA6F40012D133 /* ActionViewController.swift in Sources */,
 				DA73E1BE277B930A00C8230D /* HomeLookAroundImageCollectionViewCell.swift in Sources */,

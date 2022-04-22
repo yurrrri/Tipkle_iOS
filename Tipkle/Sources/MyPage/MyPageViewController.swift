@@ -16,7 +16,8 @@ class MyPageViewController: UIViewController {
     @IBOutlet weak var myLevel: UIImageView!
     @IBOutlet weak var myLevelName: UILabel!
     @IBOutlet weak var myAchievement: UILabel!
-//
+//    @IBOutlet weak var topBackground: UIView!
+    
     lazy var myDataManager = MyDataManager()
     
     override func viewDidLoad() {
@@ -25,10 +26,12 @@ class MyPageViewController: UIViewController {
         // Do any additional setup after loading the view.
         myBackgroundView.backgroundColor = UIColor.mint
         self.tabBarController?.tabBar.barTintColor = UIColor.white
+//        topBackground.backgroundColor = UIColor.mint
         
         self.showIndicator()
         myDataManager.getMyPage(viewController: self)
     }
+    
 }
 
 extension MyPageViewController {

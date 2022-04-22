@@ -18,7 +18,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MyPageViewController" customModule="Tipkle" customModuleProvider="target">
             <connections>
-                <outlet property="myAchievement" destination="goO-5W-cPT" id="HPg-v5-6Fl"/>
+                <outlet property="myAchievement" destination="goO-5W-cPT" id="0Nh-m6-gtm"/>
                 <outlet property="myBackgroundView" destination="AXg-yi-SbU" id="eHJ-0z-ckm"/>
                 <outlet property="myLevel" destination="6bj-XN-ohk" id="Kvx-Ff-EDB"/>
                 <outlet property="myLevelName" destination="xEY-Zo-SRk" id="PAq-QR-jzw"/>
@@ -89,7 +89,7 @@
                                     <rect key="frame" x="0.0" y="652" width="414" height="72"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="키워드 알림" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k7O-YJ-j51">
-                                            <rect key="frame" x="36" y="26" width="78" height="20.5"/>
+                                            <rect key="frame" x="36" y="25.5" width="78" height="20.5"/>
                                             <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="17"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
@@ -137,7 +137,7 @@
                                     <rect key="frame" x="0.0" y="724" width="406" height="72"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="로그아웃" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZLf-gC-Rnr">
-                                            <rect key="frame" x="36" y="26" width="59" height="20.5"/>
+                                            <rect key="frame" x="36" y="25.5" width="59" height="20.5"/>
                                             <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="17"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
@@ -173,11 +173,13 @@
                                 <constraint firstItem="6bj-XN-ohk" firstAttribute="trailing" secondItem="vhS-gI-fUD" secondAttribute="trailing" constant="-32" id="0Qo-Av-6k7"/>
                                 <constraint firstItem="vhS-gI-fUD" firstAttribute="height" secondItem="Qhn-Hz-Sd1" secondAttribute="height" multiplier="0.217" id="3Fq-DK-Ewi"/>
                                 <constraint firstItem="b5M-zk-BmV" firstAttribute="trailing" secondItem="AXg-yi-SbU" secondAttribute="trailing" id="3KQ-vH-tus"/>
+                                <constraint firstItem="TTg-RL-HoA" firstAttribute="top" secondItem="AXg-yi-SbU" secondAttribute="bottom" constant="17.5" id="8Gl-Pb-bIc"/>
                                 <constraint firstItem="4Ub-MO-yKQ" firstAttribute="leading" secondItem="TTg-RL-HoA" secondAttribute="leading" id="AFB-O0-k6h"/>
                                 <constraint firstItem="E53-vo-zb0" firstAttribute="top" secondItem="6tL-AV-uXc" secondAttribute="bottom" constant="35" id="Dx7-mN-YDP"/>
                                 <constraint firstItem="xEY-Zo-SRk" firstAttribute="top" secondItem="6bj-XN-ohk" secondAttribute="bottom" constant="12" id="EKd-cH-NIb"/>
                                 <constraint firstItem="1x5-0E-u0d" firstAttribute="leading" secondItem="vhS-gI-fUD" secondAttribute="leading" constant="32" id="FaD-Gj-YqK"/>
                                 <constraint firstItem="6bj-XN-ohk" firstAttribute="top" secondItem="1x5-0E-u0d" secondAttribute="bottom" constant="18" id="FbV-Z6-G1I"/>
+                                <constraint firstItem="AXg-yi-SbU" firstAttribute="leading" secondItem="b5M-zk-BmV" secondAttribute="leading" id="N15-h0-Gxa"/>
                                 <constraint firstItem="Yif-w5-K6Q" firstAttribute="leading" secondItem="dho-gg-jWy" secondAttribute="leading" id="NN9-br-1om"/>
                                 <constraint firstItem="4Ub-MO-yKQ" firstAttribute="trailing" secondItem="TTg-RL-HoA" secondAttribute="trailing" id="Nen-Jb-vTN"/>
                                 <constraint firstItem="Yif-w5-K6Q" firstAttribute="trailing" secondItem="dho-gg-jWy" secondAttribute="trailing" id="PTN-Lf-IM9"/>
@@ -191,7 +193,6 @@
                                 <constraint firstItem="1x5-0E-u0d" firstAttribute="top" secondItem="vhS-gI-fUD" secondAttribute="top" constant="20" id="XN6-2z-raE"/>
                                 <constraint firstItem="TTg-RL-HoA" firstAttribute="centerX" secondItem="E53-vo-zb0" secondAttribute="centerX" id="Z5q-Ai-q0c"/>
                                 <constraint firstItem="6bj-XN-ohk" firstAttribute="leading" secondItem="vhS-gI-fUD" secondAttribute="leading" constant="32" id="apl-L2-AZL"/>
-                                <constraint firstItem="AXg-yi-SbU" firstAttribute="leading" secondItem="Qhn-Hz-Sd1" secondAttribute="leading" id="chh-xD-afU"/>
                                 <constraint firstItem="AXg-yi-SbU" firstAttribute="top" secondItem="Qhn-Hz-Sd1" secondAttribute="top" id="dh7-Pe-WRh"/>
                                 <constraint firstItem="vhS-gI-fUD" firstAttribute="leading" secondItem="Qhn-Hz-Sd1" secondAttribute="leading" constant="20" id="fC4-5y-lgS"/>
                                 <constraint firstAttribute="trailing" secondItem="dho-gg-jWy" secondAttribute="trailing" constant="8" id="fHn-5Q-4zz"/>
@@ -211,10 +212,10 @@
                     </subviews>
                     <constraints>
                         <constraint firstItem="Qhn-Hz-Sd1" firstAttribute="height" secondItem="jud-wu-fXO" secondAttribute="height" id="0nV-yV-X68"/>
-                        <constraint firstItem="Qhn-Hz-Sd1" firstAttribute="width" secondItem="jud-wu-fXO" secondAttribute="width" id="BfC-iz-kar"/>
                         <constraint firstItem="Qhn-Hz-Sd1" firstAttribute="trailing" secondItem="nRF-oK-bbz" secondAttribute="trailing" id="PkN-bt-45C"/>
                         <constraint firstItem="Qhn-Hz-Sd1" firstAttribute="bottom" secondItem="nRF-oK-bbz" secondAttribute="bottom" id="YDT-sY-4NN"/>
                         <constraint firstItem="Qhn-Hz-Sd1" firstAttribute="leading" secondItem="nRF-oK-bbz" secondAttribute="leading" id="Yhb-fm-9ze"/>
+                        <constraint firstItem="Qhn-Hz-Sd1" firstAttribute="width" secondItem="jud-wu-fXO" secondAttribute="width" id="bd1-hT-6QE"/>
                         <constraint firstItem="Qhn-Hz-Sd1" firstAttribute="top" secondItem="nRF-oK-bbz" secondAttribute="top" id="lVA-81-ylE"/>
                     </constraints>
                     <viewLayoutGuide key="contentLayoutGuide" id="nRF-oK-bbz"/>
