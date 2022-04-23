@@ -15,7 +15,7 @@ extension TMBar {
     public typealias ButtonBar = TMBarView<TMHorizontalBarLayout, TMLabelBarButton, TMLineBarIndicator>
     /// iOS 'UITabBar' style bar, featuring a constrained horizontal layout, tab item bar buttons with a
     /// vertically aligned image and label, and no visible indicator.
-    public typealias TabBar = TMBarView<TMConstrainedHorizontalBarLayout, TMTabItemBarButton, TMLineBarIndicator>
+    public typealias TabBar = TMBarView<TMConstrainedHorizontalBarLayout, TMTabItemBarButton, TMBarIndicator.None>
     /// Bar which features only a line indicator, and no buttons.
     public typealias LineBar = TMBarView<TMBarLayout.None, TMBarButton.None, TMLineBarIndicator>
 }

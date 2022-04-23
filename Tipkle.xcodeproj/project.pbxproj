@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7AF62CDB543864BB0A3D5670 /* Pods_Tipkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99D65FA7D8ABE57F8F0CBBA2 /* Pods_Tipkle.framework */; };
+		716CE5B5EEBB235A1CF841D4 /* Pods_Tipkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D527FE7BAEE6D698BBDCEC3E /* Pods_Tipkle.framework */; };
 		DA0258B527B3F369009FD222 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA0258B427B3F369009FD222 /* GoogleService-Info.plist */; };
 		DA445F76275F98FD00A760D5 /* HomePagerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA445F74275F98FD00A760D5 /* HomePagerViewController.swift */; };
 		DA445F77275F98FD00A760D5 /* HomePagerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA445F75275F98FD00A760D5 /* HomePagerViewController.xib */; };
@@ -101,9 +101,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		23449EE9BB5C631C87FD11C5 /* Pods-Tipkle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tipkle.debug.xcconfig"; path = "Target Support Files/Pods-Tipkle/Pods-Tipkle.debug.xcconfig"; sourceTree = "<group>"; };
-		2347202900326E948E2427DF /* Pods-Tipkle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tipkle.release.xcconfig"; path = "Target Support Files/Pods-Tipkle/Pods-Tipkle.release.xcconfig"; sourceTree = "<group>"; };
-		99D65FA7D8ABE57F8F0CBBA2 /* Pods_Tipkle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tipkle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		37981BB9E48E5DAEC04DE544 /* Pods-Tipkle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tipkle.debug.xcconfig"; path = "Target Support Files/Pods-Tipkle/Pods-Tipkle.debug.xcconfig"; sourceTree = "<group>"; };
+		3D60D2FFCCED6A84E7917FD3 /* Pods-Tipkle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tipkle.release.xcconfig"; path = "Target Support Files/Pods-Tipkle/Pods-Tipkle.release.xcconfig"; sourceTree = "<group>"; };
+		D527FE7BAEE6D698BBDCEC3E /* Pods_Tipkle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tipkle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA0258B427B3F369009FD222 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		DA445F74275F98FD00A760D5 /* HomePagerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePagerViewController.swift; sourceTree = "<group>"; };
 		DA445F75275F98FD00A760D5 /* HomePagerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomePagerViewController.xib; sourceTree = "<group>"; };
@@ -198,12 +198,12 @@
 			files = (
 				DA75A4F82764DEDC00D7C9F9 /* ImageSlideshow/Alamofire in Frameworks */,
 				DA75A4F62764DEDC00D7C9F9 /* ImageSlideshow in Frameworks */,
-				7AF62CDB543864BB0A3D5670 /* Pods_Tipkle.framework in Frameworks */,
 				DA75A4FC2764DEDC00D7C9F9 /* ImageSlideshow/SDWebImage in Frameworks */,
 				DA75A4FA2764DEDC00D7C9F9 /* ImageSlideshow/Kingfisher in Frameworks */,
 				DA87B720270CA9380012D133 /* SnapKit in Frameworks */,
 				DA6ECA4D27B2BE4200433D75 /* PanModal in Frameworks */,
 				DADB239F27BEA38F004BD51A /* AdvancedPageControl in Frameworks */,
+				716CE5B5EEBB235A1CF841D4 /* Pods_Tipkle.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,16 +213,16 @@
 		0CFEB62541D2ADCC4F7B25F6 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				23449EE9BB5C631C87FD11C5 /* Pods-Tipkle.debug.xcconfig */,
-				2347202900326E948E2427DF /* Pods-Tipkle.release.xcconfig */,
+				37981BB9E48E5DAEC04DE544 /* Pods-Tipkle.debug.xcconfig */,
+				3D60D2FFCCED6A84E7917FD3 /* Pods-Tipkle.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		2678F6170DBFE20DEB527084 /* Frameworks */ = {
+		1950F1A017DA469BF14CF292 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				99D65FA7D8ABE57F8F0CBBA2 /* Pods_Tipkle.framework */,
+				D527FE7BAEE6D698BBDCEC3E /* Pods_Tipkle.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -462,7 +462,7 @@
 				DAD40FF926FDD790008358B5 /* Tipkle */,
 				DAD40FF826FDD790008358B5 /* Products */,
 				0CFEB62541D2ADCC4F7B25F6 /* Pods */,
-				2678F6170DBFE20DEB527084 /* Frameworks */,
+				1950F1A017DA469BF14CF292 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -527,11 +527,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DAD4100B26FDD791008358B5 /* Build configuration list for PBXNativeTarget "Tipkle" */;
 			buildPhases = (
-				586906B1FB3B84457C938298 /* [CP] Check Pods Manifest.lock */,
+				FAF0FE1F2F1FF6F7AA73AB2D /* [CP] Check Pods Manifest.lock */,
 				DAD40FF326FDD790008358B5 /* Sources */,
 				DAD40FF426FDD790008358B5 /* Frameworks */,
 				DAD40FF526FDD790008358B5 /* Resources */,
-				C719DADFC6670E73F51F2FC1 /* [CP] Embed Pods Frameworks */,
+				79C1FF9545EEA4B99BEAD4F1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -575,10 +575,10 @@
 			);
 			mainGroup = DAD40FEE26FDD790008358B5;
 			packageReferences = (
-				DA87B71E270CA9380012D133 /* XCRemoteSwiftPackageReference "SnapKit" */,
-				DA75A4F42764DEDC00D7C9F9 /* XCRemoteSwiftPackageReference "ImageSlideshow" */,
-				DA6ECA4B27B2BE4200433D75 /* XCRemoteSwiftPackageReference "PanModal" */,
-				DADB239D27BEA38F004BD51A /* XCRemoteSwiftPackageReference "AdvancedPageControl" */,
+				DA87B71E270CA9380012D133 /* XCRemoteSwiftPackageReference "SnapKit.git" */,
+				DA75A4F42764DEDC00D7C9F9 /* XCRemoteSwiftPackageReference "ImageSlideshow.git" */,
+				DA6ECA4B27B2BE4200433D75 /* XCRemoteSwiftPackageReference "PanModal.git" */,
+				DADB239D27BEA38F004BD51A /* XCRemoteSwiftPackageReference "AdvancedPageControl.git" */,
 			);
 			productRefGroup = DAD40FF826FDD790008358B5 /* Products */;
 			projectDirPath = "";
@@ -630,7 +630,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		586906B1FB3B84457C938298 /* [CP] Check Pods Manifest.lock */ = {
+		79C1FF9545EEA4B99BEAD4F1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tipkle/Pods-Tipkle-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tipkle/Pods-Tipkle-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Tipkle/Pods-Tipkle-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FAF0FE1F2F1FF6F7AA73AB2D /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -650,23 +667,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C719DADFC6670E73F51F2FC1 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Tipkle/Pods-Tipkle-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Tipkle/Pods-Tipkle-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Tipkle/Pods-Tipkle-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -872,7 +872,7 @@
 		};
 		DAD4100C26FDD791008358B5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 23449EE9BB5C631C87FD11C5 /* Pods-Tipkle.debug.xcconfig */;
+			baseConfigurationReference = 37981BB9E48E5DAEC04DE544 /* Pods-Tipkle.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -893,7 +893,7 @@
 		};
 		DAD4100D26FDD791008358B5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2347202900326E948E2427DF /* Pods-Tipkle.release.xcconfig */;
+			baseConfigurationReference = 3D60D2FFCCED6A84E7917FD3 /* Pods-Tipkle.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -936,7 +936,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		DA6ECA4B27B2BE4200433D75 /* XCRemoteSwiftPackageReference "PanModal" */ = {
+		DA6ECA4B27B2BE4200433D75 /* XCRemoteSwiftPackageReference "PanModal.git" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/slackhq/PanModal.git";
 			requirement = {
@@ -944,7 +944,7 @@
 				minimumVersion = 1.0.0;
 			};
 		};
-		DA75A4F42764DEDC00D7C9F9 /* XCRemoteSwiftPackageReference "ImageSlideshow" */ = {
+		DA75A4F42764DEDC00D7C9F9 /* XCRemoteSwiftPackageReference "ImageSlideshow.git" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/zvonicek/ImageSlideshow.git";
 			requirement = {
@@ -952,7 +952,7 @@
 				kind = branch;
 			};
 		};
-		DA87B71E270CA9380012D133 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+		DA87B71E270CA9380012D133 /* XCRemoteSwiftPackageReference "SnapKit.git" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
 			requirement = {
@@ -960,7 +960,7 @@
 				minimumVersion = 5.0.0;
 			};
 		};
-		DADB239D27BEA38F004BD51A /* XCRemoteSwiftPackageReference "AdvancedPageControl" */ = {
+		DADB239D27BEA38F004BD51A /* XCRemoteSwiftPackageReference "AdvancedPageControl.git" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/mohn93/AdvancedPageControl.git";
 			requirement = {
@@ -973,37 +973,37 @@
 /* Begin XCSwiftPackageProductDependency section */
 		DA6ECA4C27B2BE4200433D75 /* PanModal */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = DA6ECA4B27B2BE4200433D75 /* XCRemoteSwiftPackageReference "PanModal" */;
+			package = DA6ECA4B27B2BE4200433D75 /* XCRemoteSwiftPackageReference "PanModal.git" */;
 			productName = PanModal;
 		};
 		DA75A4F52764DEDC00D7C9F9 /* ImageSlideshow */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = DA75A4F42764DEDC00D7C9F9 /* XCRemoteSwiftPackageReference "ImageSlideshow" */;
+			package = DA75A4F42764DEDC00D7C9F9 /* XCRemoteSwiftPackageReference "ImageSlideshow.git" */;
 			productName = ImageSlideshow;
 		};
 		DA75A4F72764DEDC00D7C9F9 /* ImageSlideshow/Alamofire */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = DA75A4F42764DEDC00D7C9F9 /* XCRemoteSwiftPackageReference "ImageSlideshow" */;
+			package = DA75A4F42764DEDC00D7C9F9 /* XCRemoteSwiftPackageReference "ImageSlideshow.git" */;
 			productName = ImageSlideshow/Alamofire;
 		};
 		DA75A4F92764DEDC00D7C9F9 /* ImageSlideshow/Kingfisher */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = DA75A4F42764DEDC00D7C9F9 /* XCRemoteSwiftPackageReference "ImageSlideshow" */;
+			package = DA75A4F42764DEDC00D7C9F9 /* XCRemoteSwiftPackageReference "ImageSlideshow.git" */;
 			productName = ImageSlideshow/Kingfisher;
 		};
 		DA75A4FB2764DEDC00D7C9F9 /* ImageSlideshow/SDWebImage */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = DA75A4F42764DEDC00D7C9F9 /* XCRemoteSwiftPackageReference "ImageSlideshow" */;
+			package = DA75A4F42764DEDC00D7C9F9 /* XCRemoteSwiftPackageReference "ImageSlideshow.git" */;
 			productName = ImageSlideshow/SDWebImage;
 		};
 		DA87B71F270CA9380012D133 /* SnapKit */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = DA87B71E270CA9380012D133 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			package = DA87B71E270CA9380012D133 /* XCRemoteSwiftPackageReference "SnapKit.git" */;
 			productName = SnapKit;
 		};
 		DADB239E27BEA38F004BD51A /* AdvancedPageControl */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = DADB239D27BEA38F004BD51A /* XCRemoteSwiftPackageReference "AdvancedPageControl" */;
+			package = DADB239D27BEA38F004BD51A /* XCRemoteSwiftPackageReference "AdvancedPageControl.git" */;
 			productName = AdvancedPageControl;
 		};
 /* End XCSwiftPackageProductDependency section */

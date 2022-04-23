@@ -9,6 +9,7 @@ import UIKit
 import KakaoSDKCommon
 import KakaoSDKAuth
 import KakaoSDKUser
+import Firebase
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -18,6 +19,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         //kakao login
         KakaoSDKCommon.initSDK(appKey: "c1206b7932db38f451e4b4e498e5f8df")
+        FirebaseApp.configure() //firebase 초기화
         
         return true
     }
