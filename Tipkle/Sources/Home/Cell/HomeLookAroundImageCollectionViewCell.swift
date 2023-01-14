@@ -14,4 +14,10 @@ class HomeLookAroundImageCollectionViewCell: UICollectionViewCell {
         super.awakeFromNib()
         
     }
+    
+    override func prepareForReuse() {
+        super.prepareForReuse()
+        
+        self.image.image = nil
+    }
 }

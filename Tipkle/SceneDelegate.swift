@@ -49,7 +49,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         else{
             // Window 설정
             self.window = UIWindow(windowScene: scene)
-            window?.rootViewController = LoginViewController()
+            window?.rootViewController = LookAroundViewController()
             window?.makeKeyAndVisible()
         }
     }

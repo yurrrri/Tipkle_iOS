@@ -20,7 +20,7 @@ class HomeLookAroundCollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var tvDescription: UILabel!
     @IBOutlet weak var imgLookAround: UIImageView!
     @IBOutlet weak var tvNickName: UILabel!
-    @IBOutlet weak var lookAroundSecondTableView: UICollectionView!
+    @IBOutlet weak var lookAroundImageCollectionView: UICollectionView!
     @IBOutlet weak var rating: CosmosView!
     var feedimageList:[String] = []
     private let spacing:CGFloat = 8.0
@@ -43,23 +43,19 @@ class HomeLookAroundCollectionViewCell: UICollectionViewCell {
         rating.settings.filledBorderColor = UIColor.mint
         rating.settings.textColor = UIColor.mint
         
-        lookAroundSecondTableView.delegate = self
-        lookAroundSecondTableView.dataSource = self
+        lookAroundImageCollectionView.delegate = self
+        lookAroundImageCollectionView.dataSource = self
         
-        lookAroundSecondTableView.register(UINib(nibName: cellID, bundle: nil), forCellWithReuseIdentifier: "lookaroundimageCell")
+        lookAroundImageCollectionView.register(UINib(nibName: cellID, bundle: nil), forCellWithReuseIdentifier: "lookaroundimageCell")
         
         let layout = UICollectionViewFlowLayout()
         layout.sectionInset = UIEdgeInsets(top: 0, left: 0, bottom: 0, right: spacing)
         layout.minimumLineSpacing = 0
         layout.minimumInteritemSpacing = 0
-        self.lookAroundSecondTableView?.collectionViewLayout = layout
+        self.lookAroundImageCollectionView?.collectionViewLayout = layout
         
-//        lookAroundSecondTableView.reloadData()
+//        lookAroundImageCollectionView.reloadData()
     }
-    
-//    override func prepareForReuse() {
-//        lookAroundSecondTableView.reloadData()
-//    }
 }
 
 extension HomeLookAroundCollectionViewCell:UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
@@ -68,7 +64,7 @@ extension HomeLookAroundCollectionViewCell:UICollectionViewDelegate, UICollectio
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = lookAroundSecondTableView.dequeueReusableCell(withReuseIdentifier: "lookaroundimageCell", for: indexPath) as! HomeLookAroundImageCollectionViewCell
+        let cell = lookAroundImageCollectionView.dequeueReusableCell(withReuseIdentifier: "lookaroundimageCell", for: indexPath) as! HomeLookAroundImageCollectionViewCell
         
         //캐싱처리 : .onlyFromCache
         cell.image.kf.setImage(with: URL(string: feedimageList[indexPath.row]), placeholder: UIImage(systemName: "photo"), options: [.onlyFromCache])
