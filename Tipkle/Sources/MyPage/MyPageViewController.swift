@@ -16,7 +16,8 @@ class MyPageViewController: UIViewController {
     @IBOutlet weak var myLevel: UIImageView!
     @IBOutlet weak var myLevelName: UILabel!
     @IBOutlet weak var myAchievement: UILabel!
-//    @IBOutlet weak var topBackground: UIView!
+    @IBOutlet weak var myLogout: UIView!
+    //    @IBOutlet weak var topBackground: UIView!
     
     lazy var myDataManager = MyDataManager()
     
@@ -31,7 +32,6 @@ class MyPageViewController: UIViewController {
         self.showIndicator()
         myDataManager.getMyPage(viewController: self)
     }
-    
 }
 
 extension MyPageViewController {
@@ -44,6 +44,14 @@ extension MyPageViewController {
         myLevelName.text = result.levelName
         myAchievement.text = result.achievement
 
+    }
+    
+    func didSuccessLogout(_ result: BaseResponse){
+        
+        self.dismissIndicator()
+        UserDefaults.standard.set("", forKey: "jwt")
+        self.present(LoginViewController(), animated: true, completion: nil)
+        
     }
     
     func failedToRequest(message: String) {

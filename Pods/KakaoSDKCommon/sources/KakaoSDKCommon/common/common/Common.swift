@@ -21,9 +21,9 @@ public class Constants {
     static public let kaHeader : String = generateKaHeader()
     static func generateKaHeader() -> String {
     
-        let sdkVersion = KakaoSDKCommon.shared.sdkVersion()        
+        let sdkVersion = KakaoSDK.shared.sdkVersion()
 
-        let sdkType = KakaoSDKCommon.shared.sdkType().rawValue
+        let sdkType = KakaoSDK.shared.sdkType().rawValue
         
         let osVersion = UIDevice.current.systemVersion
         
@@ -43,8 +43,11 @@ public class Constants {
         let device = UIDevice.current.model.replacingOccurrences(of: " ", with: "_")
         let appBundleId = Bundle.main.bundleIdentifier
         let appVersion = self.appVersion()
+        let customIdentifier = KakaoSDK.shared.sdkIdentifier()?.customIdentifier
         
-        return "sdk/\(sdkVersion) sdk_type/\(sdkType) os/ios-\(osVersion) lang/\(lang) res/\(resX)x\(resY) device/\(device) origin/\(appBundleId ?? "") app_ver/\(appVersion ?? "")"
+        let ka = "sdk/\(sdkVersion) sdk_type/\(sdkType) os/ios-\(osVersion) lang/\(lang) res/\(resX)x\(resY) device/\(device) origin/\(appBundleId ?? "") app_ver/\(appVersion ?? "")"
+        
+        return customIdentifier != nil ? "\(ka) \(customIdentifier!)":ka
     }
     
     static public func appVersion() -> String? {
@@ -77,4 +80,13 @@ public class ApprovalType {
 public enum ApiType {
     case KApi
     case KAuth
+}
+
+///:nodoc:
+public class SdkIdentifier {
+    public let customIdentifier : String?
+    
+    public init(_ customIdentifier : String? = nil) {
+        self.customIdentifier = customIdentifier
+    }
 }

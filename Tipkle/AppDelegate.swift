@@ -18,7 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         
         //kakao login
-        KakaoSDKCommon.initSDK(appKey: "c1206b7932db38f451e4b4e498e5f8df")
+        KakaoSDK.initSDK(appKey: "c1206b7932db38f451e4b4e498e5f8df")
         FirebaseApp.configure() //firebase 초기화
         
         return true

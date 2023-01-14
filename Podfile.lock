@@ -27,17 +27,17 @@ PODS:
   - GoogleUtilities/Logger (7.7.0):
     - GoogleUtilities/Environment
   - GTMSessionFetcher/Core (1.7.1)
-  - KakaoSDKAuth (2.8.1):
-    - KakaoSDKCommon (= 2.8.1)
-  - KakaoSDKCommon (2.8.1):
-    - KakaoSDKCommon/Common (= 2.8.1)
-    - KakaoSDKCommon/Network (= 2.8.1)
-  - KakaoSDKCommon/Common (2.8.1)
-  - KakaoSDKCommon/Network (2.8.1):
+  - KakaoSDKAuth (2.11.3):
+    - KakaoSDKCommon (= 2.11.3)
+  - KakaoSDKCommon (2.11.3):
+    - KakaoSDKCommon/Common (= 2.11.3)
+    - KakaoSDKCommon/Network (= 2.11.3)
+  - KakaoSDKCommon/Common (2.11.3)
+  - KakaoSDKCommon/Network (2.11.3):
     - Alamofire (~> 5.1)
-    - KakaoSDKCommon/Common (= 2.8.1)
-  - KakaoSDKUser (2.8.1):
-    - KakaoSDKAuth (= 2.8.1)
+    - KakaoSDKCommon/Common (= 2.11.3)
+  - KakaoSDKUser (2.11.3):
+    - KakaoSDKAuth (= 2.11.3)
   - MaterialComponents/Availability (124.2.0)
   - MaterialComponents/BottomSheet (124.2.0):
     - MaterialComponents/Elevation
@@ -81,9 +81,9 @@ DEPENDENCIES:
   - Alamofire (~> 5.4.4)
   - Cosmos (~> 23.0)
   - Firebase/Storage
-  - KakaoSDKAuth
-  - KakaoSDKCommon
-  - KakaoSDKUser
+  - KakaoSDKAuth (= 2.11.3)
+  - KakaoSDKCommon (= 2.11.3)
+  - KakaoSDKUser (= 2.11.3)
   - MaterialComponents/BottomSheet
   - Tabman (~> 2.11)
 
@@ -117,15 +117,15 @@ SPEC CHECKSUMS:
   GoogleDataTransport: 629c20a4d363167143f30ea78320d5a7eb8bd940
   GoogleUtilities: e0913149f6b0625b553d70dae12b49fc62914fd1
   GTMSessionFetcher: 4577a4cc914a5a07c40a8a0ad0acc22080418c2d
-  KakaoSDKAuth: 3cf74660531ac85cd2c7931df8d90d562b0a8fe2
-  KakaoSDKCommon: 701ef2a9b92215a4bf131b2a6139c3586b5e8d99
-  KakaoSDKUser: c4bdbca17b05ce7a25c67176ac68b6b0c8b1db56
+  KakaoSDKAuth: a64dde90516e18fdfc35b83bbad2677c3675c329
+  KakaoSDKCommon: b4235203f67a5b6ee2df75eaf9bbc863c6d92e09
+  KakaoSDKUser: 9a42e9b74855ce876b071c841418aa6726534010
   MaterialComponents: 1a9b2d9d45b1601ae544de85089adc4c464306d4
   nanopb: a0ba3315591a9ae0a16a309ee504766e90db0c96
   Pageboy: cf121b9dd48c63f3f281b2a9ec93d02e0f23879b
   PromisesObjC: 99b6f43f9e1044bd87a95a60beff28c2c44ddb72
   Tabman: 792ac76fd1ec95af175c93db880a3c47cabedc91
 
-PODFILE CHECKSUM: 5d838ddb379f37f81ed8023e40aa54c4a2d0735e
+PODFILE CHECKSUM: 5065b35002eac54c0fa3965ffb13af3bcc140d31
 
 COCOAPODS: 1.11.3

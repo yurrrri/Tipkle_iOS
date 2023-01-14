@@ -13,6 +13,7 @@
 //  limitations under the License.
 
 import Foundation
+import UIKit
 import Alamofire
 
 public let API = Api.shared
@@ -45,8 +46,13 @@ public class Api {
 
 extension Api {    
     private func initSession() {
-        addSession(type: .Api, session:Session(configuration: URLSessionConfiguration.default, interceptor: ApiRequestAdapter()))
-        addSession(type: .Auth, session:Session(configuration: URLSessionConfiguration.default, interceptor: ApiRequestAdapter()))
+        let apiSessionConfiguration : URLSessionConfiguration = URLSessionConfiguration.default
+        apiSessionConfiguration.tlsMinimumSupportedProtocol = .tlsProtocol12
+        addSession(type: .Api, session:Session(configuration: apiSessionConfiguration, interceptor: ApiRequestAdapter()))
+        
+        let authSessionConfiguration : URLSessionConfiguration = URLSessionConfiguration.default
+        authSessionConfiguration.tlsMinimumSupportedProtocol = .tlsProtocol12
+        addSession(type: .Auth, session:Session(configuration: authSessionConfiguration, interceptor: ApiRequestAdapter()))
     }
     
     public func addSession(type:SessionType, session:Session) {
@@ -224,8 +230,12 @@ extension Api {
                     completion(nil, nil, afError)
                 }
                 else if let data = response.data, let response = response.response {
+                    if let sdkError = SdkError(response: response, data: data, type: apiType) {
+                        completion(nil, nil, sdkError)
+                        return
+                    }
+                    
                     completion(response, data, nil)
-                    return
                 }
                 else {
                     //data or response 가 문제

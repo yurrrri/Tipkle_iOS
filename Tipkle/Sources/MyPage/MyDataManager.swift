@@ -26,4 +26,22 @@ class MyDataManager {
                 }
             }
     }
+    
+    func patchLogout(viewController: MyPageViewController) {
+        AF.request("\(Constant.BASE_URL)logout", method: .patch, parameters: nil, encoding: JSONEncoding.default, headers: Constant.HEADERS)
+            .validate()
+            .responseDecodable(of: BaseResponse.self) { response in
+                switch response.result {
+                case .success(let response):
+                    if response.isSuccess {
+                        viewController.didSuccessLogout(response)
+                    } else {
+                        viewController.failedToRequest(message: response.message)
+                    }
+                case .failure(let error):
+                    print(error)
+                    viewController.failedToRequest(message: "서버와의 연결이 원활하지 않습니다")
+                }
+            }
+    }
 }

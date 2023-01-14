@@ -501,8 +501,8 @@
 		DAE5C35A2759288A001C75BE /* Entity */ = {
 			isa = PBXGroup;
 			children = (
-				DAC6D83527593F7A004625FB /* GetUserCeategoryResponse.swift */,
 				DA75A4FD2764E18D00D7C9F9 /* GetBannerResponse.swift */,
+				DAC6D83527593F7A004625FB /* GetUserCeategoryResponse.swift */,
 				DABEFC6A276B662A00362CA5 /* GetPreviewTips.swift */,
 				DAD681AA2778DC8400B85FD9 /* GetCategoryFeedResponse.swift */,
 				DADB23A027BEA8B4004BD51A /* GetFeedDetailResponse.swift */,
@@ -575,10 +575,10 @@
 			);
 			mainGroup = DAD40FEE26FDD790008358B5;
 			packageReferences = (
-				DA87B71E270CA9380012D133 /* XCRemoteSwiftPackageReference "SnapKit.git" */,
-				DA75A4F42764DEDC00D7C9F9 /* XCRemoteSwiftPackageReference "ImageSlideshow.git" */,
-				DA6ECA4B27B2BE4200433D75 /* XCRemoteSwiftPackageReference "PanModal.git" */,
-				DADB239D27BEA38F004BD51A /* XCRemoteSwiftPackageReference "AdvancedPageControl.git" */,
+				DA87B71E270CA9380012D133 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				DA75A4F42764DEDC00D7C9F9 /* XCRemoteSwiftPackageReference "ImageSlideshow" */,
+				DA6ECA4B27B2BE4200433D75 /* XCRemoteSwiftPackageReference "PanModal" */,
+				DADB239D27BEA38F004BD51A /* XCRemoteSwiftPackageReference "AdvancedPageControl" */,
 			);
 			productRefGroup = DAD40FF826FDD790008358B5 /* Products */;
 			projectDirPath = "";
@@ -936,7 +936,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		DA6ECA4B27B2BE4200433D75 /* XCRemoteSwiftPackageReference "PanModal.git" */ = {
+		DA6ECA4B27B2BE4200433D75 /* XCRemoteSwiftPackageReference "PanModal" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/slackhq/PanModal.git";
 			requirement = {
@@ -944,7 +944,7 @@
 				minimumVersion = 1.0.0;
 			};
 		};
-		DA75A4F42764DEDC00D7C9F9 /* XCRemoteSwiftPackageReference "ImageSlideshow.git" */ = {
+		DA75A4F42764DEDC00D7C9F9 /* XCRemoteSwiftPackageReference "ImageSlideshow" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/zvonicek/ImageSlideshow.git";
 			requirement = {
@@ -952,7 +952,7 @@
 				kind = branch;
 			};
 		};
-		DA87B71E270CA9380012D133 /* XCRemoteSwiftPackageReference "SnapKit.git" */ = {
+		DA87B71E270CA9380012D133 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
 			requirement = {
@@ -960,7 +960,7 @@
 				minimumVersion = 5.0.0;
 			};
 		};
-		DADB239D27BEA38F004BD51A /* XCRemoteSwiftPackageReference "AdvancedPageControl.git" */ = {
+		DADB239D27BEA38F004BD51A /* XCRemoteSwiftPackageReference "AdvancedPageControl" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/mohn93/AdvancedPageControl.git";
 			requirement = {
@@ -973,37 +973,37 @@
 /* Begin XCSwiftPackageProductDependency section */
 		DA6ECA4C27B2BE4200433D75 /* PanModal */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = DA6ECA4B27B2BE4200433D75 /* XCRemoteSwiftPackageReference "PanModal.git" */;
+			package = DA6ECA4B27B2BE4200433D75 /* XCRemoteSwiftPackageReference "PanModal" */;
 			productName = PanModal;
 		};
 		DA75A4F52764DEDC00D7C9F9 /* ImageSlideshow */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = DA75A4F42764DEDC00D7C9F9 /* XCRemoteSwiftPackageReference "ImageSlideshow.git" */;
+			package = DA75A4F42764DEDC00D7C9F9 /* XCRemoteSwiftPackageReference "ImageSlideshow" */;
 			productName = ImageSlideshow;
 		};
 		DA75A4F72764DEDC00D7C9F9 /* ImageSlideshow/Alamofire */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = DA75A4F42764DEDC00D7C9F9 /* XCRemoteSwiftPackageReference "ImageSlideshow.git" */;
+			package = DA75A4F42764DEDC00D7C9F9 /* XCRemoteSwiftPackageReference "ImageSlideshow" */;
 			productName = ImageSlideshow/Alamofire;
 		};
 		DA75A4F92764DEDC00D7C9F9 /* ImageSlideshow/Kingfisher */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = DA75A4F42764DEDC00D7C9F9 /* XCRemoteSwiftPackageReference "ImageSlideshow.git" */;
+			package = DA75A4F42764DEDC00D7C9F9 /* XCRemoteSwiftPackageReference "ImageSlideshow" */;
 			productName = ImageSlideshow/Kingfisher;
 		};
 		DA75A4FB2764DEDC00D7C9F9 /* ImageSlideshow/SDWebImage */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = DA75A4F42764DEDC00D7C9F9 /* XCRemoteSwiftPackageReference "ImageSlideshow.git" */;
+			package = DA75A4F42764DEDC00D7C9F9 /* XCRemoteSwiftPackageReference "ImageSlideshow" */;
 			productName = ImageSlideshow/SDWebImage;
 		};
 		DA87B71F270CA9380012D133 /* SnapKit */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = DA87B71E270CA9380012D133 /* XCRemoteSwiftPackageReference "SnapKit.git" */;
+			package = DA87B71E270CA9380012D133 /* XCRemoteSwiftPackageReference "SnapKit" */;
 			productName = SnapKit;
 		};
 		DADB239E27BEA38F004BD51A /* AdvancedPageControl */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = DADB239D27BEA38F004BD51A /* XCRemoteSwiftPackageReference "AdvancedPageControl.git" */;
+			package = DADB239D27BEA38F004BD51A /* XCRemoteSwiftPackageReference "AdvancedPageControl" */;
 			productName = AdvancedPageControl;
 		};
 /* End XCSwiftPackageProductDependency section */

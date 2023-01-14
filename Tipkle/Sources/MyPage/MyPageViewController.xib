@@ -22,6 +22,7 @@
                 <outlet property="myBackgroundView" destination="AXg-yi-SbU" id="eHJ-0z-ckm"/>
                 <outlet property="myLevel" destination="6bj-XN-ohk" id="Kvx-Ff-EDB"/>
                 <outlet property="myLevelName" destination="xEY-Zo-SRk" id="PAq-QR-jzw"/>
+                <outlet property="myLogout" destination="dho-gg-jWy" id="g3j-ky-83B"/>
                 <outlet property="myNickName" destination="4Ub-MO-yKQ" id="jfz-uY-74T"/>
                 <outlet property="myProfile" destination="TTg-RL-HoA" id="Zus-ng-vDF"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
@@ -42,7 +43,7 @@
                                     <rect key="frame" x="0.0" y="0.0" width="414" height="155"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="마이페이지" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6tL-AV-uXc">
-                                            <rect key="frame" x="31" y="54" width="111" height="47.5"/>
+                                            <rect key="frame" x="31" y="54" width="110.5" height="47.5"/>
                                             <fontDescription key="fontDescription" name="NotoSansCJKkr-Bold" family="Noto Sans CJK KR" pointSize="24"/>
                                             <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <nil key="highlightedColor"/>
