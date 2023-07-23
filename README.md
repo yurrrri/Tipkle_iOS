@@ -9,11 +9,11 @@
 
 ## Tech Stack
 
--   **언어**  : Swift
+-   **언어** : Swift
 -   **UI**: UIKit, Storyboard
--   **네트워킹**  : Alamofire
+-   **네트워킹**: Alamofire
 -   **기타**: Kakao Login sdk
--   **협업**  : Figma
+-   **협업**: Figma
 
 
 ## Experience
