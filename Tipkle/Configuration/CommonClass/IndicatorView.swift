@@ -1,19 +1,14 @@
-//
-//  IndicatorView.swift
-//  EduTemplate
-//
-//  Created by Zero Yoon on 2020/10/08.
-//
+
 
 import UIKit
 
-open class IndicatorView {
+final class IndicatorView {
     static let shared = IndicatorView()
         
     let containerView = UIView()
     let activityIndicator = UIActivityIndicatorView()
     
-    open func show() {
+    public func show() {
         let window = UIWindow(frame: UIScreen.main.bounds)
         
         self.containerView.frame = window.frame
@@ -24,7 +19,7 @@ open class IndicatorView {
         UIApplication.shared.windows.first?.addSubview(self.containerView)
     }
     
-    open func showIndicator() {
+    public func showIndicator() {
         self.containerView.backgroundColor = UIColor(hex: 0x000000, alpha: 0.4)
         
         self.activityIndicator.frame = CGRect(x: 0, y: 0, width: 40, height: 40)
@@ -35,7 +30,7 @@ open class IndicatorView {
         self.activityIndicator.startAnimating()
     }
     
-    open func dismiss() {
+    public func dismiss() {
         self.activityIndicator.stopAnimating()
         self.containerView.removeFromSuperview()
     }

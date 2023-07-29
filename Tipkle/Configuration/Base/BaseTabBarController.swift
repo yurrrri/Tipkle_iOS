@@ -1,9 +1,3 @@
-//
-//  BaseTabBarController.swift
-//  EduTemplate
-//
-//  Created by Zero Yoon on 2020/10/08.
-//
 
 import UIKit
 

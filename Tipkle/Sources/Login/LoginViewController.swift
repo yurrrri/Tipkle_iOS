@@ -1,9 +1,4 @@
-//
-//  SplashViewController.swift
-//  EduTemplate
-//
-//  Created by Zero Yoon on 2020/10/10.
-//
+
 
 import UIKit
 import KakaoSDKUser
@@ -41,7 +36,7 @@ class LoginViewController: BaseViewController {
                     // Request KakaoLogin
                     self.showIndicator()
                     self.dismissKeyboard()
-                    let input = KakaoLoginRequest(accessToken: self.acceessToken!, fcmToken: fcmToken.token)
+                    let input = KakaoLoginRequest(accessToken: self.acceessToken!, fcmToken: FcmToken.token)
                     dataManager.postKakaoLogin(input, viewController: self)
                 }
             }
@@ -60,7 +55,7 @@ class LoginViewController: BaseViewController {
                         
                         self.showIndicator()
                         self.dismissKeyboard()
-                        let input = KakaoLoginRequest(accessToken: self.acceessToken!, fcmToken: fcmToken.token)
+                        let input = KakaoLoginRequest(accessToken: self.acceessToken!, fcmToken: FcmToken.token)
                         self.dataManager.postKakaoLogin(input, viewController: self)
                     }
                 }

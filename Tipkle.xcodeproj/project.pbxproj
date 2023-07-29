@@ -32,11 +32,7 @@
 		DA87B6F7270CA6F40012D133 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA87B6C1270CA6F40012D133 /* Constant.swift */; };
 		DA87B6F8270CA6F40012D133 /* IndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA87B6C3270CA6F40012D133 /* IndicatorView.swift */; };
 		DA87B6F9270CA6F40012D133 /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA87B6C4270CA6F40012D133 /* Device.swift */; };
-		DA87B6FA270CA6F40012D133 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA87B6C6270CA6F40012D133 /* Date.swift */; };
-		DA87B6FB270CA6F40012D133 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA87B6C7270CA6F40012D133 /* String.swift */; };
-		DA87B6FC270CA6F40012D133 /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA87B6C8270CA6F40012D133 /* UIButton.swift */; };
 		DA87B6FD270CA6F40012D133 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA87B6C9270CA6F40012D133 /* UIViewController.swift */; };
-		DA87B6FE270CA6F40012D133 /* UINavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA87B6CA270CA6F40012D133 /* UINavigationBar.swift */; };
 		DA87B6FF270CA6F40012D133 /* UIFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA87B6CB270CA6F40012D133 /* UIFont.swift */; };
 		DA87B700270CA6F40012D133 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA87B6CC270CA6F40012D133 /* UIColor.swift */; };
 		DA87B702270CA6F40012D133 /* NotoSansCJKkr-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = DA87B6D0270CA6F40012D133 /* NotoSansCJKkr-Medium.otf */; };
@@ -48,16 +44,6 @@
 		DA87B708270CA6F40012D133 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA87B6D9270CA6F40012D133 /* LoginViewController.xib */; };
 		DA87B70B270CA6F40012D133 /* KakaoLoginResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA87B6DF270CA6F40012D133 /* KakaoLoginResponse.swift */; };
 		DA87B70C270CA6F40012D133 /* KakaoLoginRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA87B6E0270CA6F40012D133 /* KakaoLoginRequest.swift */; };
-		DA87B70D270CA6F40012D133 /* SignInViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA87B6E1270CA6F40012D133 /* SignInViewController.xib */; };
-		DA87B70E270CA6F40012D133 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA87B6E2270CA6F40012D133 /* SignInViewController.swift */; };
-		DA87B714270CA6F40012D133 /* TransitionNextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA87B6EE270CA6F40012D133 /* TransitionNextViewController.swift */; };
-		DA87B715270CA6F40012D133 /* TransitionNextViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA87B6EF270CA6F40012D133 /* TransitionNextViewController.xib */; };
-		DA87B716270CA6F40012D133 /* TransitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA87B6F0270CA6F40012D133 /* TransitionViewController.swift */; };
-		DA87B717270CA6F40012D133 /* TransitionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA87B6F1270CA6F40012D133 /* TransitionViewController.xib */; };
-		DA87B718270CA6F40012D133 /* ActionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA87B6F2270CA6F40012D133 /* ActionViewController.swift */; };
-		DA87B719270CA6F40012D133 /* AlertViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA87B6F4270CA6F40012D133 /* AlertViewController.xib */; };
-		DA87B71A270CA6F40012D133 /* AlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA87B6F5270CA6F40012D133 /* AlertViewController.swift */; };
-		DA87B71B270CA6F40012D133 /* ActionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA87B6F6270CA6F40012D133 /* ActionViewController.xib */; };
 		DA87B71D270CA82F0012D133 /* JwtToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA87B71C270CA82F0012D133 /* JwtToken.swift */; };
 		DA87B720270CA9380012D133 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = DA87B71F270CA9380012D133 /* SnapKit */; };
 		DA8CAA5A278687B5004BFA9D /* HomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8CAA58278687B5004BFA9D /* HomeCollectionViewCell.swift */; };
@@ -123,11 +109,7 @@
 		DA87B6C1270CA6F40012D133 /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		DA87B6C3270CA6F40012D133 /* IndicatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IndicatorView.swift; sourceTree = "<group>"; };
 		DA87B6C4270CA6F40012D133 /* Device.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
-		DA87B6C6270CA6F40012D133 /* Date.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
-		DA87B6C7270CA6F40012D133 /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
-		DA87B6C8270CA6F40012D133 /* UIButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButton.swift; sourceTree = "<group>"; };
 		DA87B6C9270CA6F40012D133 /* UIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
-		DA87B6CA270CA6F40012D133 /* UINavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UINavigationBar.swift; sourceTree = "<group>"; };
 		DA87B6CB270CA6F40012D133 /* UIFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIFont.swift; sourceTree = "<group>"; };
 		DA87B6CC270CA6F40012D133 /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
 		DA87B6D0270CA6F40012D133 /* NotoSansCJKkr-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansCJKkr-Medium.otf"; sourceTree = "<group>"; };
@@ -139,16 +121,6 @@
 		DA87B6D9270CA6F40012D133 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
 		DA87B6DF270CA6F40012D133 /* KakaoLoginResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KakaoLoginResponse.swift; sourceTree = "<group>"; };
 		DA87B6E0270CA6F40012D133 /* KakaoLoginRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KakaoLoginRequest.swift; sourceTree = "<group>"; };
-		DA87B6E1270CA6F40012D133 /* SignInViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SignInViewController.xib; sourceTree = "<group>"; };
-		DA87B6E2270CA6F40012D133 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
-		DA87B6EE270CA6F40012D133 /* TransitionNextViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionNextViewController.swift; sourceTree = "<group>"; };
-		DA87B6EF270CA6F40012D133 /* TransitionNextViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TransitionNextViewController.xib; sourceTree = "<group>"; };
-		DA87B6F0270CA6F40012D133 /* TransitionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionViewController.swift; sourceTree = "<group>"; };
-		DA87B6F1270CA6F40012D133 /* TransitionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TransitionViewController.xib; sourceTree = "<group>"; };
-		DA87B6F2270CA6F40012D133 /* ActionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionViewController.swift; sourceTree = "<group>"; };
-		DA87B6F4270CA6F40012D133 /* AlertViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AlertViewController.xib; sourceTree = "<group>"; };
-		DA87B6F5270CA6F40012D133 /* AlertViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertViewController.swift; sourceTree = "<group>"; };
-		DA87B6F6270CA6F40012D133 /* ActionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ActionViewController.xib; sourceTree = "<group>"; };
 		DA87B71C270CA82F0012D133 /* JwtToken.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JwtToken.swift; sourceTree = "<group>"; };
 		DA8CAA58278687B5004BFA9D /* HomeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewCell.swift; sourceTree = "<group>"; };
 		DA8CAA59278687B5004BFA9D /* HomeCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeCollectionViewCell.xib; sourceTree = "<group>"; };
@@ -227,21 +199,21 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		DA17B82127576DF40053C5D3 /* Entity */ = {
+		DA17B82127576DF40053C5D3 /* Model */ = {
 			isa = PBXGroup;
 			children = (
 				DA87B6DF270CA6F40012D133 /* KakaoLoginResponse.swift */,
 				DA87B6E0270CA6F40012D133 /* KakaoLoginRequest.swift */,
 			);
-			path = Entity;
+			path = Model;
 			sourceTree = "<group>";
 		};
 		DA17B82227579B880053C5D3 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				DA1DC0032A754C6C00782C85 /* Network */,
 				DA3896692767BC30006B146F /* Cell */,
-				DAE5C35A2759288A001C75BE /* Entity */,
-				DAE5C35B2759289C001C75BE /* HomeDataManager.swift */,
+				DAE5C35A2759288A001C75BE /* Model */,
 				DAD9A261275930EA00E99682 /* HomeViewController.swift */,
 				DAD9A262275930EA00E99682 /* HomeViewController.xib */,
 				DA445F74275F98FD00A760D5 /* HomePagerViewController.swift */,
@@ -285,14 +257,55 @@
 		DA17B82527579B9E0053C5D3 /* MyPage */ = {
 			isa = PBXGroup;
 			children = (
-				DAFBB9DA28088CEF00422007 /* Entity */,
+				DA1DC0022A754C5A00782C85 /* Network */,
+				DAFBB9DA28088CEF00422007 /* Model */,
 				DAE5C3542758BFC5001C75BE /* MyPageViewController.swift */,
 				DAE5C3552758BFC5001C75BE /* MyPageViewController.xib */,
-				DAFBB9D828088CAE00422007 /* MyDataManager.swift */,
 				DA526B522812902D0020EF9C /* MyPageEditViewController.swift */,
 				DA526B532812902D0020EF9C /* MyPageEditViewController.xib */,
 			);
 			path = MyPage;
+			sourceTree = "<group>";
+		};
+		DA1DC0002A75495600782C85 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DAD4100326FDD791008358B5 /* Assets.xcassets */,
+				DA87B6CF270CA6F40012D133 /* Font */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		DA1DC0012A754B5F00782C85 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				DA87B6C4270CA6F40012D133 /* Device.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		DA1DC0022A754C5A00782C85 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				DAFBB9D828088CAE00422007 /* MyDataManager.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		DA1DC0032A754C6C00782C85 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				DAE5C35B2759289C001C75BE /* HomeDataManager.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		DA1DC0042A754C7B00782C85 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				DAA30AEB2755055400D665D6 /* LoginDataManager.swift */,
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 		DA3896692767BC30006B146F /* Cell */ = {
@@ -316,7 +329,6 @@
 				DA87B6C1270CA6F40012D133 /* Constant.swift */,
 				DA87B6C2270CA6F40012D133 /* CommonClass */,
 				DA87B6CD270CA6F40012D133 /* Secret */,
-				DA87B6CF270CA6F40012D133 /* Font */,
 				DA87B6C5270CA6F40012D133 /* Extension */,
 				DA87B6D3270CA6F40012D133 /* Base */,
 			);
@@ -327,8 +339,6 @@
 			isa = PBXGroup;
 			children = (
 				DA87B6C3270CA6F40012D133 /* IndicatorView.swift */,
-				DA87B6C4270CA6F40012D133 /* Device.swift */,
-				DAE5C3582758DBAE001C75BE /* BaseResponse.swift */,
 			);
 			path = CommonClass;
 			sourceTree = "<group>";
@@ -336,11 +346,7 @@
 		DA87B6C5270CA6F40012D133 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
-				DA87B6C6270CA6F40012D133 /* Date.swift */,
-				DA87B6C7270CA6F40012D133 /* String.swift */,
-				DA87B6C8270CA6F40012D133 /* UIButton.swift */,
 				DA87B6C9270CA6F40012D133 /* UIViewController.swift */,
-				DA87B6CA270CA6F40012D133 /* UINavigationBar.swift */,
 				DA87B6CB270CA6F40012D133 /* UIFont.swift */,
 				DA87B6CC270CA6F40012D133 /* UIColor.swift */,
 			);
@@ -371,6 +377,7 @@
 			children = (
 				DA87B6D4270CA6F40012D133 /* BaseTabBarController.swift */,
 				DA87B6D5270CA6F40012D133 /* BaseViewController.swift */,
+				DAE5C3582758DBAE001C75BE /* BaseResponse.swift */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -378,13 +385,13 @@
 		DA87B6D6270CA6F40012D133 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				DAD4100526FDD791008358B5 /* LaunchScreen.storyboard */,
+				DAD4100026FDD790008358B5 /* Main.storyboard */,
 				DA17B82527579B9E0053C5D3 /* MyPage */,
 				DA17B82427579B9A0053C5D3 /* Search */,
 				DA17B82327579B940053C5D3 /* Tipkle */,
 				DA17B82227579B880053C5D3 /* Home */,
 				DA87B6D7270CA6F40012D133 /* Login */,
-				DA87B6DA270CA6F40012D133 /* Network */,
-				DA87B6EB270CA6F40012D133 /* Action */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -392,68 +399,12 @@
 		DA87B6D7270CA6F40012D133 /* Login */ = {
 			isa = PBXGroup;
 			children = (
-				DA17B82127576DF40053C5D3 /* Entity */,
-				DAA30AEB2755055400D665D6 /* LoginDataManager.swift */,
+				DA1DC0042A754C7B00782C85 /* Network */,
+				DA17B82127576DF40053C5D3 /* Model */,
 				DA87B6D8270CA6F40012D133 /* LoginViewController.swift */,
 				DA87B6D9270CA6F40012D133 /* LoginViewController.xib */,
 			);
 			path = Login;
-			sourceTree = "<group>";
-		};
-		DA87B6DA270CA6F40012D133 /* Network */ = {
-			isa = PBXGroup;
-			children = (
-				DA87B6DC270CA6F40012D133 /* SignIn */,
-			);
-			path = Network;
-			sourceTree = "<group>";
-		};
-		DA87B6DC270CA6F40012D133 /* SignIn */ = {
-			isa = PBXGroup;
-			children = (
-				DA87B6E1270CA6F40012D133 /* SignInViewController.xib */,
-				DA87B6E2270CA6F40012D133 /* SignInViewController.swift */,
-			);
-			path = SignIn;
-			sourceTree = "<group>";
-		};
-		DA87B6EB270CA6F40012D133 /* Action */ = {
-			isa = PBXGroup;
-			children = (
-				DA87B6EC270CA6F40012D133 /* Transition */,
-				DA87B6F2270CA6F40012D133 /* ActionViewController.swift */,
-				DA87B6F3270CA6F40012D133 /* Alert */,
-				DA87B6F6270CA6F40012D133 /* ActionViewController.xib */,
-			);
-			path = Action;
-			sourceTree = "<group>";
-		};
-		DA87B6EC270CA6F40012D133 /* Transition */ = {
-			isa = PBXGroup;
-			children = (
-				DA87B6ED270CA6F40012D133 /* Next */,
-				DA87B6F0270CA6F40012D133 /* TransitionViewController.swift */,
-				DA87B6F1270CA6F40012D133 /* TransitionViewController.xib */,
-			);
-			path = Transition;
-			sourceTree = "<group>";
-		};
-		DA87B6ED270CA6F40012D133 /* Next */ = {
-			isa = PBXGroup;
-			children = (
-				DA87B6EE270CA6F40012D133 /* TransitionNextViewController.swift */,
-				DA87B6EF270CA6F40012D133 /* TransitionNextViewController.xib */,
-			);
-			path = Next;
-			sourceTree = "<group>";
-		};
-		DA87B6F3270CA6F40012D133 /* Alert */ = {
-			isa = PBXGroup;
-			children = (
-				DA87B6F4270CA6F40012D133 /* AlertViewController.xib */,
-				DA87B6F5270CA6F40012D133 /* AlertViewController.swift */,
-			);
-			path = Alert;
 			sourceTree = "<group>";
 		};
 		DAD40FEE26FDD790008358B5 = {
@@ -479,26 +430,17 @@
 			children = (
 				DAD4100826FDD791008358B5 /* Info.plist */,
 				DA0258B427B3F369009FD222 /* GoogleService-Info.plist */,
-				DAD4100326FDD791008358B5 /* Assets.xcassets */,
 				DAD40FFA26FDD790008358B5 /* AppDelegate.swift */,
 				DAD40FFC26FDD790008358B5 /* SceneDelegate.swift */,
 				DA87B6C0270CA6F40012D133 /* Configuration */,
 				DA87B6D6270CA6F40012D133 /* Sources */,
-				DAD4100F26FDD96E008358B5 /* View */,
+				DA1DC0012A754B5F00782C85 /* Util */,
+				DA1DC0002A75495600782C85 /* Resources */,
 			);
 			path = Tipkle;
 			sourceTree = "<group>";
 		};
-		DAD4100F26FDD96E008358B5 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				DAD4100526FDD791008358B5 /* LaunchScreen.storyboard */,
-				DAD4100026FDD790008358B5 /* Main.storyboard */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		DAE5C35A2759288A001C75BE /* Entity */ = {
+		DAE5C35A2759288A001C75BE /* Model */ = {
 			isa = PBXGroup;
 			children = (
 				DA75A4FD2764E18D00D7C9F9 /* GetBannerResponse.swift */,
@@ -509,15 +451,15 @@
 				DA7F157227C3E90A00196515 /* PostRatingStarRequest.swift */,
 				DAA9898927CE6CC5000FE9C3 /* GetCommentResponse.swift */,
 			);
-			path = Entity;
+			path = Model;
 			sourceTree = "<group>";
 		};
-		DAFBB9DA28088CEF00422007 /* Entity */ = {
+		DAFBB9DA28088CEF00422007 /* Model */ = {
 			isa = PBXGroup;
 			children = (
 				DAFBB9DB28088D1600422007 /* GetMyPageResponse.swift */,
 			);
-			path = Entity;
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -594,7 +536,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA87B70D270CA6F40012D133 /* SignInViewController.xib in Resources */,
 				DAE5C3452758BCBE001C75BE /* TipkleViewController.xib in Resources */,
 				DAE8D9EA27BACA5700C63D3C /* HomeFeedDetailViewController.xib in Resources */,
 				DA87B703270CA6F40012D133 /* NotoSansCJKkr-Regular.otf in Resources */,
@@ -603,18 +544,15 @@
 				DA445F77275F98FD00A760D5 /* HomePagerViewController.xib in Resources */,
 				DAD4100726FDD791008358B5 /* LaunchScreen.storyboard in Resources */,
 				DA85774A27746FF20009EFEB /* LookAroundViewController.xib in Resources */,
-				DA87B717270CA6F40012D133 /* TransitionViewController.xib in Resources */,
 				DA7F157127C3E32C00196515 /* RatingAlertViewController.xib in Resources */,
 				DAA9898827CE6C68000FE9C3 /* CommentTableViewCell.xib in Resources */,
 				DAF99E1A27DBAE8400A85FD7 /* WriteViewController.xib in Resources */,
 				DAD4100426FDD791008358B5 /* Assets.xcassets in Resources */,
-				DA87B71B270CA6F40012D133 /* ActionViewController.xib in Resources */,
 				DA445F7B275F997200A760D5 /* HomePagerChildViewController.xib in Resources */,
 				DA87B708270CA6F40012D133 /* LoginViewController.xib in Resources */,
 				DAD4100226FDD790008358B5 /* Main.storyboard in Resources */,
 				DA87B702270CA6F40012D133 /* NotoSansCJKkr-Medium.otf in Resources */,
 				DA526B552812902D0020EF9C /* MyPageEditViewController.xib in Resources */,
-				DA87B715270CA6F40012D133 /* TransitionNextViewController.xib in Resources */,
 				DAA9898427CE5C6A000FE9C3 /* HomeCommentBottomSheet.xib in Resources */,
 				DA0258B527B3F369009FD222 /* GoogleService-Info.plist in Resources */,
 				DA8CAA5B278687B5004BFA9D /* HomeCollectionViewCell.xib in Resources */,
@@ -623,7 +561,6 @@
 				DAE5C3532758BFB2001C75BE /* SearchViewController.xib in Resources */,
 				DAE8D9E427BAC70200C63D3C /* HomeLookAroundCollectionViewCell.xib in Resources */,
 				DA6ECA4A27B2B53400433D75 /* HomeCategoryBottomSheetViewController.xib in Resources */,
-				DA87B719270CA6F40012D133 /* AlertViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -677,13 +614,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA445F7A275F997200A760D5 /* HomePagerChildViewController.swift in Sources */,
-				DA87B716270CA6F40012D133 /* TransitionViewController.swift in Sources */,
 				DA85774927746FF20009EFEB /* LookAroundViewController.swift in Sources */,
 				DA87B70C270CA6F40012D133 /* KakaoLoginRequest.swift in Sources */,
 				DAE5C3592758DBAE001C75BE /* BaseResponse.swift in Sources */,
 				DA526B542812902D0020EF9C /* MyPageEditViewController.swift in Sources */,
 				DA445F76275F98FD00A760D5 /* HomePagerViewController.swift in Sources */,
-				DA87B718270CA6F40012D133 /* ActionViewController.swift in Sources */,
 				DA73E1BE277B930A00C8230D /* HomeLookAroundImageCollectionViewCell.swift in Sources */,
 				DA75A4FE2764E18D00D7C9F9 /* GetBannerResponse.swift in Sources */,
 				DA87B71D270CA82F0012D133 /* JwtToken.swift in Sources */,
@@ -691,7 +626,6 @@
 				DAA9898327CE5C6A000FE9C3 /* HomeCommentBottomSheet.swift in Sources */,
 				DA87B6FD270CA6F40012D133 /* UIViewController.swift in Sources */,
 				DAE5C35C2759289C001C75BE /* HomeDataManager.swift in Sources */,
-				DA87B6FA270CA6F40012D133 /* Date.swift in Sources */,
 				DAD9A263275930EA00E99682 /* HomeViewController.swift in Sources */,
 				DABEFC6B276B662A00362CA5 /* GetPreviewTips.swift in Sources */,
 				DA6ECA4927B2B53400433D75 /* HomeCategoryBottomSheetViewController.swift in Sources */,
@@ -713,22 +647,16 @@
 				DADB23A127BEA8B4004BD51A /* GetFeedDetailResponse.swift in Sources */,
 				DAA9898A27CE6CC5000FE9C3 /* GetCommentResponse.swift in Sources */,
 				DA87B6F8270CA6F40012D133 /* IndicatorView.swift in Sources */,
-				DA87B6FB270CA6F40012D133 /* String.swift in Sources */,
 				DAE8D9E927BACA5700C63D3C /* HomeFeedDetailViewController.swift in Sources */,
 				DA87B707270CA6F40012D133 /* LoginViewController.swift in Sources */,
 				DA93234027748D8600D5B489 /* HomeLookAroundCollectionViewCell.swift in Sources */,
 				DAE5C3522758BFB2001C75BE /* SearchViewController.swift in Sources */,
 				DA7F157027C3E32C00196515 /* RatingAlertViewController.swift in Sources */,
-				DA87B70E270CA6F40012D133 /* SignInViewController.swift in Sources */,
 				DA87B706270CA6F40012D133 /* BaseViewController.swift in Sources */,
 				DA87B6FF270CA6F40012D133 /* UIFont.swift in Sources */,
 				DA8CAA5A278687B5004BFA9D /* HomeCollectionViewCell.swift in Sources */,
-				DA87B6FC270CA6F40012D133 /* UIButton.swift in Sources */,
 				DAA9898727CE6C68000FE9C3 /* CommentTableViewCell.swift in Sources */,
-				DA87B6FE270CA6F40012D133 /* UINavigationBar.swift in Sources */,
-				DA87B714270CA6F40012D133 /* TransitionNextViewController.swift in Sources */,
 				DAA30AF727552E6300D665D6 /* fcmToken.swift in Sources */,
-				DA87B71A270CA6F40012D133 /* AlertViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
